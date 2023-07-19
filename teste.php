@@ -281,5 +281,41 @@
 </div >
 <!-- /wp:code -->
 
+<!-- wp:code -->
+<section class="full-color-white">
+<div class="section-content">
+<!-- /wp:code -->
+
+<!-- wp:spacer {"height":"16px"} -->
+<div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:image {"id":159450,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class=" size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/radio.png" alt="" class="wp-image-159450"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading" id="explore the stories">TODAS AS HISTÓRIAS DO PROJETO</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Conheça</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:spacer {"height":"32px"} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:code -->
+</div >
+</section>
+<!-- /wp:code -->
+
 <!-- Footer -->
 <?php include './blocks/footer.php'; ?>
