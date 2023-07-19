@@ -163,12 +163,19 @@
 <p>Amazon Underworld is a joint investigation of InfoAmazonia (Brazil), Armando.Info (Venezuela) and La Liga Contra el Silencio (Colombia). The work is carried out in collaboration with the Pulitzer Center’s Rainforest Investigations Network and financed by the Open Society Foundation and the U.K. Foreign, Commonwealth &amp; Development Office.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:code -->
-<section style="display: flex;justify-content: space-between; margin: 4rem 0 !important;">
-        <button class="btn big">voltar ao topo</button><br>
-        <button class="btn big">página inicial</button><br>
-</section>
-<!-- /wp:code -->
+<!-- wp:spacer {"height":"18px"} -->
+<div style="height:18px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">VOLTAR AO TOPO</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">PAGINA INICIAL</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
 
 <!-- wp:image {"id":159450,"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/megafone.png" alt="" class="wp-image-159450"/></figure>
@@ -221,8 +228,12 @@
 <div class="section-content">
 <!-- /wp:code -->
 
+<!-- wp:spacer {"height":"16px"} -->
+<div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
 <!-- wp:image {"id":159450,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/radio.png" alt="" class="wp-image-159450"/></figure>
+<figure class=" size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/radio.png" alt="" class="wp-image-159450"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":1} -->
@@ -233,28 +244,42 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Conheça</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:spacer {"height":"32px"} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
 <!-- wp:code -->
 </div >
 </section>
 <!-- /wp:code -->
 
-<!-- wp:paragraph -->
-<p>Paragrafo</p>
-<!-- /wp:paragraph -->
+<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png","id":159441,"dimRatio":50,"overlayColor":"secondary-variation","focalPoint":{"x":0.5,"y":0.5},"minHeight":350,"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"fontSize":"normal"} -->
+<div class="wp-block-cover has-normal-font-size" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:350px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-variation-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-159441" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png" style="object-position:50% 50%" data-object-fit="cover" data-object-position="50% 50%"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">ARMED GROUPS MAP LAURA<br>Tamanho padrao</h1>
+<!-- /wp:heading --></div></div>
+<!-- /wp:cover -->
 
-<!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">TESTE BOTAO</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons -->
+<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png","id":159441,"dimRatio":50,"overlayColor":"secondary-variation","focalPoint":{"x":0.5,"y":0.5},"minHeight":350,"align":"wide","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"fontSize":"normal"} -->
+<div class="wp-block-cover alignwide has-normal-font-size" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:350px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-variation-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-159441" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png" style="object-position:50% 50%" data-object-fit="cover" data-object-position="50% 50%"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">ARMED GROUPS MAP LAURA<br>Tamanho amplo</h1>
+<!-- /wp:heading --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png","id":159441,"dimRatio":50,"overlayColor":"secondary-variation","focalPoint":{"x":0.5,"y":0.5},"minHeight":350,"align":"full","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"fontSize":"normal"} -->
+<div class="wp-block-cover alignfull has-normal-font-size" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:350px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-variation-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-159441" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png" style="object-position:50% 50%" data-object-fit="cover" data-object-position="50% 50%"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">ARMED GROUPS MAP LAURA<br>Tamanho total</h1>
+<!-- /wp:heading --></div></div>
+<!-- /wp:cover -->
 
 <!-- wp:code -->
 </div >
 <!-- /wp:code -->
-
-<!-- wp:image {"id":159441,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/banner-green-1024x407.png" alt="" class="wp-image-159441"/></figure>
-<!-- /wp:image -->
 
 <!-- Footer -->
 <?php include './blocks/footer.php'; ?>
