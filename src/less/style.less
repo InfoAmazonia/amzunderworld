@@ -364,18 +364,27 @@
             }
 
             &.full {
-                clip-path: url(./assets/borda.svg#borda-full) !important;
+                mask-image: url("../assets/borda-full.svg");
+                mask-size: cover;
+                mask-repeat: no-repeat;
+                mask-position: center;
                 max-width: 100%;
                 padding-bottom: 53%; /* Proporção de aspecto da imagem */
             }
 
             &.half {
-                clip-path: url(./assets/borda.svg#borda-half) !important;
+                mask-image: url("../assets/borda-half.svg");
+                mask-size: cover;
+                mask-repeat: no-repeat;
+                mask-position: center;
                 max-width: 50%;
                 padding-bottom: 39%; /* Proporção de aspecto da imagem */
             }
             &.destaque {
-                clip-path: url(./assets/borda.svg#borda-destaque) !important;
+                mask-image: url("../assets/borda-destaque.svg");
+                mask-size: cover;
+                mask-repeat: no-repeat;
+                mask-position: center;
                 max-width: 460px;
                 padding-bottom: 55%; /* Proporção de aspecto da imagem */
             }
@@ -389,8 +398,11 @@
             img {
                 background: blue;
                 height: fit-content;
-                clip-path: url(#borda-full);
-                object-fit: cover;
+
+                mask-image: url("../assets/borda-full.svg");
+                mask-size: cover;
+                mask-repeat: no-repeat;
+                mask-position: center;
             }
         }
    }
