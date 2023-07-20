@@ -86,16 +86,13 @@
 <section class="full info-draga">
     <!-- background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga.png') -->
     <div class="fundo" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga.png')" >
-
         <div class="title" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-title.png')"> Mining dredges leaves big environmental footprint</div>
-
         <div class="item" style="top:14rem; left:10rem;">
             <div class="box" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-box.png')">Mercury causes digestive and neurological problems. In pregnant persons, it can cross the placenta, affecting the fetus at critical times for brain development.</div>
             <a href="https://infoamazonia.org/" class="icon" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-icon.png')"></a>
         </div>
-
         <div class="item" style="top:14rem; left:40rem;">
-            <div class="box" style=" background-image: url('./src/img/story1-draga-box.png')">Mercury causes digestive and neurological problems. In pregnant persons, it can cross the placenta, affecting the fetus at critical times for brain development.</div>
+            <div class="box" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-box.png')">Mercury causes digestive and neurological problems. In pregnant persons, it can cross the placenta, affecting the fetus at critical times for brain development.</div>
             <a href="https://infoamazonia.org/" class="icon" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-icon.png')"></a>
         </div>
     </div>
@@ -142,13 +139,95 @@
 <figure class="wp-block-image size-full is-resized border-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-img2.png" alt="" class="wp-image-159859" width="662" height="405"/><figcaption class="wp-element-caption">For gold miners, boats are workplaces and living quarters | Bram Ebus</figcaption></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":159859,"width":662,"height":405,"sizeSlug":"full","linkDestination":"none","className":"border-half"} -->
-<figure class="wp-block-image size-full is-resized border-half"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-img2.png" alt="" class="wp-image-159859" width="662" height="405"/></figure>
+<!-- wp:paragraph -->
+<p>At first, the guerrillas collected 20 grams of gold a month, but soon they began to demand 20 grams a week. “They took what they wanted to take,” the miner says.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For the miners, the situation was getting out of hand. “They used threats and intimidation to collect the tax. The garimpeiros warned the guerrillas that the army was coming to clear them out,” he adds.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In 2021, the Brazilian Army responded by sweeping the guerrillas from most of the Puruê River. “There was a confrontation here,” Getúlio says. “The Brazilian Army and Navy stayed here on the Puruê River for three months.”&nbsp;&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Brazilian authorities have been tight-lipped about the operation. In an <strong>official statement</strong>, the Federal Police gave no details except to say that nine people were arrested, including “two dissidents from a foreign guerrilla group,” and authorities seized a kilo of gold, cash, weapons, ammunition, mercury and cocaine base.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>“They went up the river and killed everyone they saw. After that operation, the Colombians didn’t come back,” one miner says. But there’s no guarantee that the guerrillas will not return, as they reportedly still extort payments from miners upriver, closer to the border, the garimpeiros say.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>But according to the miners, extortion did not end when the guerrillas left. Nowadays, they say, they&nbsp; pay protection money to the military police, as well as to local authorities. Getulio and two other miners along the Puruê River claimed that they paid the Military Police 30 grams of gold per dredge monthly for protection, and another amount up to 50 grams to the prefect in Japurá. Getúlio says the payments are part of a deal in which the miners pay for a boat and fuel for police to patrol the river and the mining area. “I help the security forces so they will also help me,” he adds.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In an emailed response to questions about the accusations, Japurá’s municipal secretary of administration and coordination, Renilton Dos Santos Solarth, called them “fanciful rumors lacking in veracity.” He said the municipality has received no reports of public servants illegally receiving gold.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Military Police responded to an inquiry by stating that police have conducted operations to investigate piracy, resulting in the arrest of several offenders, including Military Police personnel. They did not respond to questions about claims that Military Police officials extorted payments in gold from illegal miners.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":159916,"sizeSlug":"full","linkDestination":"none","className":"border-full"} -->
+<figure class="wp-block-image size-full border-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-img3.png" alt="" class="wp-image-159916"/><figcaption class="wp-element-caption">For gold miners, boats are workplaces and living quarters | Bram Ebus</figcaption></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":159859,"width":662,"height":405,"sizeSlug":"full","linkDestination":"none","className":"border-destaque"} -->
-<figure class="wp-block-image size-full is-resized border-destaque"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-img2.png" alt="" class="wp-image-159859" width="662" height="405"/></figure>
-<!-- /wp:image -->
+<!-- wp:paragraph -->
+<p>One of the Military Police’s regular stops is the garimpeiro settlement of Purezinho, which consists of several modest wooden houses and two floating brothels known as barcos de amor or “love boats.”</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>On a lazy morning, reporters from Amazon Underworld watch as half a dozen Military Police officers mill around in Purezinho. The commanding officer, wearing flip-flops, walks along the riverbank, followed closely by a colleague, his automatic weapon at the ready and a balaclava concealing his face.“Everything here is illegal,” the commanding officer says, making it very clear who is in charge. “I can do whatever I want here.”</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:code -->
+<section class="full borda01 infografico">
+        <div class="main-content">
+            <h2>Miners report paying protection money to Brazil’s Military Police</h2>
+            <p class="big">
+                For days at a time, police patrol the Puruê River in boats with powerful outboard motors, stopping at dredges and collecting their gold.
+            <p>
+            <div class="info-cards">
+    
+                <div class="card">
+                    <div class="image-area">
+                        <img src="https://infoamazonia.org/wp-content/uploads/2023/07/infografico-icon1.png" >
+                    </div>
+                    <p>
+                   Military Police function as vigilantes protecting miners from thieves & guerrillas.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="image-area">
+                        <img src="https://infoamazonia.org/wp-content/uploads/2023/07/infografico-icon2.png" >
+                    </div>
+                    <p>
+                    The Military Police collects a monthly 30 grams of gold per mining dredge.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="image-area">
+                        <img src="https://infoamazonia.org/wp-content/uploads/2023/07/infografico-icon3.png" >
+                    </div>
+                    <p>
+                    Military Police traffickers gold over X route.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="image-area">
+                        <img src="https://infoamazonia.org/wp-content/uploads/2023/07/infografico-icon4.png" >
+                    </div>
+                    <p>
+                    The Prefeitura de Japurá also collects up to 50 grams a month per mining dredge.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- /wp:code -->
 
 <!-- wp:code -->
 </div >
