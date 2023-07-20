@@ -349,7 +349,7 @@
                 content: "";
             }
         }
-  
+
         .border-full{
             width: fit-content;
             height: fit-content;
@@ -490,7 +490,6 @@
         }
     }
 
-
     .bignumber{   
         .main-content{   
             max-width: 660px; 
@@ -547,10 +546,50 @@
             background-position: bottom;
         }
     }
-    .infodraga{
-        background-color: red;
+    .info-draga{
         min-height: 748px;
         background-repeat: no-repeat;
+        overflow-x: scroll;
+        position: relative;
+        .fundo{
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-height: 748px;
+            background-repeat: no-repeat;
+            width: 2170px;
+        }
+        .title{
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        width: 468px;
+        height: 160px;
+        padding: 2rem;
+        font-family: "Big Shoulders Display", sans-serif !important; 
+        font-size: 40px;
+        line-height: 100%;
+        }
+        .item{
+            position: absolute;
+            max-width: 328px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+        .box{
+            padding: 1rem 1.5rem;
+            text-align: center;
+        }
+        .icon{
+            width: 32px;
+            height: 32px;
+            content: "";
+            display: block;
+            background-repeat: no-repeat;
+            background-size: cover;
+         
+        }
+
     }
-
-

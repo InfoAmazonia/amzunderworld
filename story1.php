@@ -83,7 +83,23 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:code -->
-Componente DRAGA
+<section class="full info-draga">
+    <!-- background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga.png') -->
+    <div class="fundo" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga.png')" >
+
+        <div class="title" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-title.png')"> Mining dredges leaves big environmental footprint</div>
+
+        <div class="item" style="top:14rem; left:10rem;">
+            <div class="box" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-box.png')">Mercury causes digestive and neurological problems. In pregnant persons, it can cross the placenta, affecting the fetus at critical times for brain development.</div>
+            <a href="https://infoamazonia.org/" class="icon" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-icon.png')"></a>
+        </div>
+
+        <div class="item" style="top:14rem; left:40rem;">
+            <div class="box" style=" background-image: url('./src/img/story1-draga-box.png')">Mercury causes digestive and neurological problems. In pregnant persons, it can cross the placenta, affecting the fetus at critical times for brain development.</div>
+            <a href="https://infoamazonia.org/" class="icon" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-icon.png')"></a>
+        </div>
+    </div>
+</section>
 <!-- /wp:code -->
 
 <!-- wp:spacer {"height":"48px"} -->
