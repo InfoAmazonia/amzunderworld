@@ -349,48 +349,37 @@
                 content: "";
             }
         }
-        /* Formato das imagens */
-        .image-container {
-            position: relative;
-            width: 100%;
-            height: auto;
-            overflow: hidden;
-
-            img {
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-
-            &.full {
-                clip-path: url(./assets/borda.svg#borda-full) !important;
-                max-width: 100%;
-                padding-bottom: 53%; /* Proporção de aspecto da imagem */
-            }
-
-            &.half {
-                clip-path: url(./assets/borda.svg#borda-half) !important;
-                max-width: 50%;
-                padding-bottom: 39%; /* Proporção de aspecto da imagem */
-            }
-            &.destaque {
-                clip-path: url(./assets/borda.svg#borda-destaque) !important;
-                max-width: 460px;
-                padding-bottom: 55%; /* Proporção de aspecto da imagem */
-            }
-        }
-
+  
         .border-full{
-
             width: fit-content;
             height: fit-content;
             overflow: hidden;
             img {
-                background: blue;
                 height: fit-content;
                 clip-path: url(#borda-full);
                 object-fit: cover;
+            }
+        }
+        .border-half{
+            width: fit-content;
+            height: fit-content;
+            overflow: hidden;
+            img {
+                height: fit-content;
+                clip-path: url(#borda-half);
+                object-fit: cover;
+                max-width: 50%;
+            }
+        }
+        .border-destaque{
+            width: fit-content;
+            height: fit-content;
+            overflow: hidden;
+            img {
+                height: fit-content;
+                clip-path: url(#borda-destaque);
+                object-fit: cover;
+                max-width: 460px;
             }
         }
    }
