@@ -4,7 +4,6 @@
 <style>
 <?php include './src/less/style.css'; ?>
 </style>
-
 <!-- wp:code -->
 <link rel="stylesheet" type="text/css" href="https://taprontodev.github.io/amzunderworld/build/style.css" />
 <div class="amz" id="story0">
@@ -228,6 +227,78 @@
         </div>
     </section>
 <!-- /wp:code -->
+
+<!-- wp:spacer {"height":"48px"} -->
+<div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:image {"align":"center","id":159837,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1_big_number.png" alt="" class="wp-image-159837"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"align":"center","className":"big no-margin"} -->
+<p class="has-text-align-center big no-margin">If the approximately</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"textAlign":"center","level":1,"className":"tverdeescuroa no-margin"} -->
+<h1 class="wp-block-heading has-text-align-center tverdeescuroa no-margin" id="h-150-dragas-on-the-purue-river-pays-30-grams-of-gold">150 DRAGAS ON THE PURUÊ RIVER PAYS 30 GRAMS OF GOLD</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","className":"big no-margin"} -->
+<p class="has-text-align-center big no-margin">a month each, the military police collects in the river</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"textAlign":"center","level":1,"className":"tverdeescuroa no-margin"} -->
+<h1 class="wp-block-heading has-text-align-center tverdeescuroa no-margin" id="h-about-us-3-million-annualy">ABOUT US$ 3  MILLION ANNUALY.</h1>
+<!-- /wp:heading -->
+
+<!-- wp:spacer {"height":"62px"} -->
+<div style="height:62px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:paragraph -->
+<p>The violent microcosm of guerrillas, pirates and rogue police officers reflects the lack of governance in this corner of the Brazilian state of Amazonas. The municipality of Japurá, the largest town in the area, with an official population of less than 2,000, has the 12th-highest homicide rate in the country, at 114 per 100,000 inhabitants.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Besides guerrillas and corrupt police, another threat are the bands of heavily armed pirates who also roam the rivers, especially targeting miners, as well as the occasional boat carrying cocaine and marijuana from Colombia. Getúlio says he once lost 130 grams of gold and his wife’s jewelry to seven armed pirates on the Japurá River. “They shot at us from a distance, but missed,” he says. “They overtook us, overpowered us and demanded the gold.”&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":159943,"sizeSlug":"full","linkDestination":"none","className":"border-full"} -->
+<figure class="wp-block-image size-full border-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-img4.png" alt="" class="wp-image-159943"/><figcaption class="wp-element-caption">Empty containers used to transport fuel litter the bank of Brazil’s Puruê River | Alex Rufino</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Pirates make river travel dangerous for others, as well. A representative of a non-profit organization working in the area recounts a narrow escape in which he and his wife barely managed to beach their boat and flee into the forest to escape a boat with a high-power motor that was bearing down on them. Pirates have warned people in local communities to stay off the river after 4 p.m., he says.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Miners and local boat pilots claim some of the pirates are police officers — “more pirate than the pirates,” one experienced boatman in the Japurá municipality says. In July 2022, five Military Police officers were detained and suspended for the crime of piracy. The Justice and Discipline Office of the Military Police of Amazonas State opened an investigation into the case nine months later, after Amazon Underworld inquired about it.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"32px"} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:image {"id":159450,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/moedas.png" alt="" class="wp-image-159450"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">‘The only way to earn good money’</h1>
+<!-- /wp:heading -->
+
+<!-- wp:cover {"customOverlayColor":"#d4c6ad","isDark":false,"align":"full","className":"borda01"} -->
+<div class="wp-block-cover alignfull is-light borda01"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#d4c6ad"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Escreva o título...","style":{"color":{"background":"#d4c6ad"}},"fontSize":"large"} -->
+<p class="has-text-align-center has-background has-large-font-size" style="background-color:#d4c6ad">TESTE 1</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>For me, being on the draga is like being in my house </p>
+<!-- /wp:paragraph --><cite>— Getúlio, owner of an industrial-scale dredge</cite></blockquote>
+<!-- /wp:quote --></div></div>
+<!-- /wp:cover -->
 
 <!-- wp:code -->
 </div >
