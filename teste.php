@@ -17,10 +17,14 @@
 
 
 
-<!-- wp:image {"id":159859,"width":662,"height":405,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized border-full"><img src="./src/img/story1-img2.png" alt="" class="wp-image-159859" width="662" height="405"/></figure>
-<!-- /wp:image -->
-
+<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/story1-scrollytelling.png","id":159824,"dimRatio":0,"align":"full"} -->
+<div class="wp-block-cover alignfull">
+    <span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
+    <img class="wp-block-cover__image-background wp-image-159824" alt="" src="./src/img/story1-draga.png" data-object-fit="cover"/>
+<div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"textColor":"white"} -->
+<h1 class="wp-block-heading has-text-align-center has-white-color has-text-color" id="h-scrollytelling">scrollytelling</h1>
+<!-- /wp:heading --></div></div>
+<!-- /wp:cover -->
 
 
 
