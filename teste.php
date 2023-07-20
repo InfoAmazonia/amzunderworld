@@ -1,10 +1,7 @@
 <?php $title = 'Welcome to the Amazon Underworld'; ?>
 <?php include './blocks/header.php'; ?>
 <!-- wp:code -->
-<?php include './build/svg.php'; ?>
 
-
-<link rel="stylesheet" type="text/css" href="https://taprontodev.github.io/amzunderworld/build/style.css" />
 <div class="amz" id="story0">
 
 <!-- /wp:code -->

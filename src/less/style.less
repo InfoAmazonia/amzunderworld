@@ -356,7 +356,10 @@
             overflow: hidden;
             img {
                 height: fit-content;
-                clip-path: url(#borda-full);
+                mask-image: url("../assets/borda-full.svg");
+                mask-size: cover;
+                mask-repeat: no-repeat;
+                mask-position: center;
                 object-fit: cover;
             }
         }
@@ -366,7 +369,10 @@
             overflow: hidden;
             img {
                 height: fit-content;
-                clip-path: url(#borda-half);
+                mask-image: url("../assets/borda-half.svg");
+                mask-size: cover;
+                mask-repeat: no-repeat;
+                mask-position: center;
                 object-fit: cover;
                 max-width: 50%;
             }
@@ -377,7 +383,10 @@
             overflow: hidden;
             img {
                 height: fit-content;
-                clip-path: url(#borda-destaque);
+                mask-image: url("../assets/borda-destaque.svg");
+                mask-size: cover;
+                mask-repeat: no-repeat;
+                mask-position: center;
                 object-fit: cover;
                 max-width: 460px;
             }
