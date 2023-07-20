@@ -1,21 +1,16 @@
-<?php $title = 'Inimigos invisíveis: fumaça das queimadas agrava Covid-19 na Amazônia'; ?>
+<?php $title = 'Welcome to the Amazon Underworld'; ?>
 <?php include './blocks/header.php'; ?>
-
-<style>
-<?php include './src/less/style.css'; ?>
-</style>
 
 <!-- wp:code -->
 <link rel="stylesheet" type="text/css" href="https://taprontodev.github.io/amzunderworld/build/style.css" />
-<!-- /wp:code -->
-
-<!-- wp:code -->
 <div class="amz" id="story0">
 <!-- /wp:code -->
 
-<!-- wp:code -->
-<section class="full header-story" style="background-image: url(https://infoamazonia.org/wp-content/uploads/2023/07/header_story0.png);"></section>
-<!-- /wp:code -->
+<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/header_story0.png","id":159453,"dimRatio":0,"align":"full","className":"header-story"} -->
+<div class="wp-block-cover alignfull header-story"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-159453" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/header_story0.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Escreva o título...","fontSize":"large"} -->
+<p class="has-text-align-center has-large-font-size"></p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:cover -->
 
 <!-- wp:paragraph {"className":"big"} -->
 <p class="big">The Amazon, known as the largest rainforest in the world, also functions as a source and transit point for illegally extracted jungle resources and narcotics, linking nine countries together.</p>
@@ -49,13 +44,11 @@
 <p>This is the Amazon Underworld, where cycles of crime &amp; destruction are fueled by a multibillion-dollar illegal trade in drugs, gold and arms.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:code -->
-<section class="full banner-green" style=" background-image: url(https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png);">
-<div class="main-content">
-<h1>STORY MAP LAURA</h1>
-</div>
-</section>
-<!-- /wp:code -->
+<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png","id":159441,"dimRatio":0,"align":"full"} -->
+<div class="wp-block-cover alignfull"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-159441" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"textColor":"white"} -->
+<h1 class="wp-block-heading has-text-align-center has-white-color has-text-color" id="h-story-map-laura">STORY MAP LAURA</h1>
+<!-- /wp:heading --></div></div>
+<!-- /wp:cover -->
 
 <!-- wp:image {"id":159450,"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/faca.png" alt="" class="wp-image-159450"/></figure>
@@ -126,18 +119,21 @@
 <p>One example is the triple border between Colombia and Peru, the two largest producers of cocaine globally, and Brazil, which serves as both a significant consumer market and a crucial transit area. In this region, the Amazon River acts as the starting point for cocaine shipments that are transported to port cities along Brazil's Atlantic Coast. From there, the drugs are distributed to markets in Europe, Africa, and the Middle East.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:code -->
-<section class="full banner-green" style=" background-image: url(https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png);">
-<div class="main-content">
-<h1>armed groups map laura</h1>
-<p></p></div>
-</section>
-<section class="full">
-<div class="main-content">
-            <button class="btn">conheça a metodologia</button>
-        </div>
-</section>
-<!-- /wp:code -->
+<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png","id":159441,"dimRatio":0,"align":"full"} -->
+<div class="wp-block-cover alignfull"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-159441" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"textColor":"white"} -->
+<h1 class="wp-block-heading has-text-align-center has-white-color has-text-color" id="h-armed-groups-map-laura">ARMED GROUPS MAP LAURA</h1>
+<!-- /wp:heading --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">CONHEÇA A METODOLOGIA</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:spacer {"height":"63px"} -->
+<div style="height:63px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
 
 <!-- wp:paragraph -->
 <p>One Colombian crime boss says that country’s Amazon borderlands are a hotbed for organized crime. “This is a warehouse, a Persian market. You can get everything from a .38-caliber gun to a surface-to-air missile here in the Amazon.”</p>
@@ -176,6 +172,10 @@
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button">PAGINA INICIAL</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
+
+<!-- wp:spacer {"height":"18px"} -->
+<div style="height:18px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
 
 <!-- wp:image {"id":159450,"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/megafone.png" alt="" class="wp-image-159450"/></figure>
@@ -223,17 +223,9 @@
 </section>
 <!-- /wp:code -->
 
-<!-- wp:code -->
-<section class="full-color-white">
-<div class="section-content">
-<!-- /wp:code -->
-
-<!-- wp:spacer {"height":"16px"} -->
-<div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:image {"id":159450,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class=" size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/radio.png" alt="" class="wp-image-159450"/></figure>
+<!-- wp:cover {"id":159441,"dimRatio":0,"isDark":false,"className":"bg-white"} -->
+<div class="wp-block-cover is-light bg-white"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:image {"id":159450,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/radio.png" alt="Icone Rádio" class="wp-image-159450"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":1} -->
@@ -248,73 +240,11 @@
 <div class="wp-block-buttons"><!-- wp:button -->
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Conheça</a></div>
 <!-- /wp:button --></div>
-<!-- /wp:buttons -->
-
-<!-- wp:spacer {"height":"32px"} -->
-<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:code -->
-</div >
-</section>
-<!-- /wp:code -->
-
-<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png","id":159441,"dimRatio":50,"overlayColor":"secondary-variation","focalPoint":{"x":0.5,"y":0.5},"minHeight":350,"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"fontSize":"normal"} -->
-<div class="wp-block-cover has-normal-font-size" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:350px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-variation-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-159441" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png" style="object-position:50% 50%" data-object-fit="cover" data-object-position="50% 50%"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1} -->
-<h1 class="wp-block-heading has-text-align-center">ARMED GROUPS MAP LAURA<br>Tamanho padrao</h1>
-<!-- /wp:heading --></div></div>
-<!-- /wp:cover -->
-
-<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png","id":159441,"dimRatio":50,"overlayColor":"secondary-variation","focalPoint":{"x":0.5,"y":0.5},"minHeight":350,"align":"wide","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"fontSize":"normal"} -->
-<div class="wp-block-cover alignwide has-normal-font-size" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:350px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-variation-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-159441" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png" style="object-position:50% 50%" data-object-fit="cover" data-object-position="50% 50%"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1} -->
-<h1 class="wp-block-heading has-text-align-center">ARMED GROUPS MAP LAURA<br>Tamanho amplo</h1>
-<!-- /wp:heading --></div></div>
-<!-- /wp:cover -->
-
-<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png","id":159441,"dimRatio":50,"overlayColor":"secondary-variation","focalPoint":{"x":0.5,"y":0.5},"minHeight":350,"align":"full","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"fontSize":"normal"} -->
-<div class="wp-block-cover alignfull has-normal-font-size" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:350px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-variation-background-color has-background-dim"></span><img class="wp-block-cover__image-background wp-image-159441" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png" style="object-position:50% 50%" data-object-fit="cover" data-object-position="50% 50%"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1} -->
-<h1 class="wp-block-heading has-text-align-center">ARMED GROUPS MAP LAURA<br>Tamanho total</h1>
-<!-- /wp:heading --></div></div>
+<!-- /wp:buttons --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:code -->
 </div >
-<!-- /wp:code -->
-
-<!-- wp:code -->
-<section class="full-color-white">
-<div class="section-content">
-<!-- /wp:code -->
-
-<!-- wp:spacer {"height":"16px"} -->
-<div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:image {"id":159450,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class=" size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/radio.png" alt="" class="wp-image-159450"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading" id="explore the stories">TODAS AS HISTÓRIAS DO PROJETO</h1>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Conheça</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons -->
-
-<!-- wp:spacer {"height":"32px"} -->
-<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:code -->
-</div >
-</section>
 <!-- /wp:code -->
 
 <!-- Footer -->
