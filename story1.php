@@ -148,7 +148,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":159859,"width":662,"height":405,"sizeSlug":"full","linkDestination":"none","className":"border-full"} -->
-<figure class="wp-block-image size-full is-resized border-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-img2.png" alt="" class="wp-image-159859" width="662" height="405"/><figcaption class="wp-element-caption">For gold miners, boats are workplaces and living quarters | Bram Ebus</figcaption></figure>
+<figure class="wp-block-image size-full is-resized border-destaque"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-img2.png" alt="" class="wp-image-159859" width="662" height="405"/><figcaption class="wp-element-caption">For gold miners, boats are workplaces and living quarters | Bram Ebus</figcaption></figure>
 <!-- /wp:image -->
 
 
