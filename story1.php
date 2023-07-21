@@ -4,10 +4,9 @@
 <style>
 <?php include './src/less/style.css'; ?>
 </style>
-
 <!-- wp:code -->
 <link rel="stylesheet" type="text/css" href="https://taprontodev.github.io/amzunderworld/build/style.css" />
-<div class="amz" id="story0">
+<div class="amz" id="story1">
 <!-- /wp:code -->
 
 <!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/story1-header.jpg","id":160334,"dimRatio":0,"align":"full","className":"header-story"} -->
@@ -294,7 +293,11 @@
 <blockquote class="wp-block-quote main-content"><!-- wp:paragraph -->
 <p>For me, being on the draga is like being in my house&nbsp;</p>
 <!-- /wp:paragraph --><cite>— Getúlio, owner of an industrial-scale dredge</cite></blockquote>
-<!-- /wp:quote --></div></div>
+<!-- /wp:quote -->
+
+<!-- wp:spacer {"height":"16px"} -->
+<div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:paragraph -->
@@ -473,10 +476,10 @@
 <p>For those involved, the potential payoff is worth the risk, and the huge amounts of money involved underscore the difficulty of reining in the illegal mining that has extended throughout the Amazon.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:cover {"customOverlayColor":"#C17A0F","minHeight":430,"minHeightUnit":"px","isDark":false,"align":"full","className":"borda01 "} -->
-<div class="wp-block-cover alignfull is-light borda01" style="min-height:430px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#C17A0F"></span><div class="wp-block-cover__inner-container"><!-- wp:cover {"customOverlayColor":"#c17a0f","isDark":false,"className":"main-content"} -->
-<div class="wp-block-cover is-light main-content"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#c17a0f"></span><div class="wp-block-cover__inner-container"><!-- wp:image {"align":"left","id":160259,"width":316,"height":233,"sizeSlug":"full","linkDestination":"none","className":"border-full"} -->
-<figure class="wp-block-image alignleft size-full is-resized border-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-img11.jpg" alt="" class="wp-image-160259" width="316" height="233"/></figure>
+<!-- wp:cover {"customOverlayColor":"#C17A0F","minHeight":50,"minHeightUnit":"px","isDark":false,"align":"full","className":"borda01 "} -->
+<div class="wp-block-cover alignfull is-light borda01" style="min-height:50px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#C17A0F"></span><div class="wp-block-cover__inner-container"><!-- wp:cover {"minHeight":50,"customGradient":"linear-gradient(135deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 100%)","isDark":false,"className":"main-content"} -->
+<div class="wp-block-cover is-light main-content" style="min-height:50px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient" style="background:linear-gradient(135deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 100%)"></span><div class="wp-block-cover__inner-container"><!-- wp:image {"align":"left","id":160259,"width":460,"height":380,"sizeSlug":"full","linkDestination":"none","className":"border-full"} -->
+<figure class="wp-block-image alignleft size-full is-resized border-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-img11.jpg" alt="" class="wp-image-160259" width="460" height="380"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"className":"tbege"} -->
@@ -492,6 +495,248 @@
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover --></div></div>
 <!-- /wp:cover -->
+
+<!-- wp:image {"id":160301,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-icone5.png" alt="" class="wp-image-160301"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">ILLEGAL GOLD SOLD IN ‘GOOD FAITH’</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Besides corrupt police and government officials, dredge owners and their representatives also transport and purchase gold from the Puruê and Juami rivers and resell it to independent gold dealers, mining cooperatives and securities dealers authorized by Brazil’s Central Bank and Securities and Exchange Commission.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Gold buyers are not required to verify the origin of the gold. They need only provide a “good faith” declaration that it was extracted from an area authorized by the National Mining Agency. The gold can then be sold. In May, Brazil’s Supreme Court suspended the “good faith” presumption and ordered the government to adopt a new set of rules within 90 days to control the gold trade.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The lack of regulation makes gold trading an attractive way for criminal groups to launder the proceeds from drug trafficking and other illegal activities.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"48px"} -->
+<div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:image {"align":"center","id":160298,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-big3.png" alt="" class="wp-image-160298"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"align":"center","className":"big no-margin"} -->
+<p class="has-text-align-center big no-margin">In 2022, as the result of a law enforcement investigation into illegal gold mining by dredges in the Amazon,</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"textAlign":"center","level":1,"className":"tverdeescurob no-margin"} -->
+<h1 class="wp-block-heading has-text-align-center tverdeescurob no-margin" id="h-18-people-were-arrested-more-than-1bilion">18 PEOPLE WERE ARRESTED &amp; MORE THAN $1BILION</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","className":"big no-margin"} -->
+<p class="has-text-align-center big no-margin">in assets of various trading companies were blocked.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"62px"} -->
+<div style="height:62px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:paragraph -->
+<p>The investigation, called Aerogold, found that the gold scheme in the Japurá region involved a chain of at least 100 people who received the gold and inserted it into the legal economy, so it could be sold or exported.&nbsp; They then use various types of commerce to launder the profits from illegal mining.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>A new phase of the Aerogold investigation is currently under way.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"24px"} -->
+<div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:image {"id":160295,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-icone6.png" alt="" class="wp-image-160295"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">CRACKDOWN LEAVES FUTURE UNCERTAIN</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>For years, career gold miners who own dragas, like Getúlio, have lived in different worlds, shuttling between the Amazon, large cities on the Brazilian coast and international destinations like Miami. “It’s the life of a garimpeiro,” he says. “It’s been 35 years, with a financial return that pays off for someone who knows how to enjoy his work and his money.”&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In February, however, he was already eyeing an uncertain future ahead if the government followed through on the president’s pledge to dislodge miners from Amazonian rivers. “We're already working this year, trying to make some money, because if that happens, we will stop being garimpeiros,” he said.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>During the last week of June, Getúlio’s fears were realized when the federal environmental agency IBAMA, supported by security forces, <strong>led a crackdown</strong> on dredges on the Puruê and Juami rivers.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The raid, known as “Operation Ágata,” involved the armed forces, the federal environmental agency IBAMA, the Indigenous affairs agency FUNAI and other government agencies. It targeted criminal activities in the Japurá River region and resulted in the destruction of 51 dredges. Some videos circulating among miners show dredges engulfed in flames, while in others, the remains of dredge carcasses smolder as miners douse them with buckets of water.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:embed {"url":"https://www.youtube.com/watch?v=i-5VSJKBL-A","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+https://www.youtube.com/watch?v=i-5VSJKBL-A
+</div><figcaption class="wp-element-caption">Videos circulating among illegal miners show dredges smoldering after crackdown.</figcaption></figure>
+<!-- /wp:embed -->
+
+<!-- wp:paragraph -->
+<p>The operation lasted several days, but miners had been alerted to the possibility of a raid and many concealed or relocated their dredges before the Operation Ágata force arrived. In satellite images from days before the crackdown, when miners had stopped working, the water of the Puruê and Juami rivers had returned to its natural dark color, in contrast with the coffee-with-cream shade caused by the sediment churned up by dredges when they were operating</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Within a month, however, the dredges were back in business. A flyover on July 1 showed that 143 dredges back on the Puruê River.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In early July, Brazilian media reported that an Army lieutenant colonel had allegedly <strong>leaked information</strong> about crackdowns to miners in the Japurá region, reportedly receiving nearly US$200,000 between 2020 and 2022. In return, he would share information about upcoming law enforcement operations targeting illegal gold miners.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The officer sometimes would either delay these interventions or alter the routes of the operations. This information was revealed through intercepted phone calls, during which miners also indicated their need for four days' advance notice and their intention to hide mining dredges for one to two months.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:cover {"customOverlayColor":"#d4c6ad","isDark":false,"align":"full","className":"borda01"} -->
+<div class="wp-block-cover alignfull is-light borda01"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#d4c6ad"></span><div class="wp-block-cover__inner-container"><!-- wp:quote {"className":"main-content"} -->
+<blockquote class="wp-block-quote main-content"><!-- wp:paragraph -->
+<p>A pack of Coca-Cola costs one gram [of gold], a box of chicken is two grams. Everything is like that. A package of sausages is one gram​​. Everything is expensive, very expensive (Cabeludo)</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:spacer {"height":"16px"} -->
+<div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:image {"align":"left","id":160256,"width":305,"height":172,"sizeSlug":"full","linkDestination":"none","className":"border-full"} -->
+<figure class="wp-block-image alignleft size-full is-resized border-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-img12.jpg" alt="" class="wp-image-160256" width="305" height="172"/><figcaption class="wp-element-caption">Slices of fish hang on a mining dredge | Bram Ebus</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>For smaller-scale miners like Cabeludo, who shares the Puruê River with Getúlio, the future is especially uncertain.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Cabeludo wants to give his child a better future and a different life. “I don’t want that for me or him,” he said in February. “I’ve suffered a lot here. People are tired, and hungry. My freezer is not freezing. I use rain and river water to shower.”</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Life on the Puruê River is not cheap. Products come over large distances and river transport requires a lot of expensive fuel. And everything is priced in gold.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>“A pack of Coca-Cola costs one gram, a box of chicken is two grams. Everything is like that. A package of sausages is one gram​​,” Cabeludo said. “You can find three beers for one gram, but sometimes it’s one for one. Everything is expensive, very expensive.”</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"wide","id":160253,"sizeSlug":"full","linkDestination":"none","className":"border-full"} -->
+<figure class="wp-block-image alignwide size-full border-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-img13.jpg" alt="" class="wp-image-160253"/><figcaption class="wp-element-caption">A miner known as Cabeludo stands near the suction hose on his gold mining dredge | Alex Rufino</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Barefoot and bare-chested, he laughed as he wrestled his attention-seeking dog, Xangai, while hammering a piece of carpet to plug a crack on his balsa. Then he turned serious. Besides guerrillas and pirates, he also feared an impending crackdown by the Lula administration. The balsa, with its dredging equipment, was all he had.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If a raid happened, he said, “That’s it for me. I won’t survive outside of mining. I really won’t..”</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"24px"} -->
+<div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:paragraph -->
+<p>*Names have been changed</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"18px"} -->
+<div style="height:18px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">VOLTAR AO TOPO</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">PAGINA INICIAL</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:spacer {"height":"64px"} -->
+<div style="height:64px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:image {"id":160171,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-icone2.png" alt="" class="wp-image-160171"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading" id="explore the stories">EXPLORE THE STORIES</h1>
+<!-- /wp:heading -->
+
+<!-- wp:code -->
+<p>    <!-- Componente Banner Cards --></p>
+<section class="full cards">
+<div class="card">
+<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-card1.jpg"></div>
+<div class="infos">
+<div class="local">country + country</div>
+<div class="title">Gold spurs crime &amp; corruption on Brazil-Colombia border</div>
+<p>                <button class="btn">read more <span class="arrow"></span></button>
+            </p></div>
+<p></p></div>
+<div class="card">
+<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-card2.jpg"></div>
+<div class="infos">
+<div class="local">country + country</div>
+<div class="title">Gold spurs crime &amp; corruption on Brazil-Colombia border</div>
+<p>                <button class="btn">read more <span class="arrow"></span></button>
+            </p></div>
+<p></p></div>
+<div class="card">
+<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-card3.jpg"></div>
+<div class="infos">
+<div class="local">country + country</div>
+<div class="title">Gold spurs crime &amp; corruption on Brazil-Colombia border</div>
+<p>                <button class="btn">read more <span class="arrow"></span></button>
+            </p></div>
+<p></p></div>
+<div class="card">
+<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-card1.jpg"></div>
+<div class="infos">
+<div class="local">country + country</div>
+<div class="title">Gold spurs crime &amp; corruption on Brazil-Colombia border</div>
+<p>                <button class="btn">read more <span class="arrow"></span></button>
+            </p></div>
+<p></p></div>
+</section>
+<!-- /wp:code -->
+
+<!-- wp:cover {"id":159441,"dimRatio":0,"isDark":false,"className":"bg-white"} -->
+<div class="wp-block-cover is-light bg-white"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:image {"id":160159,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-icone3.png" alt="" class="wp-image-160159"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading" id="explore the stories">TODAS AS HISTÓRIAS DO PROJETO</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Conheça</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:code -->
+</div>
+<!-- /wp:code -->
 
 <!-- Footer -->
 <?php include './blocks/footer.php'; ?>
