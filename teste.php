@@ -7,29 +7,14 @@
 
 <div class="amz" id="story0">
 
-<!-- wp:cover {"customOverlayColor":"#d4c6ad","isDark":false,"align":"full","className":"borda01"} -->
-<div class="wp-block-cover alignfull is-light borda01"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#d4c6ad"></span><div class="wp-block-cover__inner-container">
-    
-<!-- wp:quote -->
-<blockquote class="wp-block-quote"><!-- wp:paragraph -->
-<p>For me, being on the draga is like being in my house </p>
-<!-- /wp:paragraph --><cite>— Getúlio, owner of an industrial-scale dredge</cite></blockquote>
-<!-- /wp:quote --></div></div>
-<!-- /wp:cover -->
-
-</div>
-
-<!-- Footer -->
-<?php include './blocks/footer.php'; ?>
-
-
-
-<!-- wp:image {"align":"left","id":160021,"width":358,"height":269,"sizeSlug":"full","linkDestination":"none","className":"border-full"} -->
-<figure class="wp-block-image alignleft size-full is-resized border-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-img12.png" alt="" class="wp-image-160021" width="358" height="269"/></figure>
+<!-- wp:cover {"customOverlayColor":"#C17A0F","minHeight":50,"minHeightUnit":"px","isDark":false,"align":"full","className":"borda01 "} -->
+<div class="wp-block-cover alignfull is-light borda01" style="min-height:50px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#C17A0F"></span><div class="wp-block-cover__inner-container"><!-- wp:cover {"customOverlayColor":"#c17a0f","minHeight":50,"isDark":false,"className":"main-content"} -->
+<div class="wp-block-cover is-light main-content" style="min-height:50px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#c17a0f"></span><div class="wp-block-cover__inner-container"><!-- wp:image {"align":"left","id":160259,"width":460,"height":380,"sizeSlug":"full","linkDestination":"none","className":"border-full"} -->
+<figure class="wp-block-image alignleft size-full is-resized border-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-img11.jpg" alt="" class="wp-image-160259" width="460" height="380"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":1,"className":"tbege"} -->
-<h1 class="wp-block-heading tbege" id="h-at-us-54-a-gram">AT US$ 54 A GRAM,</h1>
+<!-- wp:heading {"className":"tbege"} -->
+<h2 class="wp-block-heading tbege" id="h-at-us-54-a-gram">AT US$ 54 A GRAM,</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"big"} -->
@@ -38,4 +23,13 @@
 
 <!-- wp:paragraph -->
 <p>A man in a shop in Manaus displays a one-kilogram bar of gold | Rodrigo Pedroso</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:cover --></div></div>
+<!-- /wp:cover -->
+
+</div>
+
+<!-- Footer -->
+<?php include './blocks/footer.php'; ?>
+
+

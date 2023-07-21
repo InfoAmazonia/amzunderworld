@@ -4,20 +4,19 @@
 <style>
 <?php include './src/less/style.css'; ?>
 </style>
-
 <!-- wp:code -->
 <link rel="stylesheet" type="text/css" href="https://taprontodev.github.io/amzunderworld/build/style.css" />
 <div class="amz" id="story0">
 <!-- /wp:code -->
 
-<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/header_story0.png","id":159453,"dimRatio":0,"align":"full","className":"header-story"} -->
-<div class="wp-block-cover alignfull header-story"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-159453" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/header_story0.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Escreva o título...","fontSize":"large"} -->
+<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/story0-header.jpg","id":160183,"dimRatio":0,"align":"full","className":"header-story"} -->
+<div class="wp-block-cover alignfull header-story"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-160183" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-header.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Escreva o título...","fontSize":"large"} -->
 <p class="has-text-align-center has-large-font-size"></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
-<!-- wp:image {"align":"center","id":159801,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-large"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/titlestory-0-1-1024x405.png" alt="" class="wp-image-159801"/></figure>
+<!-- wp:image {"align":"center","id":160180,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-title.jpg" alt="" class="wp-image-160180"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"8px"} -->
@@ -56,14 +55,14 @@
 <p>This is the Amazon Underworld, where cycles of crime &amp; destruction are fueled by a multibillion-dollar illegal trade in drugs, gold and arms.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png","id":159441,"dimRatio":0,"align":"full"} -->
-<div class="wp-block-cover alignfull"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-159441" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"textColor":"white"} -->
+<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/bg-green.jpg","id":160150,"dimRatio":0,"align":"full"} -->
+<div class="wp-block-cover alignfull"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-160150" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/bg-green.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"textColor":"white"} -->
 <h1 class="wp-block-heading has-text-align-center has-white-color has-text-color" id="h-story-map-laura">STORY MAP LAURA</h1>
 <!-- /wp:heading --></div></div>
 <!-- /wp:cover -->
 
-<!-- wp:image {"id":159450,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/faca.png" alt="" class="wp-image-159450"/></figure>
+<!-- wp:image {"id":160177,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-icone1.png" alt="" class="wp-image-160177"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":1} -->
@@ -76,7 +75,7 @@
 
 <!-- wp:code -->
 <!-- Componente Banner Mapa -->
-<section class="full borda01 mapa" style="background-image: url(https://infoamazonia.org/wp-content/uploads/2023/07/colombia_venezuela.png);">
+<section class="full borda01 mapa" style="background-image: url(https://infoamazonia.org/wp-content/uploads/2023/07/story0-map.png);">
 <div class="content">
 <div class="twocols">
 <div>
@@ -89,7 +88,7 @@
 </div>
 <div class="title">
 <span>Exército de Libertação Nacional, ELN</span>
-<img src="https://infoamazonia.org/wp-content/uploads/2023/07/eln.png">
+<img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-map-eln.png">
 </div>
 <div class="linha">
 <span class="item">Main presence:</span>
@@ -131,8 +130,8 @@
 <p>One example is the triple border between Colombia and Peru, the two largest producers of cocaine globally, and Brazil, which serves as both a significant consumer market and a crucial transit area. In this region, the Amazon River acts as the starting point for cocaine shipments that are transported to port cities along Brazil's Atlantic Coast. From there, the drugs are distributed to markets in Europe, Africa, and the Middle East.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png","id":159441,"dimRatio":0,"align":"full"} -->
-<div class="wp-block-cover alignfull"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-159441" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/banner-green.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"textColor":"white"} -->
+<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/bg-green.jpg","id":160150,"dimRatio":0,"align":"full"} -->
+<div class="wp-block-cover alignfull"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-160150" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/bg-green.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"textColor":"white"} -->
 <h1 class="wp-block-heading has-text-align-center has-white-color has-text-color" id="h-armed-groups-map-laura">ARMED GROUPS MAP LAURA</h1>
 <!-- /wp:heading --></div></div>
 <!-- /wp:cover -->
@@ -189,8 +188,8 @@
 <div style="height:64px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:image {"id":159450,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/megafone.png" alt="" class="wp-image-159450"/></figure>
+<!-- wp:image {"id":160171,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-icone2.png" alt="" class="wp-image-160171"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":1} -->
@@ -201,7 +200,7 @@
 <p>    <!-- Componente Banner Cards --></p>
 <section class="full cards">
 <div class="card">
-<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/card1.png"></div>
+<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-card1.jpg"></div>
 <div class="infos">
 <div class="local">country + country</div>
 <div class="title">Gold spurs crime &amp; corruption on Brazil-Colombia border</div>
@@ -209,7 +208,7 @@
             </p></div>
 <p></p></div>
 <div class="card">
-<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/card2.png"></div>
+<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-card2.jpg"></div>
 <div class="infos">
 <div class="local">country + country</div>
 <div class="title">Gold spurs crime &amp; corruption on Brazil-Colombia border</div>
@@ -217,7 +216,7 @@
             </p></div>
 <p></p></div>
 <div class="card">
-<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/card3.png"></div>
+<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-card3.jpg"></div>
 <div class="infos">
 <div class="local">country + country</div>
 <div class="title">Gold spurs crime &amp; corruption on Brazil-Colombia border</div>
@@ -225,7 +224,7 @@
             </p></div>
 <p></p></div>
 <div class="card">
-<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/card1.png"></div>
+<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-card1.jpg"></div>
 <div class="infos">
 <div class="local">country + country</div>
 <div class="title">Gold spurs crime &amp; corruption on Brazil-Colombia border</div>
@@ -236,8 +235,8 @@
 <!-- /wp:code -->
 
 <!-- wp:cover {"id":159441,"dimRatio":0,"isDark":false,"className":"bg-white"} -->
-<div class="wp-block-cover is-light bg-white"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:image {"id":159450,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/radio.png" alt="" class="wp-image-159450"/></figure>
+<div class="wp-block-cover is-light bg-white"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:image {"id":160159,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-icone3.png" alt="" class="wp-image-160159"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":1} -->
