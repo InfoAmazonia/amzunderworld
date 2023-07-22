@@ -90,7 +90,8 @@
                 left: 0;
                 margin-bottom: 1rem;
                 width: 100%;
-                height: 35px;
+                height: 100%;
+                top: -1px;
                 content: "";
                 display: block;
                 z-index: 2 !important;
@@ -104,7 +105,8 @@
                 bottom: 0;
                 left: 0;
                 width: 100%;
-                height: 35px; 
+                height: 100%;
+                bottom: -1px;
                 content: "";
                 display: block;
                 z-index: 2 !important;;
@@ -131,7 +133,8 @@
                 left: 0;
                 margin-bottom: 1rem;
                 width: 100%;
-                height: 35px;
+                height: 100%;
+                top: -1px;
                 content: "";
                 display: block;
                 z-index: 2 !important;
@@ -145,7 +148,8 @@
                 bottom: 0;
                 left: 0;
                 width: 100%;
-                height: 35px; 
+                height: 100%;
+                bottom: -1px;
                 content: "";
                 display: block;
                 z-index: 2 !important;;
@@ -166,7 +170,8 @@
                 left: 0;
                 margin-bottom: 1rem;
                 width: 100%;
-                height: 35px;
+                height: 100%;
+                top: -1px;
                 content: "";
                 display: block;
                 z-index: 999 !important;
@@ -180,7 +185,8 @@
                 bottom: 0;
                 left: 0;
                 width: 100%;
-                height: 35px; 
+                height: 100%;
+                bottom: -1px;
                 content: "";
                 display: block;
                 z-index: 999 !important;
@@ -201,7 +207,8 @@
                 left: 0;
                 margin-bottom: 1rem;
                 width: 100%;
-                height: 35px;
+                height: 100%;
+                top: -1px;
                 content: "";
                 display: block;
                 z-index: 999 !important;
@@ -215,7 +222,8 @@
                 bottom: 0;
                 left: 0;
                 width: 100%;
-                height: 35px; 
+                height: 100%;
+                bottom: -1px;
                 content: "";
                 display: block;
                 z-index: 999 !important;
@@ -498,7 +506,6 @@
             }
         }
    }
-
     /* Componentes */
     .header-story{
         min-height: 487px;
@@ -706,4 +713,26 @@
          
         }
 
+    }
+
+    // CONFIG HOME
+    #home{
+        background: @bg-color;
+        margin: 0;
+        .content{
+            width: 80%;
+            margin: auto;
+        }
+        nav{
+            background: @preto;
+            color: @ouro;
+            a{color: @ouro;}   
+
+        }
+        header{background: @cinza;}
+        main{
+            .section{width: 50%;}
+            background: @branco;
+        }
+        footer{background: @verde-escuro;}
     }
