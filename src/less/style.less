@@ -828,7 +828,10 @@
             }
             .obj{
                 position: absolute;
-                img{max-width: 500px;}
+                img{
+                    width: 100%;
+                    max-width: 500px;
+                }
             }
             &::before{ 
                 position: absolute;
@@ -853,6 +856,40 @@
             background-size: cover;
             min-height: 640px;
             display: flex;
+        }
+        .folhagem{
+            position: relative;
+    
+            margin-top: 70px !important;
+            margin-bottom: 70px !important;
+            .content{z-index: 99 !important; position: relative;}
+            &::before{
+                z-index: 0;
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: "";
+                display: block;
+                background: url(../src/img/folhagem_lateral_2.jpg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position:center;
+                width: 20%;
+                height: 700px;
+            }
+            &::after{
+                position: absolute;
+                top: 0;
+                right: 0;
+                content: "";
+                display: block;
+                background: url(../src/img/folhagem_lateral_1.jpg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position:center;
+                width: 20%;
+                height: 700px;
+            }
         }
         footer{
             background: @verde-escuro;padding: 2rem 0;
@@ -922,6 +959,7 @@
             }
 
         }
+
         #mapa{
             position: relative;
             background: url(../src/img/mapa.jpg);
@@ -929,6 +967,7 @@
             background-repeat: no-repeat;
             background-position: center;
             min-height: 680px;
+            overflow: auto;
             .trilha{
                 position: absolute;
                 top: 100px;
@@ -936,8 +975,8 @@
                 background: url(../src/img/mapa-trilha.png);
                 display: block;
                 content: "";
-                width: 887.87px;
-                height: 522.04px;
+                width: 80%;
+                height: 100%;
             }
 
             .explorer{
