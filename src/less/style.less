@@ -9,7 +9,7 @@
 
 /* VARIÁVEIS */
     // Tipografia
-    @import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&family=Averia+Serif+Libre:wght@400;700&family=Barlow:ital@0;1&family=Big+Shoulders+Display:wght@500;800&display=swap');
+    /* @import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&family=Averia+Serif+Libre:wght@400;700&family=Barlow:ital@0;1&family=Big+Shoulders+Display:wght@500;800&display=swap'); */
 
     @ff-title: "Averia Serif Libre", sans-serif;
     @ff-body: "Barlow", sans-serif;
@@ -962,22 +962,27 @@
 
         #mapa{
             position: relative;
-            background: url(../src/img/mapa.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            min-height: 680px;
+            max-height: 680px;
             overflow: inherit;
+            background: @preto;
+            .full-mapa{
+                position: relative;
+                z-index: 0 !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                max-height: 680px;
+                overflow: auto;
+                img{width: 100%;}
+            }
             .trilha{
                 position: absolute;
-                top: 100px;
+                top: 0;
                 left: 0;
-                background: url(../src/img/mapa-trilha.png);
-                background-repeat: no-repeat;
-                display: block;
-                content: "";
                 width: 80%;
-                height: 100%;
+                z-index: 1 !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                img{width: 100%;}
             }
 
             .explorer{
