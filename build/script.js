@@ -176,6 +176,30 @@
     alltips = document.querySelectorAll("[data-tip]");
     startTips();
   }
+
+  //tabs
+  var tabWrapper = document.querySelectorAll(".tab-wrapper");
+  if (tabWrapper.length) tabWrapper.forEach(function (tw) {
+    var openTabBtn = tw.querySelectorAll("[data-tab]");
+    var tabContent = tw.querySelectorAll(".tab-content");
+    openTabBtn.forEach(function (button) {
+      button.onclick = function (event) {
+        tabContent.forEach(function (tab) {
+          if (tab.classList.contains("is-visible")) {
+            tab.classList.remove("is-visible");
+          }
+        });
+        openTabBtn.forEach(function (btn) {
+          if (btn.classList.contains("ativo")) {
+            btn.classList.remove("ativo");
+          }
+        });
+        button.classList.add("ativo");
+        var tabId = button.dataset.tab;
+        document.getElementById(tabId).classList.add("is-visible");
+      };
+    });
+  });
   window.addEventListener("scroll", frameFumaca);
   document.addEventListener("DOMContentLoaded", reloadFumaca);
   window.addEventListener('resize', reloadFumaca, true);

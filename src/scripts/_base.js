@@ -12,6 +12,7 @@
       wst,
       tooltip,
       alltips;
+
   function positionTooltip(e) {
     var ml = tooltip.offsetWidth / 2;
     var mt = tooltip.offsetHeight / 2;
@@ -196,6 +197,37 @@
     alltips = document.querySelectorAll("[data-tip]");
     startTips();
   }
+
+  //tabs
+  const tabWrapper = document.querySelectorAll(".tab-wrapper");        
+
+  if(tabWrapper.length) tabWrapper.forEach(tw => {
+    
+    const openTabBtn = tw.querySelectorAll("[data-tab]");        
+    const tabContent = tw.querySelectorAll(".tab-content");       
+
+    openTabBtn.forEach(button => {
+      button.onclick = event => {
+
+          tabContent.forEach(tab => {
+            if(tab.classList.contains("is-visible")){
+              tab.classList.remove("is-visible");
+            }
+          });
+
+          openTabBtn.forEach(btn => {
+            if(btn.classList.contains("ativo")){
+              btn.classList.remove("ativo");
+            }
+          });
+
+          button.classList.add("ativo");
+          const tabId = button.dataset.tab;
+          document.getElementById(tabId).classList.add("is-visible");
+      };
+    });
+
+  }); 
 
   window.addEventListener("scroll", frameFumaca);
   document.addEventListener("DOMContentLoaded", reloadFumaca);

@@ -76,6 +76,10 @@
          .no-padding{
             padding: 0 !important;
          }
+         @keyframes show {
+            from{ opacity: 0.5; }
+            to{  opacity: 1; }
+        }
 
          .cinza{background: @cinza; }
          .branco{background: @branco; }
@@ -481,8 +485,30 @@
         background-size:auto;
         background-repeat: no-repeat;
         background-position-x: 75%;
+        padding-top:2rem!important;
+        padding-bottom:2rem!important;
         .twocols{
             padding: 4rem 0;
+            position:relative;
+            @media(max-width:991px){
+                display:block!important;
+            }
+        }
+        .map-col{
+            @media (max-width:991px){
+                position:relative;
+                bottom:-5rem;
+            }
+            @media (min-width:992px){
+                position: absolute;
+                right: 0;
+                bottom: -1rem;
+            }
+        }
+        .tab-content{
+            @media (min-width:991px){
+                min-height: 300px;
+            }
         }
         .title{
             width: 100% !important; 
@@ -663,4 +689,14 @@
          
         }
 
+    }
+
+    .tab-wrapper{
+        .tab-content{
+            display:none;
+            &.is-visible{
+                animation: show 300ms forwards;
+                display:block;
+            }
+        }
     }

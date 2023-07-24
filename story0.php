@@ -76,46 +76,190 @@
 
 <!-- wp:code -->
 <!-- Componente Banner Mapa -->
-<section class="full borda01 mapa" style="background-image: url(https://infoamazonia.org/wp-content/uploads/2023/07/colombia_venezuela.png);">
-<div class="content">
-<div class="twocols">
-<div>
-<div class="tags">
-<button class="tag ativo">Exército de Libertação Nacional</button>
-<button class="tag">farc dissidents</button>
-<button class="tag">primeiro comando da capital</button>
-<button class="tag">comando vermelho</button>
-<button class="tag">sindicatos</button>
-</div>
-<div class="title">
-<span>Exército de Libertação Nacional, ELN</span>
-<img src="https://infoamazonia.org/wp-content/uploads/2023/07/eln.png">
-</div>
-<div class="linha">
-<span class="item">Main presence:</span>
-<span class="value">Colombia &amp; Venezuela</span>
-</div>
-<div class="linha" style="flex-direction: row;">
-<div class="coll" style="margin-right:6rem;">
-<span class="item">Est. members:</span>
-<span class="value">XXX.XXX</span>
-</div>
-<div class="coll">
-<span class="item">Founded:</span>
-<span class="value">1964</span>
-</div>
-<p></p></div>
-<div class="linha">
-<span class="item">Political/ideological stance:</span>
-<span class="value">Marxist guerrilla group</span>
-</div>
-<div class="linha">
-<span class="item">Main economies:</span>
-<span class="value">Illegal gold mining and taxing the drug trade</span>
-</div>
-</div>
-</div>
-</div>
+<section class="full borda01 mapa">
+    <div class="content">
+        <div class="twocols tab-wrapper">
+            <div>
+                <div class="tags">
+                    <button class="tag ativo" data-tab="eln">Exército de Libertação Nacional</button>
+                    <button class="tag" data-tab="fd">farc dissidents</button>
+                    <button class="tag" data-tab="pcc">primeiro comando da capital</button>
+                    <button class="tag" data-tab="cv">comando vermelho</button>
+                    <button class="tag" data-tab="sind">sindicatos</button>
+                </div>
+                <!-- Exército de Libertação Nacional, ELN -->
+                <div class="tab-content is-visible" id="eln">
+                    <div>
+                        <div class="title">
+                            <span>Exército de Libertação Nacional, ELN</span>
+                            <img src="https://infoamazonia.org/wp-content/uploads/2023/07/eln.png">
+                        </div>
+                        <div class="linha">
+                            <span class="item">Main presence:</span>
+                            <span class="value">Colombia &amp; Venezuela</span>
+                        </div>
+                        <div class="linha" style="flex-direction: row;">
+                            <div class="coll" style="margin-right:6rem;">
+                                <span class="item">Est. members:</span>
+                                <span class="value">XXX.XXX</span>
+                            </div>
+                            <div class="coll">
+                                <span class="item">Founded:</span>
+                                <span class="value">1964</span>
+                            </div>
+                        </div>
+                        <div class="linha">
+                            <span class="item">Political/ideological stance:</span>
+                            <span class="value">Marxist guerrilla group</span>
+                        </div>
+                        <div class="linha">
+                            <span class="item">Main economies:</span>
+                            <span class="value">Illegal gold mining and taxing the drug trade</span>
+                        </div>
+                    </div>
+                    <div class="map-col">
+                        <img src="./src/img/story0-map1.png">
+                    </div>
+                </div>
+                <!-- Farc Dissidents -->
+                <div class="tab-content" id="fd">
+                    <div>
+                        <div class="title">
+                            <span>Farc Dissidents</span>
+                            <img src="https://infoamazonia.org/wp-content/uploads/2023/07/fd.png">
+                        </div>
+                        <div class="linha">
+                            <span class="item">Main presence:</span>
+                            <span class="value">Colombia &amp; Venezuela</span>
+                        </div>
+                        <div class="linha" style="flex-direction: row;">
+                            <div class="coll" style="margin-right:6rem;">
+                                <span class="item">Est. members:</span>
+                                <span class="value">XXX.XXX</span>
+                            </div>
+                            <div class="coll">
+                                <span class="item">Founded:</span>
+                                <span class="value">1964</span>
+                            </div>
+                        </div>
+                        <div class="linha">
+                            <span class="item">Political/ideological stance:</span>
+                            <span class="value">Marxist guerrilla group</span>
+                        </div>
+                        <div class="linha">
+                            <span class="item">Main economies:</span>
+                            <span class="value">Illegal gold mining and taxing the drug trade</span>
+                        </div>
+                    </div>
+                    <div class="map-col">
+                        <img src="./src/img/story0-map2.png">
+                    </div>
+                </div>
+                <!-- Primeiro Comando da Capital, PCC -->
+                <div class="tab-content" id="pcc">
+                    <div>
+                        <div class="title">
+                            <span>Primeiro Comando da Capital, PCC</span>
+                            <img src="https://infoamazonia.org/wp-content/uploads/2023/07/pcc.png">
+                        </div>
+                        <div class="linha">
+                            <span class="item">Main presence:</span>
+                            <span class="value">Colombia &amp; Venezuela</span>
+                        </div>
+                        <div class="linha" style="flex-direction: row;">
+                            <div class="coll" style="margin-right:6rem;">
+                                <span class="item">Est. members:</span>
+                                <span class="value">XXX.XXX</span>
+                            </div>
+                            <div class="coll">
+                                <span class="item">Founded:</span>
+                                <span class="value">1964</span>
+                            </div>
+                        </div>
+                        <div class="linha">
+                            <span class="item">Political/ideological stance:</span>
+                            <span class="value">Marxist guerrilla group</span>
+                        </div>
+                        <div class="linha">
+                            <span class="item">Main economies:</span>
+                            <span class="value">Illegal gold mining and taxing the drug trade</span>
+                        </div>
+                    </div>
+                    <div class="map-col">
+                        <img src="./src/img/story0-map3.png">
+                    </div>
+                </div>                
+                <!-- Comando Vermelho -->
+                <div class="tab-content" id="cv">
+                    <div>
+                        <div class="title">
+                            <span>Comando Vermelho</span>
+                            <img src="https://infoamazonia.org/wp-content/uploads/2023/07/cv.png">
+                        </div>
+                        <div class="linha">
+                            <span class="item">Main presence:</span>
+                            <span class="value">Colombia &amp; Venezuela</span>
+                        </div>
+                        <div class="linha" style="flex-direction: row;">
+                            <div class="coll" style="margin-right:6rem;">
+                                <span class="item">Est. members:</span>
+                                <span class="value">XXX.XXX</span>
+                            </div>
+                            <div class="coll">
+                                <span class="item">Founded:</span>
+                                <span class="value">1964</span>
+                            </div>
+                        </div>
+                        <div class="linha">
+                            <span class="item">Political/ideological stance:</span>
+                            <span class="value">Marxist guerrilla group</span>
+                        </div>
+                        <div class="linha">
+                            <span class="item">Main economies:</span>
+                            <span class="value">Illegal gold mining and taxing the drug trade</span>
+                        </div>
+                    </div>
+                    <div class="map-col">
+                        <img src="./src/img/story0-map4.png">
+                    </div>
+                </div>
+                <!-- Sindicatos -->
+                <div class="tab-content" id="sind">
+                    <div>
+                        <div class="title">
+                            <span>Sindicatos</span>
+                            <img src="https://infoamazonia.org/wp-content/uploads/2023/07/sind.png">
+                        </div>
+                        <div class="linha">
+                            <span class="item">Main presence:</span>
+                            <span class="value">Colombia &amp; Venezuela</span>
+                        </div>
+                        <div class="linha" style="flex-direction: row;">
+                            <div class="coll" style="margin-right:6rem;">
+                                <span class="item">Est. members:</span>
+                                <span class="value">XXX.XXX</span>
+                            </div>
+                            <div class="coll">
+                                <span class="item">Founded:</span>
+                                <span class="value">1964</span>
+                            </div>
+                        </div>
+                        <div class="linha">
+                            <span class="item">Political/ideological stance:</span>
+                            <span class="value">Marxist guerrilla group</span>
+                        </div>
+                        <div class="linha">
+                            <span class="item">Main economies:</span>
+                            <span class="value">Illegal gold mining and taxing the drug trade</span>
+                        </div>
+                    </div>
+                    <div class="map-col">
+                        <img src="./src/img/story0-map5.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- /wp:code -->
 
