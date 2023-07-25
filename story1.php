@@ -86,16 +86,91 @@
     <!-- background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga.jpg') -->
     <div class="fundo" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga.jpg')" >
         <div class="title" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-title-1.png')">Mining dredges leaves big environmental footprint</div>
-        <div class="item" style="top:14rem; left:10rem;">
-            <div class="box" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-box-1.png')">Mercury causes digestive and neurological problems. In pregnant persons, it can cross the placenta, affecting the fetus at critical times for brain development.</div>
-            <a href="https://infoamazonia.org/" class="icon" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-icon-1.png')"></a>
-        </div>
-        <div class="item" style="top:14rem; left:40rem;">
-            <div class="box" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-box-1.png')">Mercury causes digestive and neurological problems. In pregnant persons, it can cross the placenta, affecting the fetus at critical times for brain development.</div>
-            <a href="https://infoamazonia.org/" class="icon" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-icon-1.png')"></a>
+        <div>
+            <div class="item">
+                <div class="box" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-box-1.png')">Mercury causes digestive and neurological problems. In pregnant persons, it can cross the placenta, affecting the fetus at critical times for brain development.</div>
+                <button data-modal="draga1" class="icon" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-icon-1.png')"></button>
+            </div>
+            <div class="item">
+                <div class="box" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-box-1.png')">Mercury causes digestive and neurological problems. In pregnant persons, it can cross the placenta, affecting the fetus at critical times for brain development.</div>
+                <button data-modal="draga2" class="icon" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-icon-1.png')"></button>
+            </div>
+            <div class="item">
+                <div class="box" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-box-1.png')">Mercury causes digestive and neurological problems. In pregnant persons, it can cross the placenta, affecting the fetus at critical times for brain development.</div>
+                <button data-modal="draga3" class="icon" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-icon-1.png')"></button>
+            </div>
+            <div class="item">
+                <div class="box" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-box-1.png')">Mercury causes digestive and neurological problems. In pregnant persons, it can cross the placenta, affecting the fetus at critical times for brain development.</div>
+                <button data-modal="draga4" class="icon" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-icon-1.png')"></button>
+            </div>
+            <div class="item">
+                <div class="box" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-box-1.png')">Mercury causes digestive and neurological problems. In pregnant persons, it can cross the placenta, affecting the fetus at critical times for brain development.</div>
+                <button data-modal="draga5" class="icon" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-icon-1.png')"></button>
+            </div>
+            <div class="item">
+                <div class="box" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-box-1.png')">Mercury causes digestive and neurological problems. In pregnant persons, it can cross the placenta, affecting the fetus at critical times for brain development.</div>
+                <button data-modal="draga6" class="icon" style=" background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga-icon-1.png')"></button>
+            </div>     
         </div>
     </div>
+
+    <div class="modal" id="draga1">
+        <div class="content">
+            <button class="modalclose" data-modal="draga1"></button>
+            <div class="gallery">
+                <img src="./src/img/draga-modal.jpg"/>
+                <div class="caption">Description 1 | Bram Ebus</div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="draga2">
+        <div class="content">
+            <button class="modalclose" data-modal="draga2"></button>
+            <div class="gallery">
+                <img src="./src/img/draga-modal.jpg"/>
+                <div class="caption">Description 2 | Bram Ebus</div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="draga3">
+        <div class="content">
+            <button class="modalclose" data-modal="draga3"></button>
+            <div class="gallery">
+                <img src="./src/img/draga-modal.jpg"/>
+                <div class="caption">Description 3 | Bram Ebus</div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="draga4">
+        <div class="content">
+            <button class="modalclose" data-modal="draga4"></button>
+            <div class="gallery">
+                <img src="./src/img/draga-modal.jpg"/>
+                <div class="caption">Description 4 | Bram Ebus</div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="draga5">
+        <div class="content">
+            <button class="modalclose" data-modal="draga5"></button>
+            <div class="gallery">
+                <img src="./src/img/draga-modal.jpg"/>
+                <div class="caption">Description 5 | Bram Ebus</div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="draga6">
+        <div class="content">
+            <button class="modalclose" data-modal="draga6"></button>
+            <div class="gallery">
+                <img src="./src/img/draga-modal.jpg"/>
+                <div class="caption">Description 6 | Bram Ebus</div>
+            </div>
+        </div>
+    </div>
+
 </section>
+
 <!-- /wp:code -->
 
 <!-- wp:spacer {"height":"48px"} -->

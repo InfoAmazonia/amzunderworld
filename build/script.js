@@ -200,6 +200,16 @@
       };
     });
   });
+
+  // modal
+
+  var openModalBtn = document.querySelectorAll("[data-modal]");
+  if (openModalBtn) openModalBtn.forEach(function (button) {
+    button.onclick = function (event) {
+      var modalId = button.dataset.modal;
+      document.getElementById(modalId).classList.toggle("is-visible");
+    };
+  });
   window.addEventListener("scroll", frameFumaca);
   document.addEventListener("DOMContentLoaded", reloadFumaca);
   window.addEventListener('resize', reloadFumaca, true);

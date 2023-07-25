@@ -229,6 +229,20 @@
 
   }); 
 
+  // modal
+    
+  const openModalBtn = document.querySelectorAll("[data-modal]");        
+
+  if(openModalBtn) openModalBtn.forEach(button => {
+      button.onclick = event => {
+
+          const modalId = button.dataset.modal;
+          document.getElementById(modalId).classList.toggle("is-visible");
+
+      };
+  });
+
+  
   window.addEventListener("scroll", frameFumaca);
   document.addEventListener("DOMContentLoaded", reloadFumaca);
   window.addEventListener('resize', reloadFumaca, true);
