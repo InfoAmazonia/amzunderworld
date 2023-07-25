@@ -817,6 +817,26 @@
             font-size:0.8rem;
         }
     }
+
+    // scrollytelling
+    .scrollytelling{
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:contain;
+        .scrollytelling-inner{
+            height:100vh;
+            width:100%;
+            display:block;
+            .box{
+                margin-top:3rem;
+                padding:1.5rem;
+                display:block;
+                max-width:360px;
+                background-size:100%!important;
+                background: url('./assets/scrollytelling-bg-box.svg') repeat-y;
+            }
+        }
+    }
             
     // CONFIG HOME
     #home{

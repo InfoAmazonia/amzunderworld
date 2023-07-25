@@ -978,6 +978,24 @@ h3 {
   width: 100%;
   font-size: 0.8rem;
 }
+.scrollytelling {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+}
+.scrollytelling .scrollytelling-inner {
+  height: 100vh;
+  width: 100%;
+  display: block;
+}
+.scrollytelling .scrollytelling-inner .box {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  display: block;
+  max-width: 360px;
+  background-size: 100%!important;
+  background: url('assets/scrollytelling-bg-box.svg') repeat-y;
+}
 #home {
   background: #E7E0D4;
   margin: 0;

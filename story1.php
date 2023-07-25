@@ -56,9 +56,31 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/story1-globo.png","id":160325,"dimRatio":0,"align":"full"} -->
-<div class="wp-block-cover alignfull"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-160325" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-globo.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"textColor":"white"} -->
-<h1 class="wp-block-heading has-text-align-center has-white-color has-text-color" id="h-scrollytelling">scrollytelling</h1>
-<!-- /wp:heading --></div></div>
+<div class="wp-block-cover alignfull scrollytelling" style="background-image:url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-globo.png')">
+    <span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
+    <div class="wp-block-cover__inner-container">
+        <div class="scrollytelling-inner">
+            <div class="box">
+                <p>In Brazil’s Amazonas state, near the border with Colombia, illegal mining is fueled by rising gold prices and surrounded by violence and corruption. </p>
+            </div>
+        </div>
+        <div class="scrollytelling-inner">
+            <div class="box">
+                <p>In Brazil’s Amazonas state, near the border with Colombia, illegal mining is fueled by rising gold prices and surrounded by violence and corruption.</p>
+            </div>        
+        </div>
+        <div class="scrollytelling-inner">
+            <div class="box">
+                <p>In Brazil’s Amazonas state, near the border with Colombia, illegal mining is fueled by rising gold prices and surrounded by violence and corruption.</p>
+            </div>        
+        </div>
+        <div class="scrollytelling-inner">
+            <div class="box">
+                <p>In Brazil’s Amazonas state, near the border with Colombia, illegal mining is fueled by rising gold prices and surrounded by violence and corruption.</p>
+            </div>        
+        </div>
+    </div>
+</div>
 <!-- /wp:cover -->
 
 <!-- wp:image {"id":160322,"sizeSlug":"full","linkDestination":"none"} -->
