@@ -829,10 +829,12 @@
             background-size: cover;
             width: 100%; /* Largura total do contêiner */
             height: 80vh;
+            overflow: hidden;
             .centro{
                 position: absolute;
                 top: 50%;
                 left: 50%; 
+                width: 50%;
                 transform: translate(-50%, -50%); 
                 color: @bg-color; max-width: 500px; text-align: center;  
                 .logo{width: 100%;}
@@ -840,34 +842,21 @@
                     @media only screen and (max-width: 600px) {font-size: 100%;}
                 }
             }
-            .esquerda{
+            .direita, .esquerda{
                 position: absolute;
-                left: 0;
-                top: 0;
                 width: 50%;
+                top: 50%;
                 height: 100%;
-                overflow: hidden;
-                .obj{
-                    left: 0;
+                img{
+                    position: absolute;
+                    height: auto;
                 }
+            }
+            .esquerda{
+                right: 55%;
             }
             .direita{
-                position: absolute;
-                right: 0;
-                top: 0;
-                width: 50%;
-                height: 100%;
-                overflow: hidden;
-                .obj{
-                    right: 0;
-                }
-            }
-            .obj{
-                position: absolute;
-                img{
-                    width: 100%;
-                    max-width: 500px;
-                }
+                left: 55%;
             }
             &::before{ 
                 position: absolute;
