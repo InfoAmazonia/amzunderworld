@@ -68,6 +68,15 @@
     });
   });
 
+  // modal
+  const openModalBtn = document.querySelectorAll("[data-modal]");        
+  if(openModalBtn) openModalBtn.forEach(button => {
+      button.onclick = event => {
+          const modalId = button.dataset.modal;
+          document.getElementById(modalId).classList.toggle("is-visible");
+      };
+  });
+
   // Parallax
   var parallaxApp = {
     itens: {},
