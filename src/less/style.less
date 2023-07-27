@@ -95,7 +95,7 @@
                 top: 0;
                 left: 0;
                 margin-bottom: 1rem;
-                width: 100%;
+                width: 102%;
                 height: 100%;
                 top: -1px;
                 content: "";
@@ -110,7 +110,7 @@
                 position: absolute;
                 bottom: 0;
                 left: 0;
-                width: 100%;
+                width: 102%;
                 height: 100%;
                 bottom: -1px;
                 content: "";
@@ -1078,33 +1078,37 @@
 
         #mapa{
             position: relative;
-            max-height: 680px;
-            overflow: inherit;
+            height: 80vh;
+            min-height: 45vw;
+            overflow: hidden;
             background: @preto;
             .full-mapa{
-                position: relative;
-                z-index: 0 !important;
-                margin: 0 !important;
-                padding: 0 !important;
-                max-height: 680px;
-                overflow: auto;
-                img{width: 100%;}
+                position: absolute;
+                top: 0;left: -10%;
+                object-fit: cover;
+                width: 120%;
+                height: 100%;
             }
             .trilha{
                 position: absolute;
-                left: 0;
-                 top:6rem;
-                 width: 100%;
-                z-index: 1 !important;
-                margin: 0 !important;
-                padding: 0 !important;
-                img{width: 55%;}
+                top: 0; left: -10%;
+                object-fit: contain;
+                width: 120%;
+                height: 100%;
+                opacity: .5;
             }
-
+            .centro{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                width: 120%;
+                height: 100%;
+            }
             .explorer{
                 font-family: "Averia Gruesa Libre", sans-serif !important; 
                 font-size: 1.2rem;
                 position: absolute;
+                left: 14vw; top: -17vw;
                 width: 200px;
                 color: @bege;
                 padding: 1rem 1.4rem !important;
@@ -1116,7 +1120,7 @@
             .marcador{
                 position: absolute;
                 width: fit-content;
-            
+
                 .numero{
                     position: absolute;
                     font-family: "Averia Gruesa Libre", sans-serif !important;
@@ -1133,15 +1137,23 @@
                     justify-content: center;
                     width: 48px;
                     height: 43px;
+                    max-width: 4vw;
+                    max-height: 4vw;
                     top: 0;
                     z-index: 20 !important;
                     background: url('data:image/svg+xml,<svg width="49" height="44" viewBox="0 0 49 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M48.2975 22.7664C47.105 35.3778 38.161 44.9064 23.8506 43.7854C17.2023 43.2641 11.2396 41.7059 6.94054 38.1467C2.64146 34.5875 0 29.0329 0 22.7664C0 16.9148 3.88765 11.9375 7.75146 7.91304C12.1698 3.31129 17.0651 -0.556191 24.1488 0.0659697C36.9685 1.18698 49.4781 10.2784 48.2975 22.7664Z" fill="%23E9BA68"/></svg>');
                     background-size: contain;
                     background-repeat: no-repeat;
                     padding: 0 !important;
+                    img{
+                        display: block;
+                        margin: 0 auto;
+                        max-width: 90%;
+                        max-height: 90%;
+                        object-fit: contain;
+                    }
                 }
                 .conteudo{
-                    
                     display: none;
                     position: absolute;
                     top: -20px;
@@ -1164,8 +1176,22 @@
                     }
                 }
             }
-            .marcador:hover .conteudo {
-                 display: block;
+            .marcador:hover{
+                z-index:999;
+                .conteudo {
+                     display: block;
+                }
+            }
+            @media(max-aspect-ratio: 4/3){
+                height: 90vh;
+                min-height: 90vh;
+                .full-mapa, .trilha{
+                    width: 100%;
+                    left: 0;
+                }
+                .centro{
+                    width: 100%;
+                }
             }
         }
     }
