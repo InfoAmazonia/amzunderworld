@@ -41,15 +41,15 @@
         <H2>Imagens</H2>
         <H3>Estilo Full</H3>
         <div class="image-container full">
-        <img src="./src/img/foto1.png">
+        <img src="./assets/img/foto1.png">
         </div>
         <H3>Estilo Half</H3>
         <div class="image-container half">
-            <img src="./src/img/foto2.png" >
+            <img src="./assets/img/foto2.png" >
         </div>
         <H3>Estilo Destaque</H3>
         <div class="image-container destaque">
-            <img src="./src/img/foto1.png">
+            <img src="./assets/img/foto1.png">
         </div>
     </section>
 
@@ -78,7 +78,7 @@
     </section>
     
     <section >
-        <img src="./src/img/faca.svg" >
+        <img src="./assets/img/faca.svg" >
         <H1>Criminal & armed groups</H1>
         <p class="big">The Amazon, known as the largest rainforest in the world, also functions as a source and transit point for illegally extracted jungle resources and narcotics, linking nine countries together. 
         As criminal economies expand in size, the levels of violence and deforestation worsen, and the Amazon and its communities face an existential threat.</p>
@@ -99,7 +99,7 @@
         <div class="main-content">
             <div class="twocols">   
                 <div class="image-container destaque">
-                    <img src="./src/img/foto1.png">
+                    <img src="./assets/img/foto1.png">
                 </div>
                 <div>
                     <p class="quote citacao">  A pack of Coca-Cola costs one gram [of gold], a box of chicken is two grams. Everything is like that. A package of sausages is one gram​​. Everything is expensive, very expensive (Cabeludo)</p>
@@ -115,7 +115,7 @@
         <div class="main-content">
             <div class="twocols">   
                 <div class="image-container destaque">
-                    <img src="./src/img/foto2.png">
+                    <img src="./assets/img/foto2.png">
                 </div>
                 <div>
                     <p class="bignumber tbege">AT US$ 54 A GRAM,</p>
@@ -142,7 +142,7 @@
                     </div>
                     <div class="title">
                         <span>Exército de Libertação Nacional, ELN</span>
-                        <img src="./src/img/eln.png" >
+                        <img src="./assets/img/eln.png" >
                     </div>
                     <div class="linha">  
                         <span class="item">Main presence:</span>
@@ -186,7 +186,7 @@
     <!-- Componente Banner Cards -->
     <section class="full cards" >
         <div class="card">
-            <div class="image"><img src="./src/img/card1.png" ></div>
+            <div class="image"><img src="./assets/img/card1.png" ></div>
             <div class="infos">
                 <div class="local">country + country</div>
                 <div class="title">Gold spurs crime & corruption on Brazil-Colombia border</div>
@@ -195,7 +195,7 @@
         </div>
 
         <div class="card">
-            <div class="image"><img src="./src/img/card2.png" ></div>
+            <div class="image"><img src="./assets/img/card2.png" ></div>
             <div class="infos">
                 <div class="local">country + country</div>
                 <div class="title">Gold spurs crime & corruption on Brazil-Colombia border</div>
@@ -204,7 +204,7 @@
         </div>
 
         <div class="card">
-            <div class="image"><img src="./src/img/card3.png" ></div>
+            <div class="image"><img src="./assets/img/card3.png" ></div>
             <div class="infos">
                 <div class="local">country + country</div>
                 <div class="title">Gold spurs crime & corruption on Brazil-Colombia border</div>
@@ -213,7 +213,7 @@
         </div>
 
         <div class="card">
-            <div class="image"><img src="./src/img/card1.png" ></div>
+            <div class="image"><img src="./assets/img/card1.png" ></div>
             <div class="infos">
                 <div class="local">country + country</div>
                 <div class="title">Gold spurs crime & corruption on Brazil-Colombia border</div>
@@ -225,7 +225,7 @@
     <!-- Componente Big Numbers -->
     <section class="full bignumber">
         <div class="main-content">
-            <img src="./src/img/story1_big_number.png" >
+            <img src="./assets/img/story1_big_number.png" >
             <p class="big"> If the approximately</p>
             <h1 class="tverdeescuroa">150 dragas on the Puruê Riverpays 30 grams of gold</h1>
             <p class="big"> a month each, the military police collects in the river </p>
@@ -245,7 +245,7 @@
     
                 <div class="card">
                     <div class="image-area">
-                        <img src="./src/img/infografico-icon1.png" >
+                        <img src="./assets/img/infografico-icon1.png" >
                     </div>
                     <p>
                     Military Police function as vigilantes protecting miners from thieves & guerrillas.
@@ -254,7 +254,7 @@
 
                 <div class="card">
                     <div class="image-area">
-                        <img src="./src/img/infografico-icon2.png" >
+                        <img src="./assets/img/infografico-icon2.png" >
                     </div>
                     <p>
                     The Military Police collects a monthly 30 grams of gold per mining dredge.
@@ -263,7 +263,7 @@
 
                 <div class="card">
                     <div class="image-area">
-                        <img src="./src/img/infografico-icon3.png" >
+                        <img src="./assets/img/infografico-icon3.png" >
                     </div>
                     <p>
                     Military Police traffickers gold over X route.
@@ -272,7 +272,7 @@
 
                 <div class="card">
                     <div class="image-area">
-                        <img src="./src/img/infografico-icon4.png" >
+                        <img src="./assets/img/infografico-icon4.png" >
                     </div>
                     <p>
                     The Prefeitura de Japurá also collects up to 50 grams a month per mining dredge.
@@ -287,7 +287,7 @@
 
     <section class="full branco" style="padding: 6rem 0;">
         <div class="main-content">
-            <img src="./src/img/faca.svg" >
+            <img src="./assets/img/faca.svg" >
             <H1>todas as histórias do projeto</H1>
             <p  style="padding: 1rem 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
             <button  class="btn big">CONHEÇA</button>

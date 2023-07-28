@@ -109,6 +109,28 @@
       });
     }
   };
+  var linksApp = {
+    init: function init() {
+      var h = 'https://infoamazonia.org/';
+      var links = [['n1', '2023-08-03T10:00:00.00Z', '2023/08/03/welcome-to-the-amazon-underworld'], ['n2', '2023-08-06T10:00:00.00Z', '2023/08/06/gold-spurs-crime-corruption-on-brazil-colombia-border'], ['n3', '2023-08-10T10:00:00.00Z', '2023/08/10/armed-groups-threaten-indigenous-lands-in-southern-venezuela'], ['n4', '2023-08-13T10:00:00.00Z', '2023/08/13/the-poorest-narcos-in-the-drug-trafficking-chain'], ['n5', '2023-08-15T10:00:00.00Z', '2023/08/15/colombian-drug-runners-turn-to-shamans-for-protection'], ['n6', '2023-08-17T10:00:00.00Z', '2023/08/17/brazilian-drug-gang-takes-root-in-peruvian-amazon'], ['n7', '2023-08-20T10:00:00.00Z', '2023/08/20/in-venezuela-colombian-guerrillas-recruit-indigenous-youth'], ['n8', '2023-08-22T10:00:00.00Z', '2023/08/22/for-young-venezuelan-migrants-in-brazil-drugs-gold-and-early-death'], ['n9', '2023-08-24T10:00:00.00Z', '2023/08/24/drug-gangs-threaten-communities-in-amazon-cocaine-corridor']];
+      links.forEach(function (l) {
+        var c = document.querySelectorAll('.' + l[0]);
+        if (c.length) c.forEach(function (cc) {
+          if (linksApp.comparaData(l[1])) {
+            cc.classList.remove('disabled');
+            cc.href = h + (lang != 'pt' ? lang + '/' : '') + l[2];
+            cc.target = "_blank";
+          }
+        });
+      });
+    },
+    comparaData: function comparaData(d) {
+      var currentDate = new Date();
+      var currentUtcDate = new Date(Date.UTC(currentDate.getUTCFullYear(), currentDate.getUTCMonth(), currentDate.getUTCDate(), currentDate.getUTCHours(), currentDate.getUTCMinutes(), currentDate.getUTCSeconds()));
+      var providedDate = new Date(d);
+      return providedDate <= currentUtcDate;
+    }
+  };
 
   // Start
   function start() {
@@ -117,6 +139,7 @@
     removeAllScrollEvents();
     removeAllStartEvents();
     parallaxApp.init();
+    linksApp.init();
     fixedScrollFunction();
   }
   window.addEventListener("scroll", fixedScrollFunction);

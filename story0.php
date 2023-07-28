@@ -117,7 +117,7 @@
                         </div>
                     </div>
                     <div class="map-col">
-                        <img src="./src/img/story0-map1.png">
+                        <img src="./assets/img/story0-map1.png">
                     </div>
                 </div>
                 <!-- Farc Dissidents -->
@@ -151,7 +151,7 @@
                         </div>
                     </div>
                     <div class="map-col">
-                        <img src="./src/img/story0-map2.png">
+                        <img src="./assets/img/story0-map2.png">
                     </div>
                 </div>
                 <!-- Primeiro Comando da Capital, PCC -->
@@ -185,7 +185,7 @@
                         </div>
                     </div>
                     <div class="map-col">
-                        <img src="./src/img/story0-map3.png">
+                        <img src="./assets/img/story0-map3.png">
                     </div>
                 </div>                
                 <!-- Comando Vermelho -->
@@ -219,7 +219,7 @@
                         </div>
                     </div>
                     <div class="map-col">
-                        <img src="./src/img/story0-map4.png">
+                        <img src="./assets/img/story0-map4.png">
                     </div>
                 </div>
                 <!-- Sindicatos -->
@@ -253,7 +253,7 @@
                         </div>
                     </div>
                     <div class="map-col">
-                        <img src="./src/img/story0-map5.png">
+                        <img src="./assets/img/story0-map5.png">
                     </div>
                 </div>
             </div>

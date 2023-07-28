@@ -140,7 +140,7 @@
         <div class="content">
             <button class="modalclose" data-modal="draga1"></button>
             <div class="gallery">
-                <img src="./src/img/draga-modal.jpg"/>
+                <img src="./assets/img/draga-modal.jpg"/>
                 <div class="caption">Description 1 | Bram Ebus</div>
             </div>
         </div>
@@ -149,7 +149,7 @@
         <div class="content">
             <button class="modalclose" data-modal="draga2"></button>
             <div class="gallery">
-                <img src="./src/img/draga-modal.jpg"/>
+                <img src="./assets/img/draga-modal.jpg"/>
                 <div class="caption">Description 2 | Bram Ebus</div>
             </div>
         </div>
@@ -158,7 +158,7 @@
         <div class="content">
             <button class="modalclose" data-modal="draga3"></button>
             <div class="gallery">
-                <img src="./src/img/draga-modal.jpg"/>
+                <img src="./assets/img/draga-modal.jpg"/>
                 <div class="caption">Description 3 | Bram Ebus</div>
             </div>
         </div>
@@ -167,7 +167,7 @@
         <div class="content">
             <button class="modalclose" data-modal="draga4"></button>
             <div class="gallery">
-                <img src="./src/img/draga-modal.jpg"/>
+                <img src="./assets/img/draga-modal.jpg"/>
                 <div class="caption">Description 4 | Bram Ebus</div>
             </div>
         </div>
@@ -176,7 +176,7 @@
         <div class="content">
             <button class="modalclose" data-modal="draga5"></button>
             <div class="gallery">
-                <img src="./src/img/draga-modal.jpg"/>
+                <img src="./assets/img/draga-modal.jpg"/>
                 <div class="caption">Description 5 | Bram Ebus</div>
             </div>
         </div>
@@ -185,7 +185,7 @@
         <div class="content">
             <button class="modalclose" data-modal="draga6"></button>
             <div class="gallery">
-                <img src="./src/img/draga-modal.jpg"/>
+                <img src="./assets/img/draga-modal.jpg"/>
                 <div class="caption">Description 6 | Bram Ebus</div>
             </div>
         </div>
