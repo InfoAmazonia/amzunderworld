@@ -3,10 +3,6 @@
 /* IMPORTS  */
 @import 'custom'; /* Limpando o CSS deles */
 
-/* Removendo o Header default do wordpress */
-.entry-header{display: none !important;}
-.site-main{margin-top: -6rem !important;}
-
 /* VARIÁVEIS */
     // Tipografia
      @import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&family=Averia+Serif+Libre:wght@400;700&family=Barlow:ital@0;1&family=Big+Shoulders+Display:wght@500;800&display=swap'); 
@@ -33,13 +29,14 @@
 
     //Layout
     @padding-section: 2rem;
-    h1, h2, h3{
-        color: @preto;
-    }
 
 
+    body{overflow-x: hidden!important;}
     // CONFIG GLOBAL
    .amz{
+        h1, h2, h3{
+            color: @preto;
+        }
         //Cor de texto
         .tbege{color: @bege !important;}
         .tbranco{color: @branco !important;}
@@ -845,6 +842,7 @@
                 }
             }
         }
+        .story-map{z-index: 0;}
    }
             
     // CONFIG HOME
