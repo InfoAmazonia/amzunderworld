@@ -6,6 +6,8 @@
     targetST = 0,
     up = false;
 
+  const lang = document.documentElement.lang.substr(0,2);
+
   let _events = {},
     _scrollEvents = [],
     _startEvents = [];
@@ -43,39 +45,57 @@
         e.func();
     });
   }
+  
+  // Tradução
+  let traducoes = {
+    'Main presence':{pt:'Principal presença',es:'Principal presencia'},
+    'Est. members':{pt:'Membros est.',es:'Miembros est.'},
+    'Founded':{pt:'Fundação',es:'Fundación'},
+    'Political/ideological stance':{pt:'Posição política/ideológica',es:'Postura política/ideológica'},
+    'Acts of violence':{pt:'Atos de violência',es:'Actos de violencia'},
+    'Main economies':{pt:'Principais economias',es:'Principales economías'},
+  };
+  const traduz = function(p){
+    let c = traducoes[p];
+    return c&&c[lang] ? c[lang] : p;
+  }
 
-  //tabs
-  var tabWrapper = document.querySelectorAll(".tab-wrapper");
-  if (tabWrapper.length) tabWrapper.forEach(function (tw) {
-    var openTabBtn = tw.querySelectorAll("[data-tab]");
-    var tabContent = tw.querySelectorAll(".tab-content");
-    openTabBtn.forEach(function (button) {
-      button.onclick = function (event) {
-        tabContent.forEach(function (tab) {
-          if (tab.classList.contains("is-visible")) {
-            tab.classList.remove("is-visible");
-          }
+  var generalApp = {
+    init: ()=>{
+      //tabs
+      var tabWrapper = document.querySelectorAll(".tab-wrapper");
+      if (tabWrapper.length) tabWrapper.forEach(function (tw) {
+        var openTabBtn = tw.querySelectorAll("[data-tab]");
+        var tabContent = tw.querySelectorAll(".tab-content");
+        openTabBtn.forEach(function (button) {
+          button.onclick = function (event) {
+            tabContent.forEach(function (tab) {
+              if (tab.classList.contains("is-visible")) {
+                tab.classList.remove("is-visible");
+              }
+            });
+            openTabBtn.forEach(function (btn) {
+              if (btn.classList.contains("ativo")) {
+                btn.classList.remove("ativo");
+              }
+            });
+            button.classList.add("ativo");
+            var tabId = button.dataset.tab;
+            document.getElementById(tabId).classList.add("is-visible");
+          };
         });
-        openTabBtn.forEach(function (btn) {
-          if (btn.classList.contains("ativo")) {
-            btn.classList.remove("ativo");
-          }
-        });
-        button.classList.add("ativo");
-        var tabId = button.dataset.tab;
-        document.getElementById(tabId).classList.add("is-visible");
-      };
-    });
-  });
+      });
 
-  // modal
-  const openModalBtn = document.querySelectorAll("[data-modal]");        
-  if(openModalBtn) openModalBtn.forEach(button => {
-      button.onclick = event => {
-          const modalId = button.dataset.modal;
-          document.getElementById(modalId).classList.toggle("is-visible");
-      };
-  });
+      // modal
+      const openModalBtn = document.querySelectorAll("[data-modal]");        
+      if(openModalBtn) openModalBtn.forEach(button => {
+          button.onclick = event => {
+              const modalId = button.dataset.modal;
+              document.getElementById(modalId).classList.toggle("is-visible");
+          };
+      });
+    }
+  };
 
   // Parallax
   var parallaxApp = {
@@ -113,10 +133,10 @@
     init:()=>{
       var h = 'https://infoamazonia.org/';
       var links = [
-        ['n1','2023-08-03T10:00:00.00Z','2023/08/03/welcome-to-the-amazon-underworld'],
-        ['n2','2023-08-06T10:00:00.00Z','2023/08/06/gold-spurs-crime-corruption-on-brazil-colombia-border'],
-        ['n3','2023-08-10T10:00:00.00Z','2023/08/10/armed-groups-threaten-indigenous-lands-in-southern-venezuela'],
-        ['n4','2023-08-13T10:00:00.00Z','2023/08/13/the-poorest-narcos-in-the-drug-trafficking-chain'],
+        ['n1','2023-07-03T10:00:00.00Z','2023/08/03/welcome-to-the-amazon-underworld'],
+        ['n2','2023-07-06T10:00:00.00Z','2023/08/03/gold-spurs-crime-corruption-on-brazil-colombia-border'],
+        ['n3','2023-08-10T10:00:00.00Z','2023/08/06/armed-groups-threaten-indigenous-lands-in-southern-venezuela'],
+        ['n4','2023-08-13T10:00:00.00Z','2023/08/10/the-poorest-narcos-in-the-drug-trafficking-chain'],
         ['n5','2023-08-15T10:00:00.00Z','2023/08/15/colombian-drug-runners-turn-to-shamans-for-protection'],
         ['n6','2023-08-17T10:00:00.00Z','2023/08/17/brazilian-drug-gang-takes-root-in-peruvian-amazon'],
         ['n7','2023-08-20T10:00:00.00Z','2023/08/20/in-venezuela-colombian-guerrillas-recruit-indigenous-youth'],
@@ -152,6 +172,60 @@
     }
   }
 
+  var groupsApp = {
+    init: ()=>{
+      var groupsdiv = document.getElementById('groupsdiv');
+      if(groupsdiv && groupsArms){
+        var btns = '';
+        var tabs = '';
+        groupsArms.forEach((d,i)=>{
+          btns += `<button class="tag ${i==0?'ativo':''}" data-tab="${d.id}">${d.nome}</button>`;
+          tabs += groupsApp.tab(d,i);
+        });
+        groupsdiv.innerHTML = `<div class="twocols tab-wrapper"><div><div class="tags">${btns}</div>${tabs}</div></div>`;
+      }
+    },
+    tab: (d,i)=>{
+      return `<div class="tab-content ${i==0?'is-visible':''}" id="${d.id}">
+          <div>
+              <div class="title">
+                  <span>${d.nome}</span>
+                  <img src="./assets/img/story0-logo-${d.id}.png">
+              </div>
+              <div class="linha">
+                  <span class="item">${traduz('Main presence')}:</span>
+                  <span class="value">${d.local}</span>
+              </div>
+              <div class="linha" style="flex-direction: row;">
+                  <div class="coll" style="margin-right:6rem;">
+                      <span class="item">${traduz('Est. members')}:</span>
+                      <span class="value">${d.membros}</span>
+                  </div>
+                  <div class="coll">
+                      <span class="item">${traduz('Founded')}:</span>
+                      <span class="value">${d.fundacao}</span>
+                  </div>
+              </div>
+              <div class="linha">
+                  <span class="item">${traduz('Political/ideological stance')}:</span>
+                  <span class="value">${d.ideologia}</span>
+              </div>
+              <div class="linha">
+                  <span class="item">${traduz('Acts of violence')}:</span>
+                  <span class="value">${d.atos}</span>
+              </div>
+              <div class="linha">
+                  <span class="item">${traduz('Main economies')}:</span>
+                  <span class="value">${d.economia}</span>
+              </div>
+          </div>
+          <div class="map-col">
+              <img src="./assets/img/story0-mapa-${d.id}.png">
+          </div>
+      </div>`;
+    }
+  };
+
   // Start
   function start() {
     wh = window.innerHeight;
@@ -162,6 +236,8 @@
     
     parallaxApp.init();
     linksApp.init();
+    groupsApp.init();
+    generalApp.init();
 
     fixedScrollFunction();
   }

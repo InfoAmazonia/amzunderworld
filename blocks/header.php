@@ -429,13 +429,6 @@
     />
     <link
       rel="stylesheet"
-      id="jeo-map-css"
-      href="https://infoamazonia.org/wp-content/plugins/jeo/css/jeo-map.css?ver=5.7.2"
-      type="text/css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
       id="newspack-blocks-block-styles-stylesheet-css"
       href="https://infoamazonia.org/wp-content/plugins/newspack-blocks/dist/block_styles.css?ver=1.20.0"
       type="text/css"
@@ -4072,17 +4065,6 @@
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./build/style.css" type="text/css" media="all" />
-
-    <!-- CUSTOM CSS (IMGS BACKGROUND) -->
-    <link rel="stylesheet" href="./build/bgs-imgs.css" type="text/css" media="all" />
-    
-    <!-- CAPA -->
-    <link rel="stylesheet" href="./build/capa.css" type="text/css" media="all" />
-
-
-
-
-
 
   </head>
   <body

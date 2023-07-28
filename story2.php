@@ -1,10 +1,6 @@
 <?php $title = 'Story 1'; ?>
 <?php include './blocks/header.php'; ?>
 
-<style>
-<?php include './src/less/style.css'; ?>
-</style>
-
 <!-- wp:code -->
 <link rel="stylesheet" type="text/css" href="https://taprontodev.github.io/amzunderworld/build/style.css" />
 <div class="amz" id="story2">
