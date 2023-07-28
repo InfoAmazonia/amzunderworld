@@ -7,6 +7,7 @@
     up = false;
 
   const lang = document.documentElement.lang.substr(0,2);
+  const baseUrl = 'https://taprontodev.github.io/amzunderworld/';
 
   let _events = {},
     _scrollEvents = [],
@@ -190,7 +191,7 @@
           <div>
               <div class="title">
                   <span>${d.nome}</span>
-                  <img src="./assets/img/story0-logo-${d.id}.png">
+                  <img src="${baseUrl}/assets/img/story0-logo-${d.id}.png">
               </div>
               <div class="linha">
                   <span class="item">${traduz('Main presence')}:</span>
@@ -220,7 +221,7 @@
               </div>
           </div>
           <div class="map-col">
-              <img src="./assets/img/story0-mapa-${d.id}.png">
+              <img src="${baseUrl}/assets/img/story0-mapa-${d.id}.png">
           </div>
       </div>`;
     }
