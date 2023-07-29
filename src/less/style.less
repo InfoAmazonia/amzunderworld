@@ -859,7 +859,9 @@
             margin: 0 !important;
             padding: .5rem 0 !important;
         }
-        .content-full{ width: 80%; margin: auto;}
+        .content-full{ width: 80%; margin: auto;
+            @media only screen and (max-width: 600px) { width: 90%; height: 100%; padding-left: 1rem;}
+        }
         .center{text-align: center;}
         .content{
             width: 50%; margin: auto;
@@ -871,7 +873,7 @@
             top: 0;
             left: 0;
             width: 100%;
-            z-index: 9999;
+            z-index: 9999 !important;
             min-height: 4rem;
             display: flex;
             flex-wrap: wrap;
@@ -883,7 +885,9 @@
             .logo{
             display: flex;
             justify-content: space-between;
-            img{max-width: 90%;}
+            img{max-width: 90%;
+                @media only screen and (max-width: 600px) { width: 50%; }
+            }
             @media only screen and (max-width: 600px) { width: 100%; }
             }
             .info{ display: flex; flex-wrap: wrap; gap: 3rem;
@@ -891,58 +895,115 @@
             }
 
            //RESPONSIVO
-            .btn-hamburguer {
+            .btn-menu-responsivo{
+                position: absolute;
+                top: 1rem;
+                right: 1rem;
+                z-index: 10 !important;
+                display: flex;
+                align-items: center;
+                gap: .5rem;
                 @media only screen and (min-width: 600px) { 
                     display: none !important;
                 }
-                .efect {
+                .btn-lang{
+                    position: relative;
+                    color: @preto;
+                    display: block;
+                    height: 24px;
+                    width: 24px;
+                    display: flex;
+                    margin-right: 15px;
+                    align-items: center;
+                    justify-content: center;
+                    background: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.968 10.3779C19.4749 16.1266 15.7772 20.4701 9.86073 19.9591C7.11205 19.7215 4.64687 19.0112 2.86947 17.3888C1.09208 15.7664 0 13.2344 0 10.3779C0 7.71043 1.6073 5.44158 3.20474 3.60708C5.03144 1.50942 7.05535 -0.253534 9.98399 0.0300716C15.2841 0.541073 20.4561 4.6853 19.968 10.3779Z" fill="%23C17A0F"/></svg>');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    &.opened::after{
+                        transform: translate(-50%, -50%);
+                        /* Rotaciona o ::after em 180 graus */
+                        transform: rotate(180deg);}
+                    &::after{
+                        position: absolute;
+                        right: -17px;
+                        top: 0;
+                        width: 15px;
+                        height: 24px;
+                        content: "";
+                        background: red;
+                        display: block;
+                        background: url('data:image/svg+xml,<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.4 12.1519C5.4 12.672 5.2623 12.932 4.98691 12.932L4.8375 12.932C4.275 12.932 3.97324 12.8087 3.93223 12.562C3.90879 12.4226 3.89707 10.3906 3.89707 6.46599L3.89707 4.90579L3.88828 4.62431L3.88828 1.77734L3.87949 1.21438C3.87949 0.624617 3.90879 0.273437 3.96738 0.160845C4.03184 0.053615 4.19004 -2.1025e-07 4.44199 -1.99237e-07C5.01621 -1.74137e-07 5.3209 0.120634 5.35605 0.361902C5.37949 0.533471 5.39121 2.59766 5.39121 6.55446L5.4 9.28883L5.4 12.1519Z" fill="%23C17A0F"/><path d="M4.47419 11.6452C4.53728 11.6452 4.97323 10.9647 5.78203 9.60376C6.59656 8.24847 7.06692 7.48894 7.19312 7.32518C7.54876 6.86212 7.93881 6.63059 8.36329 6.63059C8.78776 6.63059 9 6.74353 9 6.96941L9 7.10494C9 7.21788 8.92256 7.40988 8.76769 7.68094C7.33365 10.2052 6.17495 12.1308 5.29159 13.4579C5.05067 13.8193 4.81262 14 4.57744 14L4.42256 14C4.21032 14 3.92352 13.712 3.56214 13.136C1.18738 9.35247 -3.18589e-07 7.28847 -3.03532e-07 6.944C-2.93165e-07 6.70682 0.195029 6.58824 0.585086 6.58824C0.975143 6.58824 1.38528 6.84518 1.81549 7.35906C1.9761 7.55106 2.45507 8.31341 3.25239 9.64612C4.04971 10.9788 4.45698 11.6452 4.47419 11.6452Z" fill="%23C17A0F"/></svg>');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
+                .lang-opt{
+                    display: none;
+                    padding: 0.3rem;
+                    position: absolute;
+                    right: 30%;
+                    top: 36px;
+                    box-shadow: 0px 15px 10px -15px #111;
+                    z-index: 99999 !important;
+                    background-image: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" viewBox="0 0 171 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.9259 25.2865C9.12507 24.9236 11.4997 25.0494 13.7933 24.9066C15.0953 24.8279 16.3899 24.7983 17.6898 24.7856C19.5504 24.7652 21.4097 24.7859 23.2682 24.8313C26.8121 24.9283 30.3538 25.0993 33.9006 25.2954C41.0001 25.6879 48.0947 26.0472 55.2023 25.9949C62.5721 25.9419 69.9409 25.9219 77.3113 25.8524C84.3 25.7848 91.2829 25.7169 98.2737 25.7731C105.271 25.8214 112.261 25.9105 119.259 25.7199C126.419 25.5224 133.575 25.6215 140.736 25.7786C144.132 25.8502 147.54 25.8895 150.93 25.598C152.699 25.4402 154.47 25.2495 156.235 25.042C157.964 24.8406 159.701 24.7468 161.44 24.6202C163.041 24.51 164.61 24.6782 166.199 24.9302C167.341 24.8254 168.235 24.0957 168.867 22.7403C169.21 21.8786 169.559 21.0256 169.902 20.1639C170.558 17.8782 170.913 15.492 170.978 13.0307C171.073 10.563 170.862 8.15115 170.352 5.79553C170.064 4.89609 169.77 4.00452 169.482 3.10508C168.937 1.67902 168.093 0.845171 166.962 0.604243C166.084 0.650574 165.199 0.721237 164.322 0.751109C163.523 0.777388 162.719 0.729246 161.916 0.681104C160.202 0.594859 158.492 0.574807 156.781 0.571213C153.222 0.564052 149.666 0.672458 146.109 0.607691C139.216 0.483124 132.325 0.0948606 125.429 0.242218C121.73 0.317377 118.036 0.44227 114.344 0.509557C110.986 0.572126 107.625 0.543816 104.269 0.515862C97.1238 0.450381 89.9754 0.475423 82.8308 0.566656C75.7758 0.655008 68.7159 0.710087 61.6607 0.806669C57.7602 0.861475 53.8606 0.891592 49.9558 0.896665C46.4623 0.901656 42.9626 0.724889 39.4683 0.564937C32.3188 0.243634 25.1707 -0.118817 18.0122 0.0375377C16.2525 0.0722373 14.491 0.164542 12.7267 0.347369C11.2974 0.492562 9.86502 0.736506 8.45384 1.06417C7.36086 1.32021 6.29791 1.75944 5.23573 2.17398C4.6141 2.41704 3.99973 2.80895 3.45469 3.27097C2.36542 4.35996 1.59335 5.78951 1.13253 7.55925C0.0660075 10.9664 -0.212182 15.0886 0.151152 18.7133C1.0257 27.5217 3.8665 25.1361 6.92564 25.2947L6.9259 25.2865Z" fill="%23D4C6AD"/></svg>');
+                    border-radius: none !important;
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    background-color: transparent !important;
+                    border-radius: none !important;
+                    opacity: 0;
+                    ul{
+                        gap: .3rem;
+                    }
+                    &.show-lang {
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+                .btn-hamburguer {
                     cursor: pointer;
                     display: block;
                     padding: 0;
                     height: 32px;
                     width: 32px;
-                    position: absolute;
-                    top: 1rem;
-                    right: 1rem;
-
                     .line {
                     fill: none;
-                    stroke: @bege;
-                    stroke-width: 6;
+                    stroke: @ouro;
+                    stroke-width: 10;
                     transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
                     }
 
                     .line1 {
                     stroke-dasharray: 60 207;
-                    stroke-width: 6;
+                    stroke-width: 10;
                     }
 
                     .line2 {
                     stroke-dasharray: 60 60;
-                    stroke-width: 6;
+                    stroke-width: 10;
                     }
 
                     .line3 {
                     stroke-dasharray: 60 207;
-                    stroke-width: 6;
+                    stroke-width: 10;
                     }
 
                     &.opened .line1 {
                     stroke-dasharray: 90 207;
                     stroke-dashoffset: -134;
-                    stroke-width: 6;
+                    stroke-width: 10;
                     }
 
                     &.opened .line2 {
                     stroke-dasharray: 1 60;
                     stroke-dashoffset: -30;
-                    stroke-width: 6;
+                    stroke-width: 10;
                     }
 
                     &.opened .line3 {
                     stroke-dasharray: 90 207;
                     stroke-dashoffset: -134;
-                    stroke-width: 6;
+                    stroke-width: 10;
                     }
                 }
             }
@@ -950,22 +1011,18 @@
                 display: none;
                 flex-direction: column;
                 position: absolute;
-                top: 0;
+                top: 60px;
                 left: 0;
-                width: 80%;
-                height: fit-content;
-                border-radius: 0 0 20px 0;
+                width: 100%;
+                height: 100vh;
                 box-shadow: 0px 15px 10px -15px #111;
-                background: @bege;
+                background: @preto;
                 opacity: 0;
-                transform: translateX(-100%);
-                transition: opacity 1s ease, transform 1s ease;
-                z-index: 99999;
+                z-index: 3;
 
                 &.show-menu {
                     display: block;
                     opacity: 1;
-                    transform: translateX(0);
                 }
                 .content {
                     padding: 2rem;
@@ -994,18 +1051,47 @@
                 }
                 .menu li {
                     a {
-                    color: @preto;
+                    color: @ouro;
                     text-decoration: none;
+                    font-family: "Big Shoulders Display", sans-serif !important; 
+                    font-weight: 400;
+                    font-size: 2.25rem;
+                    line-height: 110%;
                     }
-                    padding: 0.2rem 0.4rem;
-                    border-bottom: 2px solid @verde-a-escuro;
+                    padding: 1rem 0;
+                    border-bottom: none;
                     &:hover {
-                    border-bottom: 2px solid @ouro;
+                    border-bottom: none;
                     }
                 }
+                .social li{
+                    width: 24px;
+                    height: 24px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 1rem;
+                    img{ width: 100%;}
+                }
             }
+       
+            .animated-div {
+                opacity: 0;
+                animation: fadeInDown 1s forwards;
+              }
 
-
+              @keyframes fadeInDown {
+                0% {
+                  opacity: 0;
+                  transform: translateY(-3%);
+                }
+                100% {
+                  opacity: 1;
+                  transform: translateY(0);
+                }
+              }
+           
+              
   
 
             a{color: @ouro; text-decoration: none;}  
@@ -1232,7 +1318,7 @@
 
             .mapa-img{
                 position: relative; display: block; width: 100%; max-width: 1280px; margin: 0 auto;
-                padding-top: 40% !important; background: rgba(0, 0, 255, .4);
+                padding-top: 40% !important; 
                 z-index: 1!important;
                 &:before{
                     content: "";

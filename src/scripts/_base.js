@@ -47,20 +47,27 @@
     });
   }
   //BTN RESPONSIVO
-  let btnHamburguer = document.querySelector('.btn-hamburguer .efect');
+  let btnHamburguer = document.querySelector('.btn-hamburguer');
   let menuResponsivo = document.querySelector('.menu-responsivo');
   
   btnHamburguer.addEventListener('click', () => {
     menuResponsivo.classList.toggle('show-menu');
   });
+
+  let btnLang = document.querySelector('.btn-lang');
+  let menuLang = document.querySelector('.lang-opt');
   
- // Adicionar evento de clique no documento para esconder o menu responsivo quando clicar fora dele
+  btnLang.addEventListener('click', () => {
+    menuLang.classList.toggle('show-lang');
+  });
+  
+/*  // Adicionar evento de clique no documento para esconder o menu responsivo quando clicar fora dele
 document.addEventListener('click', (event) => {
   const targetElement = event.target;
   if (!menuResponsivo.contains(targetElement) && !btnHamburguer.contains(targetElement)) {
     menuResponsivo.classList.remove('show-menu');
   }
-});
+}); */
   
 
   // Tradução
