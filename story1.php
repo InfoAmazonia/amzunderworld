@@ -384,7 +384,7 @@
 
 <!-- wp:cover {"customOverlayColor":"#d4c6ad","isDark":false,"align":"full","className":"tripa"} -->
 <div class="wp-block-cover alignfull is-light tripa"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#d4c6ad"></span><div class="wp-block-cover__inner-container"><!-- wp:quote {"className":"main-content"} -->
-<blockquote class="wp-block-quote main-content"><!-- wp:paragraph -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
 <p>For me, being on the draga is like being in my house&nbsp;</p>
 <!-- /wp:paragraph --><cite>— Getúlio, owner of an industrial-scale dredge</cite></blockquote>
 <!-- /wp:quote -->
