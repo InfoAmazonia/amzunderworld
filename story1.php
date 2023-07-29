@@ -692,9 +692,10 @@ https://www.youtube.com/watch?v=i-5VSJKBL-A
 <p>The officer sometimes would either delay these interventions or alter the routes of the operations. This information was revealed through intercepted phone calls, during which miners also indicated their need for four days' advance notice and their intention to hide mining dredges for one to two months.</p>
 <!-- /wp:paragraph -->
 
+
 <!-- wp:cover {"customOverlayColor":"#d4c6ad","isDark":false,"align":"full","className":"tripa"} -->
 <div class="wp-block-cover alignfull is-light tripa"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#d4c6ad"></span><div class="wp-block-cover__inner-container"><!-- wp:quote {"className":"main-content"} -->
-<blockquote class="wp-block-quote main-content"><!-- wp:paragraph -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
 <p>A pack of Coca-Cola costs one gram [of gold], a box of chicken is two grams. Everything is like that. A package of sausages is one gram​​. Everything is expensive, very expensive (Cabeludo)</p>
 <!-- /wp:paragraph --></blockquote>
 <!-- /wp:quote -->
@@ -703,6 +704,9 @@ https://www.youtube.com/watch?v=i-5VSJKBL-A
 <div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div></div>
 <!-- /wp:cover -->
+
+
+
 
 <!-- wp:image {"align":"left","id":160256,"width":305,"height":172,"sizeSlug":"full","linkDestination":"none","className":"border-full"} -->
 <figure class="wp-block-image alignleft size-full is-resized border-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-img12.jpg" alt="" class="wp-image-160256" width="305" height="172"/><figcaption class="wp-element-caption">Slices of fish hang on a mining dredge | Bram Ebus</figcaption></figure>
