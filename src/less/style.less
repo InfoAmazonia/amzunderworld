@@ -94,7 +94,7 @@
                 left: 0;
                 margin-bottom: 1rem;
                 width: 102%;
-                height: 40px;
+                height: 50px;
                 top: -1px;
                 content: "";
                 display: block;
@@ -676,23 +676,37 @@
             .main-content{
                 max-width: 80%; 
                 padding: 1rem 0;
+                @media only screen and (max-width: 600px) {   padding: 1rem !important;}
             }
             .info-cards{
                 display: flex;
+                @media only screen and (max-width: 600px) {  flex-direction: column;}
                 gap: 1rem;
                 justify-content: space-around;
                 color: @bege !important;
                 .card{
                     color: @bege !important;
                     max-width: 210px;
+                    @media only screen and (max-width: 600px) {  
+                        max-width: 100% !important;
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    
                     .image-area{
                         width: 100% !important;
                         height: 120px;
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                        @media only screen and (max-width: 600px) {  
+                            max-width: 130px !important;
+                        }    
                     }
-                    p{text-align: center;}
+                    p{
+                        text-align: center;
+                        @media only screen and (max-width: 600px) { text-align: left;} 
+                    }
                 
                 }
             }
@@ -907,6 +921,7 @@
                     display: none !important;
                 }
                 .btn-lang{
+                    cursor: pointer;
                     position: relative;
                     color: @preto;
                     display: block;
@@ -930,7 +945,6 @@
                         width: 15px;
                         height: 24px;
                         content: "";
-                        background: red;
                         display: block;
                         background: url('data:image/svg+xml,<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.4 12.1519C5.4 12.672 5.2623 12.932 4.98691 12.932L4.8375 12.932C4.275 12.932 3.97324 12.8087 3.93223 12.562C3.90879 12.4226 3.89707 10.3906 3.89707 6.46599L3.89707 4.90579L3.88828 4.62431L3.88828 1.77734L3.87949 1.21438C3.87949 0.624617 3.90879 0.273437 3.96738 0.160845C4.03184 0.053615 4.19004 -2.1025e-07 4.44199 -1.99237e-07C5.01621 -1.74137e-07 5.3209 0.120634 5.35605 0.361902C5.37949 0.533471 5.39121 2.59766 5.39121 6.55446L5.4 9.28883L5.4 12.1519Z" fill="%23C17A0F"/><path d="M4.47419 11.6452C4.53728 11.6452 4.97323 10.9647 5.78203 9.60376C6.59656 8.24847 7.06692 7.48894 7.19312 7.32518C7.54876 6.86212 7.93881 6.63059 8.36329 6.63059C8.78776 6.63059 9 6.74353 9 6.96941L9 7.10494C9 7.21788 8.92256 7.40988 8.76769 7.68094C7.33365 10.2052 6.17495 12.1308 5.29159 13.4579C5.05067 13.8193 4.81262 14 4.57744 14L4.42256 14C4.21032 14 3.92352 13.712 3.56214 13.136C1.18738 9.35247 -3.18589e-07 7.28847 -3.03532e-07 6.944C-2.93165e-07 6.70682 0.195029 6.58824 0.585086 6.58824C0.975143 6.58824 1.38528 6.84518 1.81549 7.35906C1.9761 7.55106 2.45507 8.31341 3.25239 9.64612C4.04971 10.9788 4.45698 11.6452 4.47419 11.6452Z" fill="%23C17A0F"/></svg>');
                         background-repeat: no-repeat;
@@ -954,6 +968,7 @@
                     opacity: 0;
                     ul{
                         gap: .3rem;
+                        li{ cursor: pointer;}
                     }
                     &.show-lang {
                         display: block;
