@@ -48,6 +48,20 @@
       e.func();
     });
   };
+  //BTN RESPONSIVO
+  var btnHamburguer = document.querySelector('.btn-hamburguer .efect');
+  var menuResponsivo = document.querySelector('.menu-responsivo');
+  btnHamburguer.addEventListener('click', function () {
+    menuResponsivo.classList.toggle('show-menu');
+  });
+
+  // Adicionar evento de clique no documento para esconder o menu responsivo quando clicar fora dele
+  document.addEventListener('click', function (event) {
+    var targetElement = event.target;
+    if (!menuResponsivo.contains(targetElement) && !btnHamburguer.contains(targetElement)) {
+      menuResponsivo.classList.remove('show-menu');
+    }
+  });
 
   // Tradução
   var traducoes = {

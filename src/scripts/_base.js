@@ -46,7 +46,23 @@
         e.func();
     });
   }
+  //BTN RESPONSIVO
+  let btnHamburguer = document.querySelector('.btn-hamburguer .efect');
+  let menuResponsivo = document.querySelector('.menu-responsivo');
   
+  btnHamburguer.addEventListener('click', () => {
+    menuResponsivo.classList.toggle('show-menu');
+  });
+  
+ // Adicionar evento de clique no documento para esconder o menu responsivo quando clicar fora dele
+document.addEventListener('click', (event) => {
+  const targetElement = event.target;
+  if (!menuResponsivo.contains(targetElement) && !btnHamburguer.contains(targetElement)) {
+    menuResponsivo.classList.remove('show-menu');
+  }
+});
+  
+
   // Tradução
   let traducoes = {
     'Main presence':{pt:'Principal presença',es:'Principal presencia'},
