@@ -146,6 +146,46 @@
     }
   }
 
+  var scrollytellingApp = {
+    itens: {},
+    init: ()=>{
+      var page = document.querySelector("#page");
+      if(page) page.style.overflow='initial !important';
+
+      scrollytellingApp.itens = [];
+      var containers = document.querySelectorAll('.scrollytelling');
+      if(containers.length)containers.forEach((x,i)=>{
+        scrollytellingApp.itens[i] = {
+          y: x.offsetTop,
+          h: x.clientHeight,
+          item: x,
+          bgs: x.querySelectorAll('.bg'),
+          stks: x.querySelector('.stks'),
+          ch: x.querySelectorAll('.scrollytelling-inner'),
+          cur: 0,
+        };
+        addScroll((e)=>{
+          scrollytellingApp.itens.forEach(d=>{
+            if((currentST+wh > d.y) && (currentST<(d.y+d.h))){
+              var yy = currentST-d.y+(wh/2);
+              var hh = Math.min(d.ch.length, Math.ceil(yy/d.h*d.ch.length)) - 1;
+              if(d.ch[hh].dataset.scrl && d.ch[hh].dataset.scrl!=d.cur){
+                d.cur = d.ch[hh].dataset.scrl;
+                scrollytellingApp.changeBg(d);
+              }
+            }
+          });
+        });
+      });
+    },
+    changeBg: (d)=>{
+      d.bgs.forEach(x=>{
+        if(x.tagName == 'VIDEO') x.currentTime = 0;
+        x.classList.toggle('active',x.dataset.scrl==d.cur);
+      });
+    }
+  };
+
   var linksApp = {
     init:()=>{
       var h = 'https://infoamazonia.org/';
@@ -255,6 +295,7 @@
     linksApp.init();
     groupsApp.init();
     generalApp.init();
+    scrollytellingApp.init();
 
     fixedScrollFunction();
   }

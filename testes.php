@@ -1,20 +1,19 @@
 <?php $title = 'Story 1'; ?>
 <?php include './blocks/header.php'; ?>
 
-<style>
-<?php include './src/less/style.css'; ?>
-</style>
-
-
 <!-- wp:code -->
 <div class="amz" id="story1">
 <!-- /wp:code -->
 
-<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/story1-globo.png","id":160325,"dimRatio":0,"align":"full"} -->
-<div class="wp-block-cover alignfull scrollytelling" style="background-image:url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-globo.png')">
-    <span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
-    <div class="wp-block-cover__inner-container">
-        <div class="scrollytelling-inner">
+<!-- wp:code -->
+<!-- Scroll -->
+<div class="scrollytelling">
+    <div class="stks">
+        <img class="bg" data-scrl='1' src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-globo.png">
+        <video class="bg" data-scrl='2' src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4" autoplay loop playsinline muted></video>
+    </div>
+    <div class="scrllr">
+        <div data-scrl='1' class="scrollytelling-inner">
             <div class="box">
                 <img src="https://infoamazonia.org/wp-content/uploads/2023/07/ouro_balanca.png" alt="" >
                 <p class="big">In Brazil’s Amazonas state, near the border with Colombia, illegal mining is fueled by rising gold prices and surrounded by violence and corruption. </p>
@@ -22,7 +21,7 @@
             </div>
         </div>
 
-        <div class="scrollytelling-inner">
+        <div data-scrl='2' class="scrollytelling-inner">
             <div class="box">
                 <p class="big">Dangerous and lawless,</p>
                 <p>this area has become a magnet for fortune seekers, modern-day pirates, rogue law-enforcement officers & Colombian guerrillas.</p>
@@ -61,10 +60,9 @@
                 <p class="caption">Photo: Alex Rufino</p>
             </div>
         </div>
-
     </div>
 </div>
-<!-- /wp:cover -->
+<!-- /wp:code -->
 
 <!-- wp:code -->
 </div>
