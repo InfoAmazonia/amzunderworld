@@ -142,10 +142,26 @@
     'Acts of violence':{pt:'Atos de violência',es:'Actos de violencia'},
     'Main economies':{pt:'Principais economias',es:'Principales economías'},
     'read more':{pt:'ler mais',es:'ler mais'},
+    'soon':{pt:'em breve',es:'en breve'},
   };
   const traduz = function(p){
     let c = traducoes[p];
     return c&&c[lang] ? c[lang] : p;
+  }
+  const comparaData = (d)=>{
+    const currentDate = new Date();
+    const currentUtcDate = new Date(
+      Date.UTC(
+        currentDate.getUTCFullYear(),
+        currentDate.getUTCMonth(),
+        currentDate.getUTCDate(),
+        currentDate.getUTCHours(),
+        currentDate.getUTCMinutes(),
+        currentDate.getUTCSeconds()
+      )
+    );
+    const providedDate = new Date(d);
+    return providedDate <= currentUtcDate;
   }
 
   var generalApp = {
@@ -312,7 +328,7 @@
           a+=`<a class="conteudo ${l.id} disabled" href="javascript:void(0)">
             <div class="titulo">${l['local_'+lang]}</div>
             <div class="texto">${l['name_'+lang]}</div>
-            <span>${traduz('ler mais')} &rarr;</span>
+            <span>${traduz('read more')} &rarr;</span>
           </a>`;
         });
         it.innerHTML = a+''+b;
@@ -333,7 +349,7 @@
           <div class="infos">
             <div class="local">${l['local_'+lang]}</div>
             <div class="title">${l['name_'+lang]}</div>
-            <button class="btn">${traduz('ler mais')} <span class="arrow"></span></button>
+            ${comparaData(l.data)?`<button class="btn">${traduz('read more')} <span class="arrow"></span></button>`:`<span class="breve">${traduz('soon')}</span>`}
           </div>
         </a>`;
         });
@@ -347,7 +363,7 @@
       links.forEach(l=>{
         var c = document.querySelectorAll('.'+l.id);
         if(c.length) c.forEach(cc=>{
-          if(linksApp.comparaData(l.data)){
+          if(comparaData(l.data)){
             cc.classList.remove('disabled');
             cc.href=l['link_'+lang];
             cc.target="_blank";
@@ -355,21 +371,6 @@
         })
       });
 
-    },
-    comparaData: (d)=>{
-      const currentDate = new Date();
-      const currentUtcDate = new Date(
-        Date.UTC(
-          currentDate.getUTCFullYear(),
-          currentDate.getUTCMonth(),
-          currentDate.getUTCDate(),
-          currentDate.getUTCHours(),
-          currentDate.getUTCMinutes(),
-          currentDate.getUTCSeconds()
-        )
-      );
-      const providedDate = new Date(d);
-      return providedDate <= currentUtcDate;
     }
   }
 

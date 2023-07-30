@@ -198,11 +198,21 @@
     'read more': {
       pt: 'ler mais',
       es: 'ler mais'
+    },
+    'soon': {
+      pt: 'em breve',
+      es: 'en breve'
     }
   };
   var traduz = function traduz(p) {
     var c = traducoes[p];
     return c && c[lang] ? c[lang] : p;
+  };
+  var comparaData = function comparaData(d) {
+    var currentDate = new Date();
+    var currentUtcDate = new Date(Date.UTC(currentDate.getUTCFullYear(), currentDate.getUTCMonth(), currentDate.getUTCDate(), currentDate.getUTCHours(), currentDate.getUTCMinutes(), currentDate.getUTCSeconds()));
+    var providedDate = new Date(d);
+    return providedDate <= currentUtcDate;
   };
   var generalApp = {
     init: function init() {
@@ -356,7 +366,7 @@
         var b = '';
         links.forEach(function (l) {
           a += "<a class=\"marcador ".concat(l.id, " disabled\" numero=\"").concat(l.n, "\" href=\"javascript:void(0)\"></a>");
-          a += "<a class=\"conteudo ".concat(l.id, " disabled\" href=\"javascript:void(0)\">\n            <div class=\"titulo\">").concat(l['local_' + lang], "</div>\n            <div class=\"texto\">").concat(l['name_' + lang], "</div>\n            <span>").concat(traduz('ler mais'), " &rarr;</span>\n          </a>");
+          a += "<a class=\"conteudo ".concat(l.id, " disabled\" href=\"javascript:void(0)\">\n            <div class=\"titulo\">").concat(l['local_' + lang], "</div>\n            <div class=\"texto\">").concat(l['name_' + lang], "</div>\n            <span>").concat(traduz('read more'), " &rarr;</span>\n          </a>");
         });
         it.innerHTML = a + '' + b;
       }
@@ -368,7 +378,7 @@
       if (cardsdiv) {
         var a = '';
         links.forEach(function (l) {
-          a += "<a class=\"card ".concat(l.id, " disabled\" href=\"javascript:void(0)\">\n          <div class=\"image\"><img src=\"").concat(baseUrl, "/assets/img/card_").concat(l.n, ".jpg\"></div>\n          <div class=\"infos\">\n            <div class=\"local\">").concat(l['local_' + lang], "</div>\n            <div class=\"title\">").concat(l['name_' + lang], "</div>\n            <button class=\"btn\">").concat(traduz('ler mais'), " <span class=\"arrow\"></span></button>\n          </div>\n        </a>");
+          a += "<a class=\"card ".concat(l.id, " disabled\" href=\"javascript:void(0)\">\n          <div class=\"image\"><img src=\"").concat(baseUrl, "/assets/img/card_").concat(l.n, ".jpg\"></div>\n          <div class=\"infos\">\n            <div class=\"local\">").concat(l['local_' + lang], "</div>\n            <div class=\"title\">").concat(l['name_' + lang], "</div>\n            ").concat(comparaData(l.data) ? "<button class=\"btn\">".concat(traduz('read more'), " <span class=\"arrow\"></span></button>") : "<span class=\"breve\">".concat(traduz('soon'), "</span>"), "\n          </div>\n        </a>");
         });
         cardsdiv.innerHTML = a;
       }
@@ -379,19 +389,13 @@
       links.forEach(function (l) {
         var c = document.querySelectorAll('.' + l.id);
         if (c.length) c.forEach(function (cc) {
-          if (linksApp.comparaData(l.data)) {
+          if (comparaData(l.data)) {
             cc.classList.remove('disabled');
             cc.href = l['link_' + lang];
             cc.target = "_blank";
           }
         });
       });
-    },
-    comparaData: function comparaData(d) {
-      var currentDate = new Date();
-      var currentUtcDate = new Date(Date.UTC(currentDate.getUTCFullYear(), currentDate.getUTCMonth(), currentDate.getUTCDate(), currentDate.getUTCHours(), currentDate.getUTCMinutes(), currentDate.getUTCSeconds()));
-      var providedDate = new Date(d);
-      return providedDate <= currentUtcDate;
     }
   };
   var groupsApp = {

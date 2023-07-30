@@ -411,6 +411,22 @@
             background-color: transparent !important;
            
         }
+        .breve{
+            background: center no-repeat;
+            background-image: url('data:image/svg+xml;utf8,<svg width="108" height="26" viewBox="0 0 108 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.37425 25.2865C5.7632 24.9236 7.26296 25.0494 8.71157 24.9066C9.5339 24.8279 10.3515 24.7983 11.1725 24.7856C12.3476 24.7652 13.5219 24.7859 14.6957 24.8313C16.934 24.9283 19.1708 25.0993 21.4109 25.2954C25.8948 25.6879 30.3756 26.0472 34.8646 25.9949C39.5192 25.9419 44.1732 25.9219 48.8282 25.8524C53.2421 25.7848 57.6523 25.7169 62.0676 25.7731C66.4868 25.8214 70.9015 25.9105 75.3216 25.7199C79.8436 25.5224 84.3634 25.6215 88.8859 25.7786C91.0305 25.8502 93.1834 25.8895 95.3239 25.598C96.4415 25.4402 97.5597 25.2495 98.6745 25.042C99.7666 24.8406 100.864 24.7468 101.962 24.6202C102.973 24.51 103.964 24.6782 104.968 24.9302C105.689 24.8254 106.253 24.0957 106.653 22.7403C106.87 21.8786 107.09 21.0256 107.306 20.1639C107.721 17.8782 107.945 15.492 107.986 13.0307C108.046 10.563 107.913 8.15115 107.591 5.79553C107.409 4.89609 107.223 4.00452 107.042 3.10508C106.697 1.67902 106.164 0.845171 105.449 0.604243C104.895 0.650574 104.336 0.721237 103.782 0.751109C103.277 0.777388 102.77 0.729246 102.263 0.681104C101.18 0.594859 100.1 0.574807 99.0195 0.571213C96.7719 0.564052 94.5258 0.672458 92.2793 0.607691C87.9256 0.483124 83.5734 0.0948606 79.2181 0.242218C76.8823 0.317377 74.5492 0.44227 72.2173 0.509557C70.0964 0.572126 67.9735 0.543816 65.8543 0.515862C61.3413 0.450381 56.8265 0.475423 52.3142 0.566656C47.8584 0.655008 43.3995 0.710087 38.9436 0.806669C36.4802 0.861475 34.0172 0.891592 31.551 0.896665C29.3446 0.901656 27.1343 0.724889 24.9274 0.564937C20.4119 0.243634 15.8973 -0.118817 11.3761 0.0375377C10.2647 0.0722373 9.15223 0.164542 8.03793 0.347369C7.13521 0.492562 6.23054 0.736506 5.33927 1.06417C4.64896 1.32021 3.97763 1.75944 3.30678 2.17398C2.91417 2.41704 2.52614 2.80895 2.18191 3.27097C1.49395 4.35996 1.00633 5.78951 0.715283 7.55925C0.041689 10.9664 -0.13401 15.0886 0.0954647 18.7133C0.647812 27.5217 2.442 25.1361 4.37409 25.2947L4.37425 25.2865Z" fill="%239E240B"/></svg>') !important;
+            background-color: transparent !important;
+            background-size: contain;
+            color: @branco !important;
+            color: @bege;
+            font-family: Averia Gruesa Libre;
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 110%; /* 1.375rem */
+            letter-spacing: -0.0125rem;
+            text-transform: uppercase;
+            padding: .2em;
+        }
         /* Formato das tags */
         .tags{
             display: flex;
@@ -604,15 +620,16 @@
             display: flex;
             flex-wrap: wrap; /* Permite que os cards sejam quebrados em linhas */
             gap: 5px; /* Espaçamento entre os cards */
-            width: 200vw !important;
+            width: calc((9 * 70vw) + (8 * 5px)) !important;
 
             .card{
                 position: relative;
                 padding: 20px;
                 background: @preto;
                 max-width: 550px;
-                height: 500px;
-                width: 100%; /* Garante que o card ocupe toda a largura disponível */
+                max-height: 550px;
+                width: 70vw;
+                height: 70vw;
                 .image{
                     position: absolute;
                     width: 100%;
@@ -639,6 +656,8 @@
                         font-family: "Averia Gruesa Libre", sans-serif !important; 
                         line-height: 120%;
                         color: @branco;
+                        font-weight: 400;
+                        text-transform: uppercase;
                     }
                     .title{
                         font-family: "Averia Serif Libre", sans-serif !important; 
@@ -649,6 +668,10 @@
                         margin-bottom: 1rem;
                     }
                     
+                }
+                &.disabled{
+                    cursor: default;
+                    .image{filter: brightness(0.3);}
                 }
             
             }
