@@ -16,7 +16,7 @@
     <div class="wp-block-cover__inner-container">
         <div class="scrollytelling-inner">
             <div class="box">
-                <img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-icone1.png" alt="" >
+                <img src="https://infoamazonia.org/wp-content/uploads/2023/07/ouro_balanca.png" alt="" >
                 <p class="big">In Brazil’s Amazonas state, near the border with Colombia, illegal mining is fueled by rising gold prices and surrounded by violence and corruption. </p>
                 <p class="caption">Video: Google Earth</p>
             </div>
