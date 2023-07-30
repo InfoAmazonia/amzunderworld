@@ -84,15 +84,16 @@
     init: function init() {
       //BTN RESPONSIVO
       var btnHamburguer = document.querySelector('.btn-hamburguer');
-      var menuResponsivo = document.querySelector('.menu-responsivo');
-      if (btnHamburguer) btnHamburguer.addEventListener('click', function () {
-        menuResponsivo.classList.toggle('show-menu');
-      });
+      if (btnHamburguer) btnHamburguer.onclick = function (e) {
+        btnHamburguer.classList.toggle('opened');
+        btnHamburguer.setAttribute('aria-expanded', btnHamburguer.classList.contains('opened'));
+        document.querySelector('.menu-responsivo').classList.toggle('show-menu', btnHamburguer.classList.contains('opened'));
+      };
       var btnLang = document.querySelector('.btn-lang');
-      var menuLang = document.querySelector('.lang-opt');
-      if (btnLang) btnLang.addEventListener('click', function () {
-        menuLang.classList.toggle('show-lang');
-      });
+      if (btnLang) btnLang.onclick = function (e) {
+        btnLang.classList.toggle('opened');
+        document.querySelector('.lang-opt').classList.toggle('show-lang', btnLang.classList.contains('opened'));
+      };
 
       //tabs
       var tabWrapper = document.querySelectorAll(".tab-wrapper");
