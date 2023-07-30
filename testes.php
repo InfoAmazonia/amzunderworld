@@ -1,13 +1,11 @@
 <?php $title = 'Story 1'; ?>
 <?php include './blocks/header.php'; ?>
 
-<<<<<<< HEAD
 <style>
-<?php include './build/style.css'; ?>
+<?php include './src/less/style.css'; ?>
 </style>
 
-=======
->>>>>>> 10d3a81443c0d3966f0d3ffc36b2ab6b69ec4fbf
+
 <!-- wp:code -->
 <div class="amz" id="story1">
 <!-- /wp:code -->
