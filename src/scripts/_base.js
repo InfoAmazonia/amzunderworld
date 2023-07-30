@@ -46,29 +46,6 @@
         e.func();
     });
   }
-  //BTN RESPONSIVO
-  let btnHamburguer = document.querySelector('.btn-hamburguer');
-  let menuResponsivo = document.querySelector('.menu-responsivo');
-  
-  btnHamburguer.addEventListener('click', () => {
-    menuResponsivo.classList.toggle('show-menu');
-  });
-
-  let btnLang = document.querySelector('.btn-lang');
-  let menuLang = document.querySelector('.lang-opt');
-  
-  btnLang.addEventListener('click', () => {
-    menuLang.classList.toggle('show-lang');
-  });
-  
-/*  // Adicionar evento de clique no documento para esconder o menu responsivo quando clicar fora dele
-document.addEventListener('click', (event) => {
-  const targetElement = event.target;
-  if (!menuResponsivo.contains(targetElement) && !btnHamburguer.contains(targetElement)) {
-    menuResponsivo.classList.remove('show-menu');
-  }
-}); */
-  
 
   // Tradução
   let traducoes = {
@@ -86,6 +63,21 @@ document.addEventListener('click', (event) => {
 
   var generalApp = {
     init: ()=>{
+      //BTN RESPONSIVO
+      let btnHamburguer = document.querySelector('.btn-hamburguer');
+      let menuResponsivo = document.querySelector('.menu-responsivo');
+      
+      if(btnHamburguer)btnHamburguer.addEventListener('click', () => {
+        menuResponsivo.classList.toggle('show-menu');
+      });
+
+      let btnLang = document.querySelector('.btn-lang');
+      let menuLang = document.querySelector('.lang-opt');
+      
+      if(btnLang)btnLang.addEventListener('click', () => {
+        menuLang.classList.toggle('show-lang');
+      });
+
       //tabs
       var tabWrapper = document.querySelectorAll(".tab-wrapper");
       if (tabWrapper.length) tabWrapper.forEach(function (tw) {
