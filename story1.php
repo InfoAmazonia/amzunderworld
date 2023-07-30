@@ -99,6 +99,16 @@
 <p>Some time back, the Brazilian Army faced off with guerrillas on the Puruê River, recalls Getúlio,* a miner from São Paulo who operates an industrial-scale dredge — called a draga in Portuguese and Spanish — about six times the size of Cabeludo’s.</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>Some time back, the Brazilian Army faced off with guerrillas on the Puruê River, recalls Getúlio,* a miner from São Paulo who operates an industrial-scale dredge — called a draga in Portuguese and Spanish — about six times the size of Cabeludo’s.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Some time back, the Brazilian Army faced off with guerrillas on the Puruê River, recalls Getúlio,* a miner from São Paulo who operates an industrial-scale dredge — called a draga in Portuguese and Spanish — about six times the size of Cabeludo’s.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Some time back, the Brazilian Army faced off with guerrillas on the Puruê River, recalls Getúlio,* a miner from São Paulo who operates an industrial-scale dredge — called a draga in Portuguese and Spanish — about six times the size of Cabeludo’s.</p>
+<!-- /wp:paragraph -->
+
 <!-- wp:code -->
 <section class="full info-draga">
     <!-- background-image: url('https://infoamazonia.org/wp-content/uploads/2023/07/story1-draga.jpg') -->
