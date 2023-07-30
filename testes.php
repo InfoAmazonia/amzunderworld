@@ -6,62 +6,93 @@
 <!-- /wp:code -->
 
 <!-- wp:code -->
-<!-- Scroll -->
-<div class="scrollytelling">
-    <div class="stks">
-        <img class="bg" data-scrl='1' src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-globo.png">
-        <video class="bg" data-scrl='2' src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4" autoplay loop playsinline muted></video>
+<section class="full info-draga" id="dragasinfo">
+    <div class="fundo" >
+        <div class="title">Mining dredges leaves big environmental footprint</div>
+        <div>
+            <div class="item">
+                <div class="box">Mining dredges enter tributaries or work along river banks. Miners sometimes use backhoes to reroute waterways for easier access, causing significant deforestation.</div>
+                <button data-modal="draga1" class="icon"></button>
+            </div>
+            <div class="item">
+                <div class="box">A mining dredge uses a giant hose to suck sediment from the riverbed and pour it over a sluice. Finer, gold-bearing sand is left behind.</div>
+                <button data-modal="draga2" class="icon"></button>
+            </div>
+            <div class="item">
+                <div class="box">Dredges stir up sediment that silts up the river and can change its course. The sedimentation affects aquatic life, as well as water quality for communities downstream.</div>
+                <button data-modal="draga3" class="icon"></button>
+            </div>
+            <div class="item">
+                <div class="box">Workers mix that sand with mercury, which binds to the gold, forming a lump. They then heat the lump with a blowtorch, vaporizing the mercury and leaving a chunk of gold.</div>
+                <button data-modal="draga4" class="icon"></button>
+            </div>
+            <div class="item">
+                <div class="box">Mercury causes digestive and neurological problems. In pregnant persons, it can cross the placenta, affecting the fetus at critical times for brain development.</div>
+                <button data-modal="draga5" class="icon"></button>
+            </div>
+            <div class="item">
+                <div class="box">Mercury dumped into the river accumulates in the food chain, especially in fish and in the people and other animals that eat them.</div>
+                <button data-modal="draga6" class="icon"></button>
+            </div>     
+        </div>
     </div>
-    <div class="scrllr">
-        <div data-scrl='1' class="scrollytelling-inner">
-            <div class="box">
-                <img src="https://infoamazonia.org/wp-content/uploads/2023/07/ouro_balanca.png" alt="" >
-                <p class="big">In Brazil’s Amazonas state, near the border with Colombia, illegal mining is fueled by rising gold prices and surrounded by violence and corruption. </p>
-                <p class="caption">Video: Google Earth</p>
-            </div>
-        </div>
 
-        <div data-scrl='2' class="scrollytelling-inner">
-            <div class="box">
-                <p class="big">Dangerous and lawless,</p>
-                <p>this area has become a magnet for fortune seekers, modern-day pirates, rogue law-enforcement officers & Colombian guerrillas.</p>
-                <p class="caption">Video: Bram Ebus</p>
-            </div>
-        </div>
-
-        <div class="scrollytelling-inner">
-            <div class="box">
-                <p>Some illegal miners, known as garimpeiros, worked on smaller dredges in the area as early as the 1980s.</p>
-                <p class="big">But hundreds of industrial-size mining barges arrived in the municipality of Japurá, in the state of Amazonas, after former Brazilian President Jair Bolsonaro took office in 2019 with a pledge to legalize informal gold mining.</p>
-                <p class="caption">Photo: Andrés Cardona</p>
-            </div>
-        </div>
-
-        <div class="scrollytelling-inner">
-            <div class="box">
-                <p class="big">Besides scooping up so much sediment that they change the course of the river, the miners dump hundreds of kilograms of mercury into the environment.</p>
-                <p>The dredges also encroach on protected areas, including one inhabited by a nomadic Indigenous tribe that shuns contact with outsiders.</p>
-                <p class="caption">Photo: Andrés Cardona</p>
-            </div>
-        </div>
-
-        <div class="scrollytelling-inner">
-            <div class="box">
-                <p>Both Brazil’s and Colombia’s new presidents, Lula da Silva and Gustavo Petro, have pledged</p>
-                <p class="big">to rein in the illegal mining that churns out hundreds of millions of dollars’ worth of gold, financing armed groups on both sides of the border.</p>
-                <p class="caption">Photo: Alex Rufino</p>
-            </div>
-        </div>
-
-        <div class="scrollytelling-inner">
-            <div class="box">
-                <p>Nevertheless, the illegal gold mining that has swept through the Amazon, combined with drug trafficking,</p>
-                <p class="big">Besides scooping up so much sediment that they change the course of the river, the miners dump hundreds of kilograms of mercury into the environment.</p>
-                <p class="caption">Photo: Alex Rufino</p>
+    <div class="modal" id="draga1">
+        <div class="modal-content">
+            <button class="modalclose" data-modal="draga1"></button>
+            <div class="gallery">
+                <img src="./assets/img/draga-modal.jpg"/>
+                <div class="caption">Description 1 | Bram Ebus</div>
             </div>
         </div>
     </div>
-</div>
+    <div class="modal" id="draga2">
+        <div class="modal-content">
+            <button class="modalclose" data-modal="draga2"></button>
+            <div class="gallery">
+                <img src="./assets/img/draga-modal.jpg"/>
+                <div class="caption">Description 2 | Bram Ebus</div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="draga3">
+        <div class="modal-content">
+            <button class="modalclose" data-modal="draga3"></button>
+            <div class="gallery">
+                <img src="./assets/img/draga-modal.jpg"/>
+                <div class="caption">Description 3 | Bram Ebus</div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="draga4">
+        <div class="modal-content">
+            <button class="modalclose" data-modal="draga4"></button>
+            <div class="gallery">
+                <img src="./assets/img/draga-modal.jpg"/>
+                <div class="caption">Description 4 | Bram Ebus</div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="draga5">
+        <div class="modal-content">
+            <button class="modalclose" data-modal="draga5"></button>
+            <div class="gallery">
+                <img src="./assets/img/draga-modal.jpg"/>
+                <div class="caption">Description 5 | Bram Ebus</div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="draga6">
+        <div class="modal-content">
+            <button class="modalclose" data-modal="draga6"></button>
+            <div class="gallery">
+                <img src="./assets/img/draga-modal.jpg"/>
+                <div class="caption">Description 6 | Bram Ebus</div>
+            </div>
+        </div>
+    </div>
+
+</section>
 <!-- /wp:code -->
 
 <!-- wp:code -->

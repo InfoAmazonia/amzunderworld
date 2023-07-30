@@ -713,21 +713,24 @@
         }
 
         .info-draga{
-            min-height: 748px;
+            height: calc(300vh + ((2.897 * 100vh) - 100vw));
             background-repeat: no-repeat;
-            overflow-x: scroll;
             position: relative;
+            width: 100vw;
             color: @preto !important;
+
             .fundo{
-                position: absolute;
+                position: sticky;
                 top: 0;
                 left: 0;
-                min-height: 748px;
-                background-repeat: no-repeat;
-                width: 2170px;
+                height: 100vh;
+                background: url(../assets/img/story1-draga.jpg) left top no-repeat;
+                background-size: auto 100%;
+                width: calc(2.897 * 100vh);
             }
             .title{
                 font-family: "Big Shoulders Display", sans-serif !important; 
+                background: url(../assets/img/story1-draga-title-1.png) center no-repeat;
                 font-size: 40px;
                 height: 120px;
                 left: 1rem;
@@ -745,8 +748,8 @@
                 flex-direction: column;
                 gap: 10px;
                 align-items: center;
-                &:first-child{top:22%;left:6%;}
-                &:nth-child(2){bottom:15%;left:19%;}
+                &:first-child{top:26%;left:9%;}
+                &:nth-child(2){bottom:13%;left:20%;}
                 &:nth-child(3){bottom:15%;left:36%;}
                 &:nth-child(4){top:6%;right:23%;}
                 &:nth-child(5){top:6%;right:6%;}
@@ -755,13 +758,14 @@
             .box{
                 padding: 1rem 1.5rem;
                 text-align: center;
+                background: url(../assets/img/story1-draga-box-1.png) center no-repeat;
             }
             .icon{
                 width: 32px;
                 height: 32px;
                 content: "";
                 display: block;
-                background-repeat: no-repeat;
+                background: url(../assets/img/story1-draga-icon-1.png) center no-repeat;
                 background-size: cover;
                 background-color:transparent;
             }

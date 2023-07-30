@@ -82,6 +82,10 @@
   };
   var generalApp = {
     init: function init() {
+      // Pros stickys
+      var page = document.querySelector("#page");
+      if (page) page.style.overflow = 'initial !important';
+
       //BTN RESPONSIVO
       var btnHamburguer = document.querySelector('.btn-hamburguer');
       if (btnHamburguer) btnHamburguer.onclick = function (e) {
@@ -162,8 +166,6 @@
   var scrollytellingApp = {
     itens: {},
     init: function init() {
-      var page = document.querySelector("#page");
-      if (page) page.style.overflow = 'initial !important';
       scrollytellingApp.itens = [];
       var containers = document.querySelectorAll('.scrollytelling');
       if (containers.length) containers.forEach(function (x, i) {
@@ -174,7 +176,7 @@
           bgs: x.querySelectorAll('.bg'),
           stks: x.querySelector('.stks'),
           ch: x.querySelectorAll('.scrollytelling-inner'),
-          cur: 0
+          cur: '1'
         };
         addScroll(function (e) {
           scrollytellingApp.itens.forEach(function (d) {
@@ -188,6 +190,7 @@
             }
           });
         });
+        scrollytellingApp.changeBg(scrollytellingApp.itens[0]);
       });
     },
     changeBg: function changeBg(d) {
@@ -195,6 +198,30 @@
         if (x.tagName == 'VIDEO') x.currentTime = 0;
         x.classList.toggle('active', x.dataset.scrl == d.cur);
       });
+    }
+  };
+  var dragasApp = {
+    d: false,
+    init: function init() {
+      var dragasinfo = document.querySelector('#dragasinfo');
+      if (dragasinfo) {
+        var f = dragasinfo.querySelector('.fundo');
+        dragasApp.d = {
+          y: dragasinfo.offsetTop,
+          h: dragasinfo.clientHeight,
+          f: f,
+          s: f.clientWidth,
+          item: dragasinfo
+        };
+        addScroll(function (e) {
+          var d = dragasApp.d;
+          if (currentST + wh > d.y && currentST < d.y + d.h) {
+            var yy = currentST - d.y;
+            var hh = Math.max(0, Math.min(1, yy / (d.h - wh))) * (d.s - ww);
+            transformFunc(d.f, -hh + 'px');
+          }
+        });
+      }
     }
   };
   var linksApp = {
@@ -248,6 +275,7 @@
     groupsApp.init();
     generalApp.init();
     scrollytellingApp.init();
+    dragasApp.init();
     fixedScrollFunction();
   }
   window.addEventListener("scroll", fixedScrollFunction);
@@ -255,3 +283,9 @@
   window.addEventListener('resize', start, true);
   start();
 })();
+function topo() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
