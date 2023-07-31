@@ -211,7 +211,7 @@ const groupsArms = [
 <!-- /wp:heading -->
 
 <!-- wp:code -->
-<section class="full cards" id="cardsdiv"></section>
+<section class="full" id="storiesdiv"><div class="cards" id="cardsdiv"></div></section>
 <!-- /wp:code -->
 
 <!-- wp:cover {"id":159441,"dimRatio":0,"isDark":false,"className":"bg-white"} -->

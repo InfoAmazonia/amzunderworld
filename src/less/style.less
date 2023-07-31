@@ -616,11 +616,17 @@
             }
         }
 
+        #storiesdiv{
+            overflow-x: hidden;
+            @media(max-width: 768px){
+                overflow-x: scroll;
+            }
+        }
         .cards{
             display: flex;
-            flex-wrap: wrap; /* Permite que os cards sejam quebrados em linhas */
-            gap: 5px; /* Espaçamento entre os cards */
-            width: calc((9 * 70vw) + (8 * 5px)) !important;
+            flex-wrap: nowrap;
+            gap: 5px;
+            //width: calc((9 * min(70vw,550px)) + (8 * 5px)) !important;
 
             .card{
                 position: relative;
@@ -630,6 +636,7 @@
                 max-height: 550px;
                 width: 70vw;
                 height: 70vw;
+                flex: 0 0 auto;
                 .image{
                     position: absolute;
                     width: 100%;

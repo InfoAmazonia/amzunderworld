@@ -18,17 +18,17 @@
     {
       n:1,id:'n1',data:'2023-07-03T10:00:00.00Z',
       link_en:'https://infoamazonia.org/en/2023/08/03/welcome-to-the-amazon-underworld',
-      link_pt:'https://infoamazonia.org/en/2023/08/03/welcome-to-the-amazon-underworld',
-      link_es:'https://infoamazonia.org/en/2023/08/03/welcome-to-the-amazon-underworld',
+      link_pt:'https://infoamazonia.org/2023/08/03/bem-vindo-ao-amazon-underworld/',
+      link_es:'https://infoamazonia.org/es/2023/08/03/bienvenidos-a-amazon-underworld/',
       local_en:'Introduction',name_en:'Welcome to the Amazon Underworld',
       local_es:'Introducción',name_es:'Bienvenido al Amazon Underworld',
       local_pt:'Introdução',name_pt:'Bem-vindo ao Amazon Underworld',
     },
     {
       n:2,id:'n2',data:'2023-07-06T10:00:00.00Z',
-      link_en:'https://infoamazonia.org/en/2023/08/03/gold-spurs-crime-corruption-on-brazil-colombia-border',
-      link_pt:'https://infoamazonia.org/en/2023/08/03/gold-spurs-crime-corruption-on-brazil-colombia-border',
-      link_es:'https://infoamazonia.org/en/2023/08/03/gold-spurs-crime-corruption-on-brazil-colombia-border',
+      link_en:'https://infoamazonia.org/en/2023/08/03/gold-spurs-crime-corruption-on-brazil-colombia-border/',
+      link_pt:'https://infoamazonia.org/2023/08/03/ouro-estimula-crime-e-corrupcao-na-fronteira-brasil-colombia',
+      link_es:'https://infoamazonia.org/es/2023/08/03/el-oro-estimula-el-crimen-y-la-corrupcion-en-la-frontera-entre-brasil-y-colombia',
       local_en:'Brazil + Colombia',name_en:'Gold spurs crime & corruption on Brazil-Colombia border',
       local_es:'Brasil + colombia',name_es:'El oro estimula el crimen y la corrupción en la frontera entre Brasil y Colombia',
       local_pt:'Brasil + colombia',name_pt:'Ouro estimula crime e corrupção na fronteira Brasil-Colômbia',
@@ -217,6 +217,17 @@
               const modalId = button.dataset.modal;
               document.getElementById(modalId).classList.toggle("is-visible");
           };
+      });
+
+      const storiesDiv = document.querySelector("#storiesdiv");
+      storiesDiv.addEventListener("wheel", (evt) => {
+          const maxScrollLeft = storiesDiv.scrollWidth - storiesDiv.clientWidth;
+          const isAtMaxHorizontalScroll = storiesDiv.scrollLeft === maxScrollLeft;
+          if ( (isAtMaxHorizontalScroll && evt.deltaY>0) || (storiesDiv.scrollLeft==0&&evt.deltaY<0) ) {
+             return;
+          }
+          evt.preventDefault();
+          storiesDiv.scrollLeft += evt.deltaY;
       });
     }
   };

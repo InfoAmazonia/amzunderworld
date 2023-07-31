@@ -5,7 +5,9 @@
 <div class="amz" id="story1">
 <!-- /wp:code -->
 
-<section class="full cards" id="cardsdiv"></section>
+<!-- wp:code -->
+<section class="full" id="storiesdiv"><div class="cards" id="cardsdiv"></div></section>
+<!-- /wp:code -->
 
 <!-- wp:code -->
 </div>
