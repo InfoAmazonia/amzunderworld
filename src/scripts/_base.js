@@ -143,6 +143,12 @@
     'Main economies':{pt:'Principais economias',es:'Principales economías'},
     'read more':{pt:'ler mais',es:'ler mais'},
     'soon':{pt:'em breve',es:'en breve'},
+    'BACK TO TOP':{pt:'VOLTAR AO TOPO',es:'VOLVER AL PRINCIPIO'},
+    'HOMEPAGE':{pt:'PÁGINA INICIAL',es:'PÁGINA INICIAL'},
+    'EXPLORE THE STORIES':{pt:'EXPLORE AS HISTÓRIAS',es:'EXPLORA LAS HISTORIAS'},
+    'MORE FROM THE AMAZON UNDERWORLD':{pt:'MAIS DO AMAZON UNDERWORLD',es:'MÁS DE AMAZON UNDERWORLD'},
+    'ADDITIONAL STORIES':{pt:'VEJA OUTRAS HISTÓRIAS',es:'LEA OTRAS HISTORIAS'},
+    'https://infoamazonia.org/en/tag/amazon-underworld-en/':{pt:'https://infoamazonia.org/tag/amazon-underworld/',es:'https://infoamazonia.org/es/tag/amazon-underworld-es/'},
   };
   const traduz = function(p){
     let c = traducoes[p];
@@ -220,7 +226,7 @@
       });
 
       const storiesDiv = document.querySelector("#storiesdiv");
-      storiesDiv.addEventListener("wheel", (evt) => {
+      if(storiesDiv) storiesDiv.addEventListener("wheel", (evt) => {
           const maxScrollLeft = storiesDiv.scrollWidth - storiesDiv.clientWidth;
           const isAtMaxHorizontalScroll = storiesDiv.scrollLeft === maxScrollLeft;
           if ( (isAtMaxHorizontalScroll && evt.deltaY>0) || (storiesDiv.scrollLeft==0&&evt.deltaY<0) ) {
@@ -229,6 +235,26 @@
           evt.preventDefault();
           storiesDiv.scrollLeft += evt.deltaY;
       });
+    }
+  };
+
+  var conteudoApp = {
+    init: ()=>{
+      var a = document.getElementById('amzundfooter');
+      if(a)a.innerHTML = `<div style="padding:1rem 0 4rem;">
+          <a class="wp-block-button__link" onclick="topo()">${traduz('BACK TO TOP')}</a>
+          <a class="wp-block-button__link" href="${baseUrl+(lang!='en'?lang+'.html':'')}">${traduz('HOMEPAGE')}</a>
+      </div>
+      <img src="${baseUrl}assets/img/icone-explore.png"/>
+      <h1>${traduz('EXPLORE THE STORIES')}</h1>
+      <section class="full" id="storiesdiv"><div class="cards" id="cardsdiv"></div></section>
+
+      <div class="wp-block-cover is-light bg-white"><div class="wp-block-cover__inner-container">
+          <img src="${baseUrl}assets/img/icone-todas.png"/>
+          <h1>${traduz('MORE FROM THE AMAZON UNDERWORLD')}</h1>
+          <p>${traduz('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip')}</p>
+          <a class="wp-block-button__link" href="${traduz('https://infoamazonia.org/en/tag/amazon-underworld-en/')}">${traduz('ADDITIONAL STORIES')}</a>
+      </div></div>`;
     }
   };
 
@@ -447,6 +473,7 @@
     removeAllScrollEvents();
     removeAllStartEvents();
     
+    conteudoApp.init();
     parallaxApp.init();
     mapaLinks.init();
     cardsApp.init();

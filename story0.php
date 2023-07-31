@@ -184,58 +184,10 @@ const groupsArms = [
 <p>Amazon Underworld is a joint investigation of InfoAmazonia (Brazil), Armando.Info (Venezuela) and La Liga Contra el Silencio (Colombia). The work is carried out in collaboration with the Pulitzer Center’s Rainforest Investigations Network and financed by the Open Society Foundation and the U.K. Foreign, Commonwealth &amp; Development Office.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":"18px"} -->
-<div style="height:18px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"space-between"}} -->
-<div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">VOLTAR AO TOPO</a></div>
-<!-- /wp:button -->
-
-<!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">PAGINA INICIAL</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons -->
-
-<!-- wp:spacer {"height":"64px"} -->
-<div style="height:64px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:image {"id":160171,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-icone2.png" alt="" class="wp-image-160171"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading" id="explore the stories">EXPLORE THE STORIES</h1>
-<!-- /wp:heading -->
-
 <!-- wp:code -->
-<section class="full" id="storiesdiv"><div class="cards" id="cardsdiv"></div></section>
-<!-- /wp:code -->
-
-<!-- wp:cover {"id":159441,"dimRatio":0,"isDark":false,"className":"bg-white"} -->
-<div class="wp-block-cover is-light bg-white"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:image {"id":160159,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-icone3.png" alt="" class="wp-image-160159"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading" id="explore the stories">TODAS AS HISTÓRIAS DO PROJETO</h1>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Conheça</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div></div>
-<!-- /wp:cover -->
-
-<!-- wp:code -->
+<div id="amzundfooter"></div>
 </div >
+<script src="https://taprontodev.github.io/amzunderworld/build/script.js" type="text/javascript"></script>
 <!-- /wp:code -->
 
 <!-- Footer -->
