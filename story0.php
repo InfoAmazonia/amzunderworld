@@ -187,7 +187,7 @@ const groupsArms = [
 <!-- wp:code -->
 <div id="amzundfooter"></div>
 </div >
-<script src="https://taprontodev.github.io/amzunderworld/build/script.js" type="text/javascript"></script>
+<!-- <script src="https://taprontodev.github.io/amzunderworld/build/script.js" type="text/javascript"></script> -->
 <!-- /wp:code -->
 
 <!-- Footer -->
