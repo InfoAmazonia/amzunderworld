@@ -211,41 +211,7 @@ const groupsArms = [
 <!-- /wp:heading -->
 
 <!-- wp:code -->
-<p>    <!-- Componente Banner Cards --></p>
-<section class="full cards">
-<div class="card">
-<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-card1.jpg"></div>
-<div class="infos">
-<div class="local">country + country</div>
-<div class="title">Gold spurs crime &amp; corruption on Brazil-Colombia border</div>
-<p>                <button class="btn">read more <span class="arrow"></span></button>
-            </p></div>
-<p></p></div>
-<div class="card">
-<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-card2.jpg"></div>
-<div class="infos">
-<div class="local">country + country</div>
-<div class="title">Gold spurs crime &amp; corruption on Brazil-Colombia border</div>
-<p>                <button class="btn">read more <span class="arrow"></span></button>
-            </p></div>
-<p></p></div>
-<div class="card">
-<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-card3.jpg"></div>
-<div class="infos">
-<div class="local">country + country</div>
-<div class="title">Gold spurs crime &amp; corruption on Brazil-Colombia border</div>
-<p>                <button class="btn">read more <span class="arrow"></span></button>
-            </p></div>
-<p></p></div>
-<div class="card">
-<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-card1.jpg"></div>
-<div class="infos">
-<div class="local">country + country</div>
-<div class="title">Gold spurs crime &amp; corruption on Brazil-Colombia border</div>
-<p>                <button class="btn">read more <span class="arrow"></span></button>
-            </p></div>
-<p></p></div>
-</section>
+<section class="full cards" id="cardsdiv"></section>
 <!-- /wp:code -->
 
 <!-- wp:cover {"id":159441,"dimRatio":0,"isDark":false,"className":"bg-white"} -->

@@ -51,6 +51,7 @@
 <p>“He took half a kilo of gold with him,” one of the officers says.</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:code -->
 <div class="scrollytelling">
     <div class="stks">
         <img class="bg" data-scrl='1' src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-globo.png">
@@ -106,6 +107,7 @@
         </div>
     </div>
 </div>
+<!-- /wp:code -->
 
 <!-- wp:image {"id":160322,"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-icone1.png" alt="" class="wp-image-160322"/></figure>
@@ -173,7 +175,7 @@
         <div class="modal-content">
             <button class="modalclose" data-modal="draga1"></button>
             <div class="gallery">
-                <img src="./assets/img/draga-modal.jpg"/>
+                <img src="https://taprontodev.github.io/amzunderworld/assets/img/draga-modal.jpg"/>
                 <div class="caption">Description 1 | Bram Ebus</div>
             </div>
         </div>
@@ -182,7 +184,7 @@
         <div class="modal-content">
             <button class="modalclose" data-modal="draga2"></button>
             <div class="gallery">
-                <img src="./assets/img/draga-modal.jpg"/>
+                <img src="https://taprontodev.github.io/amzunderworld/assets/img/draga-modal.jpg"/>
                 <div class="caption">Description 2 | Bram Ebus</div>
             </div>
         </div>
@@ -191,7 +193,7 @@
         <div class="modal-content">
             <button class="modalclose" data-modal="draga3"></button>
             <div class="gallery">
-                <img src="./assets/img/draga-modal.jpg"/>
+                <img src="https://taprontodev.github.io/amzunderworld/assets/img/draga-modal.jpg"/>
                 <div class="caption">Description 3 | Bram Ebus</div>
             </div>
         </div>
@@ -200,7 +202,7 @@
         <div class="modal-content">
             <button class="modalclose" data-modal="draga4"></button>
             <div class="gallery">
-                <img src="./assets/img/draga-modal.jpg"/>
+                <img src="https://taprontodev.github.io/amzunderworld/assets/img/draga-modal.jpg"/>
                 <div class="caption">Description 4 | Bram Ebus</div>
             </div>
         </div>
@@ -209,7 +211,7 @@
         <div class="modal-content">
             <button class="modalclose" data-modal="draga5"></button>
             <div class="gallery">
-                <img src="./assets/img/draga-modal.jpg"/>
+                <img src="https://taprontodev.github.io/amzunderworld/assets/img/draga-modal.jpg"/>
                 <div class="caption">Description 5 | Bram Ebus</div>
             </div>
         </div>
@@ -218,7 +220,7 @@
         <div class="modal-content">
             <button class="modalclose" data-modal="draga6"></button>
             <div class="gallery">
-                <img src="./assets/img/draga-modal.jpg"/>
+                <img src="https://taprontodev.github.io/amzunderworld/assets/img/draga-modal.jpg"/>
                 <div class="caption">Description 6 | Bram Ebus</div>
             </div>
         </div>
@@ -810,41 +812,7 @@ https://www.youtube.com/watch?v=i-5VSJKBL-A
 <!-- /wp:heading -->
 
 <!-- wp:code -->
-<p>    <!-- Componente Banner Cards --></p>
-<section class="full cards">
-<div class="card">
-<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-card1.jpg"></div>
-<div class="infos">
-<div class="local">country + country</div>
-<div class="title">Gold spurs crime &amp; corruption on Brazil-Colombia border</div>
-<p>                <button class="btn">read more <span class="arrow"></span></button>
-            </p></div>
-<p></p></div>
-<div class="card">
-<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-card2.jpg"></div>
-<div class="infos">
-<div class="local">country + country</div>
-<div class="title">Gold spurs crime &amp; corruption on Brazil-Colombia border</div>
-<p>                <button class="btn">read more <span class="arrow"></span></button>
-            </p></div>
-<p></p></div>
-<div class="card">
-<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-card3.jpg"></div>
-<div class="infos">
-<div class="local">country + country</div>
-<div class="title">Gold spurs crime &amp; corruption on Brazil-Colombia border</div>
-<p>                <button class="btn">read more <span class="arrow"></span></button>
-            </p></div>
-<p></p></div>
-<div class="card">
-<div class="image"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-card1.jpg"></div>
-<div class="infos">
-<div class="local">country + country</div>
-<div class="title">Gold spurs crime &amp; corruption on Brazil-Colombia border</div>
-<p>                <button class="btn">read more <span class="arrow"></span></button>
-            </p></div>
-<p></p></div>
-</section>
+<section class="full cards" id="cardsdiv"></section>
 <!-- /wp:code -->
 
 <!-- wp:cover {"id":159441,"dimRatio":0,"isDark":false,"className":"bg-white"} -->
