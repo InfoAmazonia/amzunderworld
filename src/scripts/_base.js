@@ -433,7 +433,6 @@
           if(comparaData(l.data)){
             cc.classList.remove('disabled');
             cc.href=l['link_'+lang];
-            cc.target="_blank";
           }
         })
       });
