@@ -169,11 +169,10 @@
             </div>     
         </div>
     </div>
-
-    <div class="modal" id="draga1"><div class="modal-content"><button class="modalclose"></button>
-        
-    </div></div>
 </section>
+<div class="modal" id="draga1"><div class="modal-content"><button class="modalclose"></button>
+    
+</div></div>
 <!-- /wp:code -->
 
 <!-- wp:spacer {"height":"48px"} -->

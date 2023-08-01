@@ -184,16 +184,16 @@
       es: 'Fundación'
     },
     'Political/ideological stance': {
-      pt: 'Posição política/ideológica',
-      es: 'Postura política/ideológica'
+      pt: 'Posición política e ideológica',
+      es: 'Posição político-ideológica'
     },
     'Acts of violence': {
       pt: 'Atos de violência',
       es: 'Actos de violencia'
     },
     'Main economies': {
-      pt: 'Principais economias',
-      es: 'Principales economías'
+      pt: 'Principais atividades',
+      es: 'Principales actividades'
     },
     'read more': {
       pt: 'ler mais',
