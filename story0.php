@@ -133,12 +133,6 @@ const groupsArms = [
 <!-- /wp:heading --></div></div>
 <!-- /wp:cover -->
 
-<!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">CONHEÇA A METODOLOGIA</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons -->
-
 <!-- wp:spacer {"height":"63px"} -->
 <div style="height:63px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->

@@ -261,48 +261,38 @@
 
 <!-- wp:code -->
 <section class="full tripa infografico">
-        <div class="main-content">
-            <h2>Miners report paying protection money to Brazil’s Military Police</h2>
-            <p class="big">
-                For days at a time, police patrol the Puruê River in boats with powerful outboard motors, stopping at dredges and collecting their gold.
-            <p>
-            <div class="info-cards">
-    
-                <div class="card">
-                    <div class="image-area">
-                        <img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-card-icone1.png" >
-                    </div>
-                    <p>
-                   Military Police function as vigilantes protecting miners from thieves & guerrillas.
-                    </p>
+    <div class="main-content">
+        <h2>Miners report paying protection money to Brazil’s Military Police</h2>
+        <p class="big">For days at a time, miners say, police patrol the Puruê River in boats with powerful outboard motors, stopping at dredges and collecting their gold. According to miners:</p>
+        <div class="info-cards">
+            <div class="card">
+                <div class="image-area">
+                    <img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-card-icone1.png" >
                 </div>
-                <div class="card">
-                    <div class="image-area">
-                        <img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-card-icone2.png" >
-                    </div>
-                    <p>
-                    The Military Police collects a monthly 30 grams of gold per mining dredge.
-                    </p>
+                <p>Military Police function as vigilantes protecting illegal miners from thieves and Colombian guerrillas.</p>
+            </div>
+            <div class="card">
+                <div class="image-area">
+                    <img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-card-icone2.png" >
                 </div>
-                <div class="card">
-                    <div class="image-area">
-                        <img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-card-icone3.png" >
-                    </div>
-                    <p>
-                    Military Police traffickers gold over X route.
-                    </p>
+                <p>Military Police collect a monthly 30 grams of gold per mining dredge.</p>
+            </div>
+            <div class="card">
+                <div class="image-area">
+                    <img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-card-icone3.png" >
                 </div>
-                <div class="card">
-                    <div class="image-area">
-                        <img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-card-icone4.png" >
-                    </div>
-                    <p>
-                    The Prefeitura de Japurá also collects up to 50 grams a month per mining dredge.
-                    </p>
+                <p>Military Police traffic gold through Japurá.</p>
+            </div>
+            <div class="card">
+                <div class="image-area">
+                    <img src="https://infoamazonia.org/wp-content/uploads/2023/07/story1-card-icone4.png" >
                 </div>
+                <p>The municipality of Japurá also collects gold payments, up to 50 grams a month per mining dredge.</p>
             </div>
         </div>
-    </section>
+        <p class="seta">In an emailed response to an inquiry, a municipal official denied the accusations. Military Police said an investigation of accusations of piracy resulted in several arrests, including Military Police personnel, but did not respond to questions about alleged extortion of miners.</p>
+    </div>
+</section>
 <!-- /wp:code -->
 
 <!-- wp:spacer {"height":"48px"} -->

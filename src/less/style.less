@@ -710,11 +710,19 @@
                 @media only screen and (max-width: 768px) {   padding: 1rem !important;}
             }
             .info-cards{
-                display: flex;
+                display: flex; position: relative;
                 @media only screen and (max-width: 768px) {  flex-direction: column;}
                 gap: 1rem;
                 justify-content: space-around;
                 color: @bege !important;
+                &:before{
+                    content: "";
+                    position: absolute;
+                    left: -5%; top: -5%; width: 110%; height: 110%;
+                    background: url(../assets/img/bg-verde.png) center no-repeat;
+                    background-size: 100% 100%;
+                    z-index: -1;
+                }
                 .card{
                     color: @bege !important;
                     max-width: 210px;
@@ -741,6 +749,7 @@
                 
                 }
             }
+            p.seta{padding-left: 76px; background: url(../assets/img/seta.png) 0 0 no-repeat; min-height: 60px; background-size: 60px auto;}
         }
 
         .info-draga{
