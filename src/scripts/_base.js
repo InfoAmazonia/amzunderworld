@@ -146,9 +146,14 @@
     'BACK TO TOP':{pt:'VOLTAR AO TOPO',es:'VOLVER AL PRINCIPIO'},
     'HOMEPAGE':{pt:'PÁGINA INICIAL',es:'PÁGINA INICIAL'},
     'EXPLORE THE STORIES':{pt:'EXPLORE AS HISTÓRIAS',es:'EXPLORA LAS HISTORIAS'},
-    'MORE FROM THE AMAZON UNDERWORLD':{pt:'MAIS DO AMAZON UNDERWORLD',es:'MÁS DE AMAZON UNDERWORLD'},
-    'ADDITIONAL STORIES':{pt:'VEJA OUTRAS HISTÓRIAS',es:'LEA OTRAS HISTORIAS'},
+    'READ MORE ABOUT THE AMAZON UNDERWORLD':{pt:'LEIA MAIS DE AMAZON UNDERWORLD',es:'LEER MÁS SOBRE AMAZON UNDERWORLD'},
+    'CLICK HERE FOR ADDITIONAL STORIES':{pt:'CLIQUE AQUI PARA HISTÓRIAS ADICIONAIS',es:'HAZ CLIC AQUÍ PARA CONOCER OTRAS HISTORIAS'},
     'https://infoamazonia.org/en/tag/amazon-underworld-en/':{pt:'https://infoamazonia.org/tag/amazon-underworld/',es:'https://infoamazonia.org/es/tag/amazon-underworld-es/'},
+    'moreunderworld':{
+      en:'The stories on this platform provide a comprehensive overview of cross-border organized crime, but there’s more to the Amazon Underworld.',
+      pt:'As reportagens nesta plataforma fornecem uma visão abrangente do crime organizado transfronteiriço, mas há mais em Amazon Underworld.',
+      es:'Las historias que aparecen en esta plataforma muestran un amplio y completo panorama del crimen organizado transfronterizo, pero hay más en Amazon Underworld.',
+    },
   };
   const traduz = function(p){
     let c = traducoes[p];
@@ -251,9 +256,9 @@
 
       <div class="wp-block-cover is-light bg-white"><div class="wp-block-cover__inner-container">
           <img src="${baseUrl}assets/img/icone-todas.png"/>
-          <h1>${traduz('MORE FROM THE AMAZON UNDERWORLD')}</h1>
-          <p>${traduz('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip')}</p>
-          <a class="wp-block-button__link" href="${traduz('https://infoamazonia.org/en/tag/amazon-underworld-en/')}">${traduz('ADDITIONAL STORIES')}</a>
+          <h1>${traduz('READ MORE ABOUT THE AMAZON UNDERWORLD')}</h1>
+          <p>${traduz('moreunderworld')}</p>
+          <a class="wp-block-button__link" href="${traduz('https://infoamazonia.org/en/tag/amazon-underworld-en/')}">${traduz('CLICK HERE FOR ADDITIONAL STORIES')}</a>
       </div></div>`;
     }
   };

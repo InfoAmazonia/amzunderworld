@@ -215,17 +215,22 @@
       pt: 'EXPLORE AS HISTÓRIAS',
       es: 'EXPLORA LAS HISTORIAS'
     },
-    'MORE FROM THE AMAZON UNDERWORLD': {
-      pt: 'MAIS DO AMAZON UNDERWORLD',
-      es: 'MÁS DE AMAZON UNDERWORLD'
+    'READ MORE ABOUT THE AMAZON UNDERWORLD': {
+      pt: 'LEIA MAIS DE AMAZON UNDERWORLD',
+      es: 'LEER MÁS SOBRE AMAZON UNDERWORLD'
     },
-    'ADDITIONAL STORIES': {
-      pt: 'VEJA OUTRAS HISTÓRIAS',
-      es: 'LEA OTRAS HISTORIAS'
+    'CLICK HERE FOR ADDITIONAL STORIES': {
+      pt: 'CLIQUE AQUI PARA HISTÓRIAS ADICIONAIS',
+      es: 'HAZ CLIC AQUÍ PARA CONOCER OTRAS HISTORIAS'
     },
     'https://infoamazonia.org/en/tag/amazon-underworld-en/': {
       pt: 'https://infoamazonia.org/tag/amazon-underworld/',
       es: 'https://infoamazonia.org/es/tag/amazon-underworld-es/'
+    },
+    'moreunderworld': {
+      en: 'The stories on this platform provide a comprehensive overview of cross-border organized crime, but there’s more to the Amazon Underworld.',
+      pt: 'As reportagens nesta plataforma fornecem uma visão abrangente do crime organizado transfronteiriço, mas há mais em Amazon Underworld.',
+      es: 'Las historias que aparecen en esta plataforma muestran un amplio y completo panorama del crimen organizado transfronterizo, pero hay más en Amazon Underworld.'
     }
   };
   var traduz = function traduz(p) {
@@ -304,7 +309,7 @@
   var conteudoApp = {
     init: function init() {
       var a = document.getElementById('amzundfooter');
-      if (a) a.innerHTML = "<div style=\"padding:1rem 0 4rem;\">\n          <a class=\"wp-block-button__link\" onclick=\"topo()\">".concat(traduz('BACK TO TOP'), "</a>\n          <a class=\"wp-block-button__link\" href=\"").concat(baseUrl + (lang != 'en' ? lang + '.html' : ''), "\">").concat(traduz('HOMEPAGE'), "</a>\n      </div>\n      <img src=\"").concat(baseUrl, "assets/img/icone-explore.png\"/>\n      <h1>").concat(traduz('EXPLORE THE STORIES'), "</h1>\n      <section class=\"full\" id=\"storiesdiv\"><div class=\"cards\" id=\"cardsdiv\"></div></section>\n\n      <div class=\"wp-block-cover is-light bg-white\"><div class=\"wp-block-cover__inner-container\">\n          <img src=\"").concat(baseUrl, "assets/img/icone-todas.png\"/>\n          <h1>").concat(traduz('MORE FROM THE AMAZON UNDERWORLD'), "</h1>\n          <p>").concat(traduz('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip'), "</p>\n          <a class=\"wp-block-button__link\" href=\"").concat(traduz('https://infoamazonia.org/en/tag/amazon-underworld-en/'), "\">").concat(traduz('ADDITIONAL STORIES'), "</a>\n      </div></div>");
+      if (a) a.innerHTML = "<div style=\"padding:1rem 0 4rem;\">\n          <a class=\"wp-block-button__link\" onclick=\"topo()\">".concat(traduz('BACK TO TOP'), "</a>\n          <a class=\"wp-block-button__link\" href=\"").concat(baseUrl + (lang != 'en' ? lang + '.html' : ''), "\">").concat(traduz('HOMEPAGE'), "</a>\n      </div>\n      <img src=\"").concat(baseUrl, "assets/img/icone-explore.png\"/>\n      <h1>").concat(traduz('EXPLORE THE STORIES'), "</h1>\n      <section class=\"full\" id=\"storiesdiv\"><div class=\"cards\" id=\"cardsdiv\"></div></section>\n\n      <div class=\"wp-block-cover is-light bg-white\"><div class=\"wp-block-cover__inner-container\">\n          <img src=\"").concat(baseUrl, "assets/img/icone-todas.png\"/>\n          <h1>").concat(traduz('READ MORE ABOUT THE AMAZON UNDERWORLD'), "</h1>\n          <p>").concat(traduz('moreunderworld'), "</p>\n          <a class=\"wp-block-button__link\" href=\"").concat(traduz('https://infoamazonia.org/en/tag/amazon-underworld-en/'), "\">").concat(traduz('CLICK HERE FOR ADDITIONAL STORIES'), "</a>\n      </div></div>");
     }
   };
 
