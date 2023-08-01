@@ -159,6 +159,9 @@
       pt:'As reportagens nesta plataforma fornecem uma visão abrangente do crime organizado transfronteiriço, mas há mais em Amazon Underworld.',
       es:'Las historias que aparecen en esta plataforma muestran un amplio y completo panorama del crimen organizado transfronterizo, pero hay más en Amazon Underworld.',
     },
+    'Explore the stories by clicking on the icons':{pt:'Explore as histórias clicando nos ícones',es:'Explora las historias haciendo clic en los iconos'},
+    'start here':{pt:'Comece por aqui',es:'Empieza aquí'},
+    'Suggested route':{pt:'Percurso sugerido',es:'Ruta sugerida'},
   };
   const traduz = function(p){
     let c = traducoes[p];
@@ -391,7 +394,9 @@
           </a>`;
         });
 
-        b+=`<div class="explorer">Explore the stories by clicking on the icons</div><div class="start">start here</div><div class="route">Suggested route</div>`;
+        b+=`<div class="explorer">${traduz('Explore the stories by clicking on the icons')}</div>
+        <div class="start">${traduz('start here')}</div>
+        <div class="route">${traduz('Suggested route')}</div>`;
 
         it.innerHTML = a+''+b;
       }

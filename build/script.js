@@ -236,6 +236,18 @@
       en: 'The stories on this platform provide a comprehensive overview of cross-border organized crime, but there’s more to the Amazon Underworld.',
       pt: 'As reportagens nesta plataforma fornecem uma visão abrangente do crime organizado transfronteiriço, mas há mais em Amazon Underworld.',
       es: 'Las historias que aparecen en esta plataforma muestran un amplio y completo panorama del crimen organizado transfronterizo, pero hay más en Amazon Underworld.'
+    },
+    'Explore the stories by clicking on the icons': {
+      pt: 'Explore as histórias clicando nos ícones',
+      es: 'Explora las historias haciendo clic en los iconos'
+    },
+    'start here': {
+      pt: 'Comece por aqui',
+      es: 'Empieza aquí'
+    },
+    'Suggested route': {
+      pt: 'Percurso sugerido',
+      es: 'Ruta sugerida'
     }
   };
   var traduz = function traduz(p) {
@@ -429,7 +441,7 @@
           a += "<a class=\"marcador ".concat(l.id, " disabled\" numero=\"").concat(l.n, "\" href=\"javascript:void(0)\"></a>");
           b += "<a class=\"conteudo ".concat(l.id, " disabled\" href=\"javascript:void(0)\">\n            <div class=\"titulo\">").concat(l['local_' + lang], "</div>\n            <div class=\"texto\">").concat(l['name_' + lang], "</div>\n            <span>").concat(traduz('read more'), " &rarr;</span>\n          </a>");
         });
-        b += "<div class=\"explorer\">Explore the stories by clicking on the icons</div><div class=\"start\">start here</div><div class=\"route\">Suggested route</div>";
+        b += "<div class=\"explorer\">".concat(traduz('Explore the stories by clicking on the icons'), "</div>\n        <div class=\"start\">").concat(traduz('start here'), "</div>\n        <div class=\"route\">").concat(traduz('Suggested route'), "</div>");
         it.innerHTML = a + '' + b;
       }
     }
