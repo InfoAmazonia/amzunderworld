@@ -460,10 +460,6 @@
                   <span class="value">${d.ideologia}</span>
               </div>
               <div class="linha">
-                  <span class="item">${traduz('Acts of violence')}:</span>
-                  <span class="value">${d.atos}</span>
-              </div>
-              <div class="linha">
                   <span class="item">${traduz('Main economies')}:</span>
                   <span class="value">${d.economia}</span>
               </div>
