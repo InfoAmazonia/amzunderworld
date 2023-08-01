@@ -146,6 +146,11 @@
     'BACK TO TOP':{pt:'VOLTAR AO TOPO',es:'VOLVER AL PRINCIPIO'},
     'HOMEPAGE':{pt:'PÁGINA INICIAL',es:'PÁGINA INICIAL'},
     'EXPLORE THE STORIES':{pt:'EXPLORE AS HISTÓRIAS',es:'EXPLORA LAS HISTORIAS'},
+    'explore_txt':{
+      en:`This route begins with an overview of the Amazon Underworld, then takes you to areas of illegal gold mining and cultivation of drug crops, following trafficking routes that cut through the heart of the jungle. Criminals take advantage of the region’s porous borders, countless rivers and myriad clandestin e airstrips to transport drugs and gold that feed insatiable global markets.`,
+      pt:'Esta rota começa com uma visão geral do submundo da Amazônia, em seguida, leva você a áreas de mineração ilegal de ouro e cultivo de drogas, seguindo rotas de tráfico que cortam o coração da selva. Os criminosos se aproveitam das fronteiras porosas da região, dos inúmeros rios e das incontáveis pistas de pouso clandestinas para transportar drogas e ouro que alimentam os insaciáveis mercados globais.',
+      es:'Esta ruta comienza con un panorama general del submundo amazónico, luego te lleva a zonas de extracción ilegal de oro, de cultivos ilícitos y procesamiento de drogas, y sigue por rutas de tráfico que atraviesan el corazón de la selva. El crimen organizado aprovecha las porosas fronteras de la región, los innumerables ríos y las múltiples pistas de aterrizaje clandestinas para transportar drogas y oro que alimentan los insaciables mercados internacionales.'
+    },
     'READ MORE ABOUT THE AMAZON UNDERWORLD':{pt:'LEIA MAIS DE AMAZON UNDERWORLD',es:'LEER MÁS SOBRE AMAZON UNDERWORLD'},
     'CLICK HERE FOR ADDITIONAL STORIES':{pt:'CLIQUE AQUI PARA HISTÓRIAS ADICIONAIS',es:'HAZ CLIC AQUÍ PARA CONOCER OTRAS HISTORIAS'},
     'https://infoamazonia.org/en/tag/amazon-underworld-en/':{pt:'https://infoamazonia.org/tag/amazon-underworld/',es:'https://infoamazonia.org/es/tag/amazon-underworld-es/'},
@@ -263,6 +268,7 @@
       </div>
       <img src="${baseUrl}assets/img/icone-explore.png"/>
       <h1>${traduz('EXPLORE THE STORIES')}</h1>
+      <p>${traduz('explore_txt')}</p>
       <section class="full" id="storiesdiv"><div class="cards" id="cardsdiv"></div></section>
 
       <div class="wp-block-cover is-light bg-white"><div class="wp-block-cover__inner-container">

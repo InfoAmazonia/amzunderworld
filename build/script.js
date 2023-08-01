@@ -215,6 +215,11 @@
       pt: 'EXPLORE AS HISTÓRIAS',
       es: 'EXPLORA LAS HISTORIAS'
     },
+    'explore_txt': {
+      en: "This route begins with an overview of the Amazon Underworld, then takes you to areas of illegal gold mining and cultivation of drug crops, following trafficking routes that cut through the heart of the jungle. Criminals take advantage of the region\u2019s porous borders, countless rivers and myriad clandestin e airstrips to transport drugs and gold that feed insatiable global markets.",
+      pt: 'Esta rota começa com uma visão geral do submundo da Amazônia, em seguida, leva você a áreas de mineração ilegal de ouro e cultivo de drogas, seguindo rotas de tráfico que cortam o coração da selva. Os criminosos se aproveitam das fronteiras porosas da região, dos inúmeros rios e das incontáveis pistas de pouso clandestinas para transportar drogas e ouro que alimentam os insaciáveis mercados globais.',
+      es: 'Esta ruta comienza con un panorama general del submundo amazónico, luego te lleva a zonas de extracción ilegal de oro, de cultivos ilícitos y procesamiento de drogas, y sigue por rutas de tráfico que atraviesan el corazón de la selva. El crimen organizado aprovecha las porosas fronteras de la región, los innumerables ríos y las múltiples pistas de aterrizaje clandestinas para transportar drogas y oro que alimentan los insaciables mercados internacionales.'
+    },
     'READ MORE ABOUT THE AMAZON UNDERWORLD': {
       pt: 'LEIA MAIS DE AMAZON UNDERWORLD',
       es: 'LEER MÁS SOBRE AMAZON UNDERWORLD'
@@ -320,7 +325,7 @@
   var conteudoApp = {
     init: function init() {
       var a = document.getElementById('amzundfooter');
-      if (a) a.innerHTML = "<div style=\"padding:1rem 0 4rem;\">\n          <a class=\"wp-block-button__link\" onclick=\"topo()\">".concat(traduz('BACK TO TOP'), "</a>\n          <a class=\"wp-block-button__link\" href=\"").concat(baseUrl + (lang != 'en' ? lang + '.html' : ''), "\">").concat(traduz('HOMEPAGE'), "</a>\n      </div>\n      <img src=\"").concat(baseUrl, "assets/img/icone-explore.png\"/>\n      <h1>").concat(traduz('EXPLORE THE STORIES'), "</h1>\n      <section class=\"full\" id=\"storiesdiv\"><div class=\"cards\" id=\"cardsdiv\"></div></section>\n\n      <div class=\"wp-block-cover is-light bg-white\"><div class=\"wp-block-cover__inner-container\">\n          <img src=\"").concat(baseUrl, "assets/img/icone-todas.png\"/>\n          <h1>").concat(traduz('READ MORE ABOUT THE AMAZON UNDERWORLD'), "</h1>\n          <p>").concat(traduz('moreunderworld'), "</p>\n          <a class=\"wp-block-button__link\" href=\"").concat(traduz('https://infoamazonia.org/en/tag/amazon-underworld-en/'), "\">").concat(traduz('CLICK HERE FOR ADDITIONAL STORIES'), "</a>\n      </div></div>");
+      if (a) a.innerHTML = "<div style=\"padding:1rem 0 4rem;\">\n          <a class=\"wp-block-button__link\" onclick=\"topo()\">".concat(traduz('BACK TO TOP'), "</a>\n          <a class=\"wp-block-button__link\" href=\"").concat(baseUrl + (lang != 'en' ? lang + '.html' : ''), "\">").concat(traduz('HOMEPAGE'), "</a>\n      </div>\n      <img src=\"").concat(baseUrl, "assets/img/icone-explore.png\"/>\n      <h1>").concat(traduz('EXPLORE THE STORIES'), "</h1>\n      <p>").concat(traduz('explore_txt'), "</p>\n      <section class=\"full\" id=\"storiesdiv\"><div class=\"cards\" id=\"cardsdiv\"></div></section>\n\n      <div class=\"wp-block-cover is-light bg-white\"><div class=\"wp-block-cover__inner-container\">\n          <img src=\"").concat(baseUrl, "assets/img/icone-todas.png\"/>\n          <h1>").concat(traduz('READ MORE ABOUT THE AMAZON UNDERWORLD'), "</h1>\n          <p>").concat(traduz('moreunderworld'), "</p>\n          <a class=\"wp-block-button__link\" href=\"").concat(traduz('https://infoamazonia.org/en/tag/amazon-underworld-en/'), "\">").concat(traduz('CLICK HERE FOR ADDITIONAL STORIES'), "</a>\n      </div></div>");
     }
   };
 
