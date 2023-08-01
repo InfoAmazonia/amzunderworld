@@ -29,9 +29,9 @@
       link_en:'https://infoamazonia.org/en/2023/08/03/gold-spurs-crime-corruption-on-brazil-colombia-border/',
       link_pt:'https://infoamazonia.org/2023/08/03/ouro-estimula-crime-e-corrupcao-na-fronteira-brasil-colombia',
       link_es:'https://infoamazonia.org/es/2023/08/03/el-oro-estimula-el-crimen-y-la-corrupcion-en-la-frontera-entre-brasil-y-colombia',
-      local_en:'Brazil + Colombia',name_en:'Gold spurs crime & corruption on Brazil-Colombia border',
-      local_es:'Brasil + colombia',name_es:'El oro estimula el crimen y la corrupción en la frontera entre Brasil y Colombia',
-      local_pt:'Brasil + colombia',name_pt:'Ouro estimula crime e corrupção na fronteira Brasil-Colômbia',
+      local_en:'Brazil + Colombia',name_en:'Dredges: Gold spurs crime & corruption on Brazil-Colombia border',
+      local_es:'Brasil + colombia',name_es:'Dragas: El oro estimula el crimen y la corrupción en la frontera entre Brasil y Colombia',
+      local_pt:'Brasil + colombia',name_pt:'Dragas: Ouro estimula crime e corrupção na fronteira Brasil-Colômbia',
     },
     {
       n:3,id:'n3',data:'2023-08-10T10:00:00.00Z',
@@ -451,15 +451,9 @@
                   <span class="item">${traduz('Main presence')}:</span>
                   <span class="value">${d.local}</span>
               </div>
-              <div class="linha" style="flex-direction: row;">
-                  <div class="coll" style="margin-right:6rem;">
-                      <span class="item">${traduz('Est. members')}:</span>
-                      <span class="value">${d.membros}</span>
-                  </div>
-                  <div class="coll">
-                      <span class="item">${traduz('Founded')}:</span>
-                      <span class="value">${d.fundacao}</span>
-                  </div>
+              <div class="linha">
+                  <span class="item">${traduz('Founded')}:</span>
+                  <span class="value">${d.fundacao}</span>
               </div>
               <div class="linha">
                   <span class="item">${traduz('Political/ideological stance')}:</span>

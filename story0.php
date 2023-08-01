@@ -72,56 +72,39 @@
 
 <!-- wp:code -->
 <!-- Componente Banner Mapa -->
+<!-- Componente Banner Mapa -->
 <script type="text/javascript">
 const groupsArms = [   
     {
         id:'eln',
         nome:'National Liberation Army',
         local:'Colombia &amp; Venezuela',
-        membros:'-',
         fundacao:'1964',
         ideologia:'Marxist guerrilla group',
-        atos:'Bombings and kidnappings',
         economia:'Illegal gold mining and taxing the drug trade'
     },
     {
         id:'fd',
-        nome:'Farc Dissidents',
+        nome:'FARC Dissidents',
         local:'Colombia &amp; Venezuela',
-        membros:'-',
-        fundacao:'1964, demobilized after a 2016 peace deal with the Colombian government, but several dissident groups persisted.',
+        fundacao:'1964, demobilized after a 2016 peace deal with the Colombian government, but several dissident groups persisted or rearmed following setbacks in implementation of the peace agreements.',
         ideologia:'Marxist-Leninist guerrilla group',
-        atos:'Bombings and kidnappings',
         economia:'Illegal gold mining and taxing the drug trade'
     },
     {
         id:'pcc',
         nome:'Primeiro Comando da Capital',
-        local:'ColombiaBrazil, Colombia and Paraguay',
-        membros:'-',
+        local:'Bolivia &amp; Brazil',
         fundacao:'1993',
         ideologia:'Corporate hierarchical organization is often referred to as a \'brotherhood\'',
-        atos:'Attacks against police stations and public transport',
         economia:'Drug trafficking and extortion'
     },
     {
         id:'cv',
         nome:'Comando Vermelho',
-        local:'Brazil, Bolivia, Peru. Colombia and Paraguay',
-        membros:'-',
+        local:'Peru &amp; Brazil',
         fundacao:'1979',
         ideologia:'Left-wing in its origins',
-        atos:'Bombings and kidnappings',
-        economia:'Illegal gold mining and taxing the drug trade'
-    },
-    {
-        id:'sind',
-        nome:'Sindicatos',
-        local:'Colombia &amp; Venezuela',
-        membros:'-',
-        fundacao:'1964',
-        ideologia:'Marxist guerrilla group',
-        atos:'-',
         economia:'Illegal gold mining and taxing the drug trade'
     }
 ];

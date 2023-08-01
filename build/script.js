@@ -33,11 +33,11 @@
     link_pt: 'https://infoamazonia.org/2023/08/03/ouro-estimula-crime-e-corrupcao-na-fronteira-brasil-colombia',
     link_es: 'https://infoamazonia.org/es/2023/08/03/el-oro-estimula-el-crimen-y-la-corrupcion-en-la-frontera-entre-brasil-y-colombia',
     local_en: 'Brazil + Colombia',
-    name_en: 'Gold spurs crime & corruption on Brazil-Colombia border',
+    name_en: 'Dredges: Gold spurs crime & corruption on Brazil-Colombia border',
     local_es: 'Brasil + colombia',
-    name_es: 'El oro estimula el crimen y la corrupción en la frontera entre Brasil y Colombia',
+    name_es: 'Dragas: El oro estimula el crimen y la corrupción en la frontera entre Brasil y Colombia',
     local_pt: 'Brasil + colombia',
-    name_pt: 'Ouro estimula crime e corrupção na fronteira Brasil-Colômbia'
+    name_pt: 'Dragas: Ouro estimula crime e corrupção na fronteira Brasil-Colômbia'
   }, {
     n: 3,
     id: 'n3',
@@ -468,7 +468,7 @@
       }
     },
     tab: function tab(d, i) {
-      return "<div class=\"tab-content ".concat(i == 0 ? 'is-visible' : '', "\" id=\"").concat(d.id, "\">\n          <div>\n              <div class=\"title\">\n                  <span>").concat(d.nome, "</span>\n                  <img src=\"").concat(baseUrl, "/assets/img/story0-logo-").concat(d.id, ".png\">\n              </div>\n              <div class=\"linha\">\n                  <span class=\"item\">").concat(traduz('Main presence'), ":</span>\n                  <span class=\"value\">").concat(d.local, "</span>\n              </div>\n              <div class=\"linha\" style=\"flex-direction: row;\">\n                  <div class=\"coll\" style=\"margin-right:6rem;\">\n                      <span class=\"item\">").concat(traduz('Est. members'), ":</span>\n                      <span class=\"value\">").concat(d.membros, "</span>\n                  </div>\n                  <div class=\"coll\">\n                      <span class=\"item\">").concat(traduz('Founded'), ":</span>\n                      <span class=\"value\">").concat(d.fundacao, "</span>\n                  </div>\n              </div>\n              <div class=\"linha\">\n                  <span class=\"item\">").concat(traduz('Political/ideological stance'), ":</span>\n                  <span class=\"value\">").concat(d.ideologia, "</span>\n              </div>\n              <div class=\"linha\">\n                  <span class=\"item\">").concat(traduz('Acts of violence'), ":</span>\n                  <span class=\"value\">").concat(d.atos, "</span>\n              </div>\n              <div class=\"linha\">\n                  <span class=\"item\">").concat(traduz('Main economies'), ":</span>\n                  <span class=\"value\">").concat(d.economia, "</span>\n              </div>\n          </div>\n          <div class=\"map-col\">\n              <img src=\"").concat(baseUrl, "/assets/img/story0-mapa-").concat(d.id, ".png\">\n          </div>\n      </div>");
+      return "<div class=\"tab-content ".concat(i == 0 ? 'is-visible' : '', "\" id=\"").concat(d.id, "\">\n          <div>\n              <div class=\"title\">\n                  <span>").concat(d.nome, "</span>\n                  <img src=\"").concat(baseUrl, "/assets/img/story0-logo-").concat(d.id, ".png\">\n              </div>\n              <div class=\"linha\">\n                  <span class=\"item\">").concat(traduz('Main presence'), ":</span>\n                  <span class=\"value\">").concat(d.local, "</span>\n              </div>\n              <div class=\"linha\">\n                  <span class=\"item\">").concat(traduz('Founded'), ":</span>\n                  <span class=\"value\">").concat(d.fundacao, "</span>\n              </div>\n              <div class=\"linha\">\n                  <span class=\"item\">").concat(traduz('Political/ideological stance'), ":</span>\n                  <span class=\"value\">").concat(d.ideologia, "</span>\n              </div>\n              <div class=\"linha\">\n                  <span class=\"item\">").concat(traduz('Acts of violence'), ":</span>\n                  <span class=\"value\">").concat(d.atos, "</span>\n              </div>\n              <div class=\"linha\">\n                  <span class=\"item\">").concat(traduz('Main economies'), ":</span>\n                  <span class=\"value\">").concat(d.economia, "</span>\n              </div>\n          </div>\n          <div class=\"map-col\">\n              <img src=\"").concat(baseUrl, "/assets/img/story0-mapa-").concat(d.id, ".png\">\n          </div>\n      </div>");
     }
   };
 
