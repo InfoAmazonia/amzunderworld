@@ -292,13 +292,17 @@
         button.onclick = function (event) {
           var modalId = button.dataset.modal;
           document.getElementById(modalId).classList.toggle("is-visible");
+          var any = document.querySelector('.modal.is-visible,.modalbase.is-visible');
+          document.body.classList.toggle('scrollblocked', any);
         };
       });
       var closeModalBtn = document.querySelectorAll(".modalclose");
       if (closeModalBtn.length) closeModalBtn.forEach(function (b) {
         b.onclick = function (event) {
-          var modal = b.closest('.modal');
+          var modal = b.closest('.modal,.modalbase');
           modal.classList.toggle("is-visible");
+          var any = document.querySelector('.modal.is-visible,.modalbase.is-visible');
+          document.body.classList.toggle('scrollblocked', any);
         };
       });
       var storiesDiv = document.querySelector("#storiesdiv");

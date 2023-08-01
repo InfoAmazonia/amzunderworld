@@ -227,13 +227,17 @@
           button.onclick = event => {
               const modalId = button.dataset.modal;
               document.getElementById(modalId).classList.toggle("is-visible");
+              let any = document.querySelector('.modal.is-visible,.modalbase.is-visible');
+              document.body.classList.toggle('scrollblocked',any);
           };
       });
       const closeModalBtn = document.querySelectorAll(".modalclose");        
       if(closeModalBtn.length) closeModalBtn.forEach(b => {
         b.onclick = event => {
-            const modal = b.closest('.modal');
+            const modal = b.closest('.modal,.modalbase');
             modal.classList.toggle("is-visible");
+            let any = document.querySelector('.modal.is-visible,.modalbase.is-visible');
+            document.body.classList.toggle('scrollblocked',any);
         };
       });
 
