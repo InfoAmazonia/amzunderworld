@@ -170,82 +170,9 @@
         </div>
     </div>
 
-    <div class="modal" id="draga1">
-        <div class="modal-content">
-            <button class="modalclose" data-modal="draga1"></button>
-            <div class="wp-block-jeo-theme-custom-image-gallery-block image-gallery">
-                <div class="image-gallery-wrapper">
-                    <div class="actions"><button action="display-grid"><i class="fas fa-th"></i></button><button action="fullsreen"><i class="fas fa-expand"></i></button></div>
-                    <div class="gallery-grid" data-total-slides="3">
-                        <div class="gallery-item-container"><img class="gallery-item" src="https://infoamazonia.org/wp-content/uploads/2023/07/story2-g1.jpeg" alt="" />
-                            <div class="image-meta">
-                                <div class="image-description"> <span></span></div><i class="fas fa-camera"></i>
-                                <div class="image-credit"> <span>Between the port of Los Caribes and the El Hacha waterfall on the Ikabarú River, there are three dredges, known as “missiles” in operation and another under construction. | María Ramírez Cabello</span></div>
-                            </div>
-                        </div>
-                        <div class="gallery-item-container"><img class="gallery-item" src="https://infoamazonia.org/wp-content/uploads/2023/07/story2-g2.jpeg" alt="" />
-                            <div class="image-meta">
-                                <div class="image-description"> <span></span></div><i class="fas fa-camera"></i>
-                                <div class="image-credit"> <span>Dredges on the Ikabarú River have been assembled by Guyanese miners. | María Ramírez Cabello</span></div>
-                            </div>
-                        </div>
-                        <div class="gallery-item-container"><img class="gallery-item" src="https://infoamazonia.org/wp-content/uploads/2023/07/story2-g3.jpeg" alt="" />
-                            <div class="image-meta">
-                                <div class="image-description"> <span></span></div><i class="fas fa-camera"></i>
-                                <div class="image-credit"> <span>The Ikabarú River, turbid with sediment stirred up by the dredges, contrasts with the crystalline water of its tributaries. | María Ramírez Cabello</span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal" id="draga2">
-        <div class="modal-content">
-            <button class="modalclose" data-modal="draga2"></button>
-            <div class="gallery">
-                <img src="https://taprontodev.github.io/amzunderworld/assets/img/draga-modal.jpg"/>
-                <div class="caption">Description 2 | Bram Ebus</div>
-            </div>
-        </div>
-    </div>
-    <div class="modal" id="draga3">
-        <div class="modal-content">
-            <button class="modalclose" data-modal="draga3"></button>
-            <div class="gallery">
-                <img src="https://taprontodev.github.io/amzunderworld/assets/img/draga-modal.jpg"/>
-                <div class="caption">Description 3 | Bram Ebus</div>
-            </div>
-        </div>
-    </div>
-    <div class="modal" id="draga4">
-        <div class="modal-content">
-            <button class="modalclose" data-modal="draga4"></button>
-            <div class="gallery">
-                <img src="https://taprontodev.github.io/amzunderworld/assets/img/draga-modal.jpg"/>
-                <div class="caption">Description 4 | Bram Ebus</div>
-            </div>
-        </div>
-    </div>
-    <div class="modal" id="draga5">
-        <div class="modal-content">
-            <button class="modalclose" data-modal="draga5"></button>
-            <div class="gallery">
-                <img src="https://taprontodev.github.io/amzunderworld/assets/img/draga-modal.jpg"/>
-                <div class="caption">Description 5 | Bram Ebus</div>
-            </div>
-        </div>
-    </div>
-    <div class="modal" id="draga6">
-        <div class="modal-content">
-            <button class="modalclose" data-modal="draga6"></button>
-            <div class="gallery">
-                <img src="https://taprontodev.github.io/amzunderworld/assets/img/draga-modal.jpg"/>
-                <div class="caption">Description 6 | Bram Ebus</div>
-            </div>
-        </div>
-    </div>
-
+    <div class="modal" id="draga1"><div class="modal-content"><button class="modalclose"></button>
+        
+    </div></div>
 </section>
 <!-- /wp:code -->
 

@@ -288,10 +288,17 @@
 
       // modal
       var openModalBtn = document.querySelectorAll("[data-modal]");
-      if (openModalBtn) openModalBtn.forEach(function (button) {
+      if (openModalBtn.length) openModalBtn.forEach(function (button) {
         button.onclick = function (event) {
           var modalId = button.dataset.modal;
           document.getElementById(modalId).classList.toggle("is-visible");
+        };
+      });
+      var closeModalBtn = document.querySelectorAll(".modalclose");
+      if (closeModalBtn.length) closeModalBtn.forEach(function (b) {
+        b.onclick = function (event) {
+          var modal = b.closest('.modal');
+          modal.classList.toggle("is-visible");
         };
       });
       var storiesDiv = document.querySelector("#storiesdiv");

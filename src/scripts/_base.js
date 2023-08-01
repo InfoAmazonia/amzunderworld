@@ -223,11 +223,18 @@
 
       // modal
       const openModalBtn = document.querySelectorAll("[data-modal]");        
-      if(openModalBtn) openModalBtn.forEach(button => {
+      if(openModalBtn.length) openModalBtn.forEach(button => {
           button.onclick = event => {
               const modalId = button.dataset.modal;
               document.getElementById(modalId).classList.toggle("is-visible");
           };
+      });
+      const closeModalBtn = document.querySelectorAll(".modalclose");        
+      if(closeModalBtn.length) closeModalBtn.forEach(b => {
+        b.onclick = event => {
+            const modal = b.closest('.modal');
+            modal.classList.toggle("is-visible");
+        };
       });
 
       const storiesDiv = document.querySelector("#storiesdiv");
