@@ -384,12 +384,15 @@
         links.forEach(l=>{
 
           a+=`<a class="marcador ${l.id} disabled" numero="${l.n}" href="javascript:void(0)"></a>`;
-          a+=`<a class="conteudo ${l.id} disabled" href="javascript:void(0)">
+          b+=`<a class="conteudo ${l.id} disabled" href="javascript:void(0)">
             <div class="titulo">${l['local_'+lang]}</div>
             <div class="texto">${l['name_'+lang]}</div>
             <span>${traduz('read more')} &rarr;</span>
           </a>`;
         });
+
+        b+=`<div class="explorer">Explore the stories by clicking on the icons</div><div class="start">start here</div><div class="route">Suggested route</div>`;
+
         it.innerHTML = a+''+b;
       }
 

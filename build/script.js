@@ -427,8 +427,9 @@
         var b = '';
         links.forEach(function (l) {
           a += "<a class=\"marcador ".concat(l.id, " disabled\" numero=\"").concat(l.n, "\" href=\"javascript:void(0)\"></a>");
-          a += "<a class=\"conteudo ".concat(l.id, " disabled\" href=\"javascript:void(0)\">\n            <div class=\"titulo\">").concat(l['local_' + lang], "</div>\n            <div class=\"texto\">").concat(l['name_' + lang], "</div>\n            <span>").concat(traduz('read more'), " &rarr;</span>\n          </a>");
+          b += "<a class=\"conteudo ".concat(l.id, " disabled\" href=\"javascript:void(0)\">\n            <div class=\"titulo\">").concat(l['local_' + lang], "</div>\n            <div class=\"texto\">").concat(l['name_' + lang], "</div>\n            <span>").concat(traduz('read more'), " &rarr;</span>\n          </a>");
         });
+        b += "<div class=\"explorer\">Explore the stories by clicking on the icons</div><div class=\"start\">start here</div><div class=\"route\">Suggested route</div>";
         it.innerHTML = a + '' + b;
       }
     }
