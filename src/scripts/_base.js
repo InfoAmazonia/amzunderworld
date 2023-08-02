@@ -16,7 +16,7 @@
 
   const links = [
     {
-      n:1,id:'n1',data:'2023-07-03T10:00:00.00Z',
+      n:1,id:'n1',data:'2023-07-03T08:00:00.00Z',
       link_en:'https://infoamazonia.org/en/2023/08/03/welcome-to-the-amazon-underworld',
       link_pt:'https://infoamazonia.org/2023/08/03/bem-vindo-ao-amazon-underworld/',
       link_es:'https://infoamazonia.org/es/2023/08/03/bienvenidos-a-amazon-underworld/',
@@ -25,25 +25,25 @@
       local_pt:'Introdução',name_pt:'Bem-vindo ao Amazon Underworld',
     },
     {
-      n:2,id:'n2',data:'2023-07-06T10:00:00.00Z',
-      link_en:'https://infoamazonia.org/en/2023/08/03/gold-spurs-crime-corruption-on-brazil-colombia-border/',
-      link_pt:'https://infoamazonia.org/2023/08/03/ouro-estimula-crime-e-corrupcao-na-fronteira-brasil-colombia',
-      link_es:'https://infoamazonia.org/es/2023/08/03/el-oro-estimula-el-crimen-y-la-corrupcion-en-la-frontera-entre-brasil-y-colombia',
-      local_en:'Brazil + Colombia',name_en:'Dredges: Gold spurs crime & corruption on Brazil-Colombia border',
+      n:2,id:'n2',data:'2023-07-03T08:00:00.00Z',
+      link_en:'https://infoamazonia.org/en/2023/08/03/dredges-gold-mining-spurs-crime-corruption-on-brazil-colombia-border/',
+      link_pt:'https://infoamazonia.org/2023/08/03/dragas-ouro-estimula-crime-e-corrupcao-na-fronteira-brasil-colombia',
+      link_es:'https://infoamazonia.org/es/2023/08/03/dragas-el-oro-estimula-el-crimen-y-la-corrupcion-en-la-frontera-entre-brasil-y-colombia',
+      local_en:'Brazil + Colombia',name_en:'Dredges: Gold mining spurs crime & corruption on Brazil-Colombia border',
       local_es:'Brasil + colombia',name_es:'Dragas: El oro estimula el crimen y la corrupción en la frontera entre Brasil y Colombia',
       local_pt:'Brasil + colombia',name_pt:'Dragas: Ouro estimula crime e corrupção na fronteira Brasil-Colômbia',
     },
     {
-      n:3,id:'n3',data:'2023-08-10T10:00:00.00Z',
-      link_en:'https://infoamazonia.org/en/2023/08/06/armed-groups-threaten-indigenous-lands-in-southern-venezuela',
-      link_pt:'https://infoamazonia.org/en/2023/08/06/armed-groups-threaten-indigenous-lands-in-southern-venezuela',
-      link_es:'https://infoamazonia.org/en/2023/08/06/armed-groups-threaten-indigenous-lands-in-southern-venezuela',
+      n:3,id:'n3',data:'2023-08-06T08:00:00.00Z',
+      link_en:'https://infoamazonia.org/en/2023/08/06/armed-groups-threaten-indigenous-lands-in-southern-venezuela/',
+      link_pt:'https://infoamazonia.org/2023/08/06/grupos-armados-ameacam-terras-indigenas-no-sul-da-venezuela/',
+      link_es:'https://infoamazonia.org/es/2023/08/06/grupos-armados-amenazan-tierras-indigenas-en-el-sur-de-venezuela/',
       local_en:'Brazil + venezuela',name_en:'Armed groups threaten Indigenous lands in southern Venezuela',
       local_es:'Brasil + venezuela',name_es:'Grupos armados amenazan tierras indígenas en el sur de Venezuela',
       local_pt:'Brasil + venezuela',name_pt:'Grupos armados ameaçam terras indígenas no sul da Venezuela',
     },
     {
-      n:4,id:'n4',data:'2023-08-13T10:00:00.00Z',
+      n:4,id:'n4',data:'2023-08-10T08:00:00.00Z',
       link_en:'https://infoamazonia.org/en/2023/08/10/the-poorest-narcos-in-the-drug-trafficking-chain',
       link_pt:'https://infoamazonia.org/en/2023/08/10/the-poorest-narcos-in-the-drug-trafficking-chain',
       link_es:'https://infoamazonia.org/en/2023/08/10/the-poorest-narcos-in-the-drug-trafficking-chain',
@@ -52,7 +52,7 @@
       local_pt:'Peru',name_pt:'Os narcotraficantes mais pobres da cadeia do tráfico de drogas',
     },
     {
-      n:5,id:'n5',data:'2023-08-15T10:00:00.00Z',
+      n:5,id:'n5',data:'2023-08-15T08:00:00.00Z',
       link_en:'https://infoamazonia.org/en/2023/08/15/colombian-drug-runners-turn-to-shamans-for-protection',
       link_pt:'https://infoamazonia.org/en/2023/08/15/colombian-drug-runners-turn-to-shamans-for-protection',
       link_es:'https://infoamazonia.org/en/2023/08/15/colombian-drug-runners-turn-to-shamans-for-protection',
@@ -61,7 +61,7 @@
       local_pt:'colombia',name_pt:'Traficantes colombianos recorrem a xamãs em busca de proteção',
     },
     {
-      n:6,id:'n6',data:'2023-08-17T10:00:00.00Z',
+      n:6,id:'n6',data:'2023-08-17T08:00:00.00Z',
       link_en:'https://infoamazonia.org/en/2023/08/17/brazilian-drug-gang-takes-root-in-peruvian-amazon',
       link_pt:'https://infoamazonia.org/en/2023/08/17/brazilian-drug-gang-takes-root-in-peruvian-amazon',
       link_es:'https://infoamazonia.org/en/2023/08/17/brazilian-drug-gang-takes-root-in-peruvian-amazon',
@@ -70,7 +70,7 @@
       local_pt:'Brasil + Peru',name_pt:'Quadrilha brasileira de narcotraficantes cria raízes na Amazônia peruana',
     },
     {
-      n:7,id:'n7',data:'2023-08-20T10:00:00.00Z',
+      n:7,id:'n7',data:'2023-08-20T08:00:00.00Z',
       link_en:'https://infoamazonia.org/en/2023/08/20/in-venezuela-colombian-guerrillas-recruit-indigenous-youth',
       link_pt:'https://infoamazonia.org/en/2023/08/20/in-venezuela-colombian-guerrillas-recruit-indigenous-youth',
       link_es:'https://infoamazonia.org/en/2023/08/20/in-venezuela-colombian-guerrillas-recruit-indigenous-youth',
@@ -79,7 +79,7 @@
       local_pt:'colombia + venezuela',name_pt:'Na Venezuela, guerrilheiros colombianos recrutam jovens indígenas',
     },
     {
-      n:8,id:'n8',data:'2023-08-22T10:00:00.00Z',
+      n:8,id:'n8',data:'2023-08-22T08:00:00.00Z',
       link_en:'https://infoamazonia.org/en/2023/08/22/for-young-venezuelan-migrants-in-brazil-drugs-gold-and-early-death',
       link_pt:'https://infoamazonia.org/en/2023/08/22/for-young-venezuelan-migrants-in-brazil-drugs-gold-and-early-death',
       link_es:'https://infoamazonia.org/en/2023/08/22/for-young-venezuelan-migrants-in-brazil-drugs-gold-and-early-death',
@@ -88,7 +88,7 @@
       local_pt:'Brasil + venezuela',name_pt:'Para os jovens migrantes venezuelanos no Brasil, drogas, ouro e morte prematura',
     },
     {
-      n:9,id:'n9',data:'2023-08-24T10:00:00.00Z',
+      n:9,id:'n9',data:'2023-08-24T08:00:00.00Z',
       link_en:'https://infoamazonia.org/en/2023/08/24/drug-gangs-threaten-communities-in-amazon-cocaine-corridor',
       link_pt:'https://infoamazonia.org/en/2023/08/24/drug-gangs-threaten-communities-in-amazon-cocaine-corridor',
       link_es:'https://infoamazonia.org/en/2023/08/24/drug-gangs-threaten-communities-in-amazon-cocaine-corridor',
@@ -138,7 +138,7 @@
     'Main presence':{pt:'Principal presença',es:'Principal presencia'},
     'Est. members':{pt:'Membros est.',es:'Miembros est.'},
     'Founded':{pt:'Fundação',es:'Fundación'},
-    'Political/ideological stance':{pt:'Posición política e ideológica',es:'Posição político-ideológica'},
+    'Political/ideological stance':{pt:'Posição político-ideológica',es:'Posición política e ideológica'},
     'Acts of violence':{pt:'Atos de violência',es:'Actos de violencia'},
     'Main economies':{pt:'Principais atividades',es:'Principales actividades'},
     'read more':{pt:'ler mais',es:'ler mais'},
@@ -239,13 +239,14 @@
               document.body.classList.toggle('scrollblocked',any);
           };
       });
-      const closeModalBtn = document.querySelectorAll(".modalclose");        
+      const closeModalBtn = document.querySelectorAll(".modal,.modalbase");        
       if(closeModalBtn.length) closeModalBtn.forEach(b => {
         b.onclick = event => {
-            const modal = b.closest('.modal,.modalbase');
-            modal.classList.toggle("is-visible");
-            let any = document.querySelector('.modal.is-visible,.modalbase.is-visible');
-            document.body.classList.toggle('scrollblocked',any);
+            if(['modal','modalbase','modalclose'].some(className => event.target.classList.contains(className))){
+              b.classList.toggle("is-visible");
+              let any = document.querySelector('.modal.is-visible,.modalbase.is-visible');
+              document.body.classList.toggle('scrollblocked',any);
+            }
         };
       });
 
@@ -335,7 +336,7 @@
             if((currentST+wh > d.y) && (currentST<(d.y+d.h))){
               var yy = currentST-d.y+(wh/2);
               var hh = Math.min(d.ch.length, Math.ceil(yy/d.h*d.ch.length)) - 1;
-              if(d.ch[hh].dataset.scrl && d.ch[hh].dataset.scrl!=d.cur){
+              if(d.ch[hh] && d.ch[hh].dataset.scrl && d.ch[hh].dataset.scrl!=d.cur){
                 d.cur = d.ch[hh].dataset.scrl;
                 scrollytellingApp.changeBg(d);
               }
@@ -347,7 +348,10 @@
     },
     changeBg: (d)=>{
       d.bgs.forEach(x=>{
-        if(x.tagName == 'VIDEO') x.currentTime = 0;
+        if(x.tagName == 'VIDEO'){
+          x.currentTime = 0;
+          x.play();
+        }
         x.classList.toggle('active',x.dataset.scrl==d.cur);
       });
     }

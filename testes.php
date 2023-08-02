@@ -18,8 +18,6 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:code -->
-
-
 <picture>
   <source srcset="https://infoamazonia.org/wp-content/uploads/2023/08/story3-mobile.png" media="(max-width: 599px)" width="600" height="279">
   <source srcset="https://infoamazonia.org/wp-content/uploads/2023/08/story3-big.png" media="(max-width: 991px)" width="1500" height="300">
@@ -30,18 +28,17 @@
 <!-- wp:code -->
 <div style="display:flex; flex-wrap: wrap;">
 
-<div style="display: flex; align-items: center;margin-right: 30px;">
-    <img src="https://infoamazonia.org/wp-content/uploads/2023/08/story3-graf1.png" style="width: 46px; height: 6px;margin-right: 10px;">
-    <p class="caption">Province of Mariscal Ramón Castilla</p>
-</div>
+    <div style="display: flex; align-items: center;margin-right: 30px;">
+        <img src="https://infoamazonia.org/wp-content/uploads/2023/08/story3-graf1.png" style="width: 46px; height: 6px;margin-right: 10px;">
+        <p class="caption">Province of Mariscal Ramón Castilla</p>
+    </div>
 
-<div style="display: flex; align-items: center;margin-right: 10px;">
-    <img src="https://infoamazonia.org/wp-content/uploads/2023/08/story3-graf2.png" style="width: 46px; height: 6px;margin-right: 10px;">
-    <p class="caption">Province of Mariscal Ramón Castilla</p>
-</div>
+    <div style="display: flex; align-items: center;margin-right: 10px;">
+        <img src="https://infoamazonia.org/wp-content/uploads/2023/08/story3-graf2.png" style="width: 46px; height: 6px;margin-right: 10px;">
+        <p class="caption">Peru</p>
+    </div>
 
 </div>
-
 
 <!-- /wp:code -->
 </div></div>
