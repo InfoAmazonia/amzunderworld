@@ -184,8 +184,8 @@
       es: 'Fundación'
     },
     'Political/ideological stance': {
-      pt: 'Posición política e ideológica',
-      es: 'Posição político-ideológica'
+      pt: 'Posição político-ideológica',
+      es: 'Posición política e ideológica'
     },
     'Acts of violence': {
       pt: 'Atos de violência',
@@ -313,13 +313,16 @@
           document.body.classList.toggle('scrollblocked', any);
         };
       });
-      var closeModalBtn = document.querySelectorAll(".modalclose");
+      var closeModalBtn = document.querySelectorAll(".modal,.modalbase");
       if (closeModalBtn.length) closeModalBtn.forEach(function (b) {
         b.onclick = function (event) {
-          var modal = b.closest('.modal,.modalbase');
-          modal.classList.toggle("is-visible");
-          var any = document.querySelector('.modal.is-visible,.modalbase.is-visible');
-          document.body.classList.toggle('scrollblocked', any);
+          if (['modal', 'modalbase', 'modalclose'].some(function (className) {
+            return event.target.classList.contains(className);
+          })) {
+            b.classList.toggle("is-visible");
+            var any = document.querySelector('.modal.is-visible,.modalbase.is-visible');
+            document.body.classList.toggle('scrollblocked', any);
+          }
         };
       });
       var storiesDiv = document.querySelector("#storiesdiv");

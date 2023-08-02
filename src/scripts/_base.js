@@ -138,7 +138,7 @@
     'Main presence':{pt:'Principal presença',es:'Principal presencia'},
     'Est. members':{pt:'Membros est.',es:'Miembros est.'},
     'Founded':{pt:'Fundação',es:'Fundación'},
-    'Political/ideological stance':{pt:'Posición política e ideológica',es:'Posição político-ideológica'},
+    'Political/ideological stance':{pt:'Posição político-ideológica',es:'Posición política e ideológica'},
     'Acts of violence':{pt:'Atos de violência',es:'Actos de violencia'},
     'Main economies':{pt:'Principais atividades',es:'Principales actividades'},
     'read more':{pt:'ler mais',es:'ler mais'},
@@ -239,13 +239,14 @@
               document.body.classList.toggle('scrollblocked',any);
           };
       });
-      const closeModalBtn = document.querySelectorAll(".modalclose");        
+      const closeModalBtn = document.querySelectorAll(".modal,.modalbase");        
       if(closeModalBtn.length) closeModalBtn.forEach(b => {
         b.onclick = event => {
-            const modal = b.closest('.modal,.modalbase');
-            modal.classList.toggle("is-visible");
-            let any = document.querySelector('.modal.is-visible,.modalbase.is-visible');
-            document.body.classList.toggle('scrollblocked',any);
+            if(['modal','modalbase','modalclose'].some(className => event.target.classList.contains(className))){
+              b.classList.toggle("is-visible");
+              let any = document.querySelector('.modal.is-visible,.modalbase.is-visible');
+              document.body.classList.toggle('scrollblocked',any);
+            }
         };
       });
 
