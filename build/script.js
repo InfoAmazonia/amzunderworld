@@ -8,14 +8,14 @@
     targetST = 0,
     up = false;
   var lang = document.documentElement.lang.substr(0, 2);
-  var baseUrl = 'https://taprontodev.github.io/amzunderworld/';
+  var baseUrl = 'https://amazonunderworld.org/';
   var _events = {},
     _scrollEvents = [],
     _startEvents = [];
   var links = [{
     n: 1,
     id: 'n1',
-    data: '2023-07-03T08:00:00.00Z',
+    data: '2023-07-03T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/03/welcome-to-the-amazon-underworld',
     link_pt: 'https://infoamazonia.org/2023/08/03/bem-vindo-ao-amazon-underworld/',
     link_es: 'https://infoamazonia.org/es/2023/08/03/bienvenidos-a-amazon-underworld/',
@@ -28,7 +28,7 @@
   }, {
     n: 2,
     id: 'n2',
-    data: '2023-07-03T08:00:00.00Z',
+    data: '2023-07-03T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/03/dredges-gold-mining-spurs-crime-corruption-on-brazil-colombia-border/',
     link_pt: 'https://infoamazonia.org/2023/08/03/dragas-ouro-estimula-crime-e-corrupcao-na-fronteira-brasil-colombia',
     link_es: 'https://infoamazonia.org/es/2023/08/03/dragas-el-oro-estimula-el-crimen-y-la-corrupcion-en-la-frontera-entre-brasil-y-colombia',
@@ -41,7 +41,7 @@
   }, {
     n: 3,
     id: 'n3',
-    data: '2023-08-06T08:00:00.00Z',
+    data: '2023-08-06T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/06/armed-groups-threaten-indigenous-lands-in-southern-venezuela/',
     link_pt: 'https://infoamazonia.org/2023/08/06/grupos-armados-ameacam-terras-indigenas-no-sul-da-venezuela/',
     link_es: 'https://infoamazonia.org/es/2023/08/06/grupos-armados-amenazan-tierras-indigenas-en-el-sur-de-venezuela/',
@@ -54,7 +54,7 @@
   }, {
     n: 4,
     id: 'n4',
-    data: '2023-08-10T08:00:00.00Z',
+    data: '2023-08-10T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/10/the-poorest-narcos-in-the-drug-trafficking-chain',
     link_pt: 'https://infoamazonia.org/en/2023/08/10/the-poorest-narcos-in-the-drug-trafficking-chain',
     link_es: 'https://infoamazonia.org/en/2023/08/10/the-poorest-narcos-in-the-drug-trafficking-chain',
@@ -67,7 +67,7 @@
   }, {
     n: 5,
     id: 'n5',
-    data: '2023-08-15T08:00:00.00Z',
+    data: '2023-08-15T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/15/colombian-drug-runners-turn-to-shamans-for-protection',
     link_pt: 'https://infoamazonia.org/en/2023/08/15/colombian-drug-runners-turn-to-shamans-for-protection',
     link_es: 'https://infoamazonia.org/en/2023/08/15/colombian-drug-runners-turn-to-shamans-for-protection',
@@ -80,7 +80,7 @@
   }, {
     n: 6,
     id: 'n6',
-    data: '2023-08-17T08:00:00.00Z',
+    data: '2023-08-17T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/17/brazilian-drug-gang-takes-root-in-peruvian-amazon',
     link_pt: 'https://infoamazonia.org/en/2023/08/17/brazilian-drug-gang-takes-root-in-peruvian-amazon',
     link_es: 'https://infoamazonia.org/en/2023/08/17/brazilian-drug-gang-takes-root-in-peruvian-amazon',
@@ -93,7 +93,7 @@
   }, {
     n: 7,
     id: 'n7',
-    data: '2023-08-20T08:00:00.00Z',
+    data: '2023-08-20T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/20/in-venezuela-colombian-guerrillas-recruit-indigenous-youth',
     link_pt: 'https://infoamazonia.org/en/2023/08/20/in-venezuela-colombian-guerrillas-recruit-indigenous-youth',
     link_es: 'https://infoamazonia.org/en/2023/08/20/in-venezuela-colombian-guerrillas-recruit-indigenous-youth',
@@ -106,7 +106,7 @@
   }, {
     n: 8,
     id: 'n8',
-    data: '2023-08-22T08:00:00.00Z',
+    data: '2023-08-22T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/22/for-young-venezuelan-migrants-in-brazil-drugs-gold-and-early-death',
     link_pt: 'https://infoamazonia.org/en/2023/08/22/for-young-venezuelan-migrants-in-brazil-drugs-gold-and-early-death',
     link_es: 'https://infoamazonia.org/en/2023/08/22/for-young-venezuelan-migrants-in-brazil-drugs-gold-and-early-death',
@@ -119,7 +119,7 @@
   }, {
     n: 9,
     id: 'n9',
-    data: '2023-08-24T08:00:00.00Z',
+    data: '2023-08-24T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/24/drug-gangs-threaten-communities-in-amazon-cocaine-corridor',
     link_pt: 'https://infoamazonia.org/en/2023/08/24/drug-gangs-threaten-communities-in-amazon-cocaine-corridor',
     link_es: 'https://infoamazonia.org/en/2023/08/24/drug-gangs-threaten-communities-in-amazon-cocaine-corridor',
