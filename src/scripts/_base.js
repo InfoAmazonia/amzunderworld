@@ -7,7 +7,7 @@
     up = false;
 
   const lang = document.documentElement.lang.substr(0,2);
-  const baseUrl = 'https://taprontodev.github.io/amzunderworld/';
+  const baseUrl = 'https://amazonunderworld.org/';
 
   let _events = {},
     _scrollEvents = [],
