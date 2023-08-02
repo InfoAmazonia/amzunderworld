@@ -54,8 +54,8 @@
 <!-- wp:code -->
 <div class="scrollytelling">
     <div class="stks">
-        <video class="bg" data-scrl='1' src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4" autoplay loop playsinline muted></video>
-        <video class="bg" data-scrl='2' src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4" autoplay loop playsinline muted></video>
+        <video class="bg" data-scrl='1' src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4" playsinline muted></video>
+        <video class="bg" data-scrl='2' src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4" playsinline muted></video>
         <img class="bg" data-scrl='3' src="https://infoamazonia.org/wp-content/uploads/2023/07/1Galeria1_DSC07699_Andres.jpeg">
         <img class="bg" data-scrl='4' src="https://infoamazonia.org/wp-content/uploads/2023/07/Foto-2-Draga_DSC07559_Adres-.jpeg">
         <img class="bg" data-scrl='5' src="https://infoamazonia.org/wp-content/uploads/2023/07/Alex-Rufino_DSC02727.jpeg">

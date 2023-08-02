@@ -393,7 +393,7 @@
             if (currentST + wh > d.y && currentST < d.y + d.h) {
               var yy = currentST - d.y + wh / 2;
               var hh = Math.min(d.ch.length, Math.ceil(yy / d.h * d.ch.length)) - 1;
-              if (d.ch[hh].dataset.scrl && d.ch[hh].dataset.scrl != d.cur) {
+              if (d.ch[hh] && d.ch[hh].dataset.scrl && d.ch[hh].dataset.scrl != d.cur) {
                 d.cur = d.ch[hh].dataset.scrl;
                 scrollytellingApp.changeBg(d);
               }
@@ -405,7 +405,10 @@
     },
     changeBg: function changeBg(d) {
       d.bgs.forEach(function (x) {
-        if (x.tagName == 'VIDEO') x.currentTime = 0;
+        if (x.tagName == 'VIDEO') {
+          x.currentTime = 0;
+          x.play();
+        }
         x.classList.toggle('active', x.dataset.scrl == d.cur);
       });
     }
