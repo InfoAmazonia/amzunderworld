@@ -494,6 +494,37 @@
       return "<div class=\"tab-content ".concat(i == 0 ? 'is-visible' : '', "\" id=\"").concat(d.id, "\">\n          <div>\n              <div class=\"title\">\n                  <span>").concat(d.nome, "</span>\n                  <img src=\"").concat(baseUrl, "/assets/img/story0-logo-").concat(d.id, ".png\">\n              </div>\n              <div class=\"linha\">\n                  <span class=\"item\">").concat(traduz('Main presence'), ":</span>\n                  <span class=\"value\">").concat(d.local, "</span>\n              </div>\n              <div class=\"linha\">\n                  <span class=\"item\">").concat(traduz('Founded'), ":</span>\n                  <span class=\"value\">").concat(d.fundacao, "</span>\n              </div>\n              <div class=\"linha\">\n                  <span class=\"item\">").concat(traduz('Political/ideological stance'), ":</span>\n                  <span class=\"value\">").concat(d.ideologia, "</span>\n              </div>\n              <div class=\"linha\">\n                  <span class=\"item\">").concat(traduz('Main economies'), ":</span>\n                  <span class=\"value\">").concat(d.economia, "</span>\n              </div>\n          </div>\n          <div class=\"map-col\">\n              <img src=\"").concat(baseUrl, "/assets/img/story0-mapa-").concat(d.id, ".png\">\n          </div>\n      </div>");
     }
   };
+  var carcerariosApp = {
+    b: false,
+    t: false,
+    init: function init() {
+      if (carcerarios) {
+        var b = document.querySelector('#graficocarcerarios');
+        b.innerHTML = '';
+        carcerarios.forEach(function (x) {
+          var z = document.createElement('div');
+          z.addEventListener('mouseenter', function (e) {
+            carcerariosApp.tip(e, x);
+          });
+          z.addEventListener('mousemove', function (e) {
+            carcerariosApp.tip(e, x);
+          });
+          b.append(z);
+        });
+        var t = document.createElement('span');
+        t.classList.add('tip');
+        b.append(t);
+        carcerariosApp.t = t;
+      }
+    },
+    tip: function tip(e, x) {
+      var z = e.target;
+      var o = "<span class=\"ano\">".concat(x.ano, "</span>\n      <div class=\"flex\">\n          <div class=\"tvermelho\"><span>RR</span><strong>").concat(x.rr, "</strong><em>").concat(x.rrdif, "</em></div>\n          <div class=\"tverdeescuroa\"><span>BR</span><strong>").concat(x.br, "</strong><em>").concat(x.brdif, "</em></div>\n      </div>");
+      carcerariosApp.t.innerHTML = o;
+      carcerariosApp.t.style.left = z.offsetLeft;
+      carcerariosApp.t.style.top = e.offsetY - 10;
+    }
+  };
 
   // Start
   function start() {
@@ -508,6 +539,7 @@
     linksApp.init();
     groupsApp.init();
     generalApp.init();
+    carcerariosApp.init();
     scrollytellingApp.init();
     dragasApp.init();
     fixedScrollFunction();

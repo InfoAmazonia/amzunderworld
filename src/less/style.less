@@ -43,6 +43,7 @@
         .tbranco{color: @branco !important;}
         .touro{color: @ouro !important; }
         .tcinza{color: @cinza !important; }
+        .tvermelho{color: @vermelho !important; }
         .tverdeescuroa{color: @verde-a-escuro !important;}
         .tverdeescurob{color:@verde-b-escuro !important;}
         // Cor de fundo
@@ -75,7 +76,7 @@
          .no-padding{
             padding: 0 !important;
          }
-         @keyframes show {
+        @keyframes show {
             from{ opacity: 0.5; }
             to{  opacity: 1; }
         }
@@ -83,6 +84,32 @@
             0%{ transform: translateY(-6px); }
             50%{ transform: translateY(0); }
             100%{  transform: translateY(-6px); }
+        }
+        @keyframes fadeInDown {
+          0% {
+            opacity: 0;
+            transform: translateY(-3%);
+          }
+          100% {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        @keyframes fadeIn {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+        @keyframes fadeOut {
+          0% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
         }
         
 
@@ -989,22 +1016,6 @@
                 animation: fadeOut 1.5s both;
                 &.active{visibility: visible; animation: fadeIn 1.5s both;}
             }
-            @keyframes fadeIn {
-              0% {
-                opacity: 0;
-              }
-              100% {
-                opacity: 1;
-              }
-            }
-            @keyframes fadeOut {
-              0% {
-                opacity: 1;
-              }
-              100% {
-                opacity: 0;
-              }
-            }
             .scrllr{
                 position: relative;
                 z-index: 2;
@@ -1047,6 +1058,61 @@
 
         .mapameio .jeomap{
             width: 90%;max-width: 1280px;height:80vh;margin: 0 auto;display: block;
+        }
+
+        #graficocarcerarios{
+            display: block; position: relative;
+            padding-top: 48.5%;
+            background: url(../assets/img/g7.png) center no-repeat;
+            background-size: cover;
+            --l:10.4%;
+            --r:4.7%;
+            @media(max-width: 768px){
+                padding-top: 82.18%;
+                background-image: url(../assets/img/g7_m.png);
+                --l:9.1%;
+                --r:3.8%;
+            }
+            >div{
+                --w: calc( (100% - (var(--l) - var(--r))) / 10 );
+                width: var(--w);
+                position: absolute;
+                left: 0; top: 0; height: 100%;
+                transform: translate(-50%);
+                &:nth-child(1){left: calc( var(--l) + (0 * var(--w)) );}
+                &:nth-child(2){left: calc( var(--l) + (1 * var(--w)) );}
+                &:nth-child(3){left: calc( var(--l) + (2 * var(--w)) );}
+                &:nth-child(4){left: calc( var(--l) + (3 * var(--w)) );}
+                &:nth-child(5){left: calc( var(--l) + (4 * var(--w)) );}
+                &:nth-child(6){left: calc( var(--l) + (5 * var(--w)) );}
+                &:nth-child(7){left: calc( var(--l) + (6 * var(--w)) );}
+                &:nth-child(8){left: calc( var(--l) + (7 * var(--w)) );}
+                &:nth-child(9){left: calc( var(--l) + (8 * var(--w)) );}
+                &:nth-child(10){left: calc( var(--l) + (9 * var(--w)) );}
+                &:hover ~ .tip{visibility: visible; animation: fadeIn .4s both;}
+            }
+            .tip{
+                position: absolute; left: 50%; top: 50%;
+                pointer-events: none;
+                transform: translate(-50%,-100%);
+                width: 8rem;
+                font-family: Averia Gruesa Libre;
+                font-size: 1rem;
+                text-transform: uppercase;
+                display: block;
+                visibility: hidden;
+                transition: left .5s;
+                
+                background: url(../assets/img/tip.png) center no-repeat;
+                background-size: 100% 100%;
+                padding: .5rem 1rem;
+                line-height: 1;
+                .flex{display: flex; justify-content: space-between;}
+                .ano{color: @cinza; padding-bottom: .1em; margin-bottom: .3em; border-bottom: 1px solid; text-align: center;}
+                span{display: block;}
+                strong{display: block;}
+                em{display: block; font-style: normal; font-family: "Barlow", sans-serif; font-size: 0.75rem; font-weight: 400;}
+            }
         }
    }
             
@@ -1280,20 +1346,6 @@
                 opacity: 0;
                 animation: fadeInDown 1s forwards;
               }
-
-              @keyframes fadeInDown {
-                0% {
-                  opacity: 0;
-                  transform: translateY(-3%);
-                }
-                100% {
-                  opacity: 1;
-                  transform: translateY(0);
-                }
-              }
-           
-              
-  
 
             a{color: @ouro; text-decoration: none;}  
             .info{ display: flex; flex-wrap: wrap; gap: 3rem;

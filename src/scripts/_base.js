@@ -488,6 +488,41 @@
     }
   };
 
+  var carcerariosApp = {
+    b: false,
+    t: false,
+    init:()=>{
+      if(carcerarios){
+        let b = document.querySelector('#graficocarcerarios');
+        b.innerHTML = '';
+        
+        carcerarios.forEach(x=>{
+          let z = document.createElement('div');
+          z.addEventListener('mouseenter',(e)=>{carcerariosApp.tip(e,x);});
+          z.addEventListener('mousemove',(e)=>{carcerariosApp.tip(e,x);});
+          b.append(z);
+
+        });
+
+        let t = document.createElement('span');
+        t.classList.add('tip');
+        b.append(t);
+        carcerariosApp.t = t;
+      }
+    },
+    tip:(e,x)=>{
+      let z = e.target;
+      let o = `<span class="ano">${x.ano}</span>
+      <div class="flex">
+          <div class="tvermelho"><span>RR</span><strong>${x.rr}</strong><em>${x.rrdif}</em></div>
+          <div class="tverdeescuroa"><span>BR</span><strong>${x.br}</strong><em>${x.brdif}</em></div>
+      </div>`;
+      carcerariosApp.t.innerHTML = o;
+      carcerariosApp.t.style.left = z.offsetLeft;
+      carcerariosApp.t.style.top = e.offsetY-10;
+    }
+  };
+
   // Start
   function start() {
     wh = window.innerHeight;
@@ -503,6 +538,7 @@
     linksApp.init();
     groupsApp.init();
     generalApp.init();
+    carcerariosApp.init();
     scrollytellingApp.init();
     dragasApp.init();
 
