@@ -492,8 +492,8 @@
     b: false,
     t: false,
     init:()=>{
-      if(carcerarios){
-        let b = document.querySelector('#graficocarcerarios');
+      let b = document.querySelector('#graficocarcerarios');
+      if(b && typeof(carcerarios)!='undefined'){
         b.innerHTML = '';
         
         carcerarios.forEach(x=>{

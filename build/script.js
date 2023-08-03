@@ -498,8 +498,8 @@
     b: false,
     t: false,
     init: function init() {
-      if (carcerarios) {
-        var b = document.querySelector('#graficocarcerarios');
+      var b = document.querySelector('#graficocarcerarios');
+      if (b && typeof carcerarios != 'undefined') {
         b.innerHTML = '';
         carcerarios.forEach(function (x) {
           var z = document.createElement('div');
