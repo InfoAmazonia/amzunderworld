@@ -140,8 +140,8 @@
 <!-- wp:code -->
 <div class="scrollytelling">
     <div class="stks">
-        <video class="bg" data-scrl='1' src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4" autoplay loop playsinline muted></video>
-        <video class="bg" data-scrl='2' src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4" autoplay loop playsinline muted></video>
+        <video class="bg" data-scrl='1' src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4"  playsinline muted></video>
+        <video class="bg" data-scrl='2' src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4"  playsinline muted></video>
     </div>
     <div class="scrllr">
         <div data-scrl='1' class="scrollytelling-inner">
