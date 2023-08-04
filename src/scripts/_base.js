@@ -518,8 +518,9 @@
           <div class="tverdeescuroa"><span>BR</span><strong>${x.br}</strong><em>${x.brdif}</em></div>
       </div>`;
       carcerariosApp.t.innerHTML = o;
-      carcerariosApp.t.style.left = z.offsetLeft;
-      carcerariosApp.t.style.top = e.offsetY-10;
+      console.log(z.offsetLeft,e.offsetY);
+      carcerariosApp.t.style.left = (z.offsetLeft)+'px';
+      carcerariosApp.t.style.top = (e.offsetY-10)+'px';
     }
   };
 
