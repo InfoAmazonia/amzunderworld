@@ -521,7 +521,6 @@
       var z = e.target;
       var o = "<span class=\"ano\">".concat(x.ano, "</span>\n      <div class=\"flex\">\n          <div class=\"tvermelho\"><span>RR</span><strong>").concat(x.rr, "</strong><em>").concat(x.rrdif, "</em></div>\n          <div class=\"tverdeescuroa\"><span>BR</span><strong>").concat(x.br, "</strong><em>").concat(x.brdif, "</em></div>\n      </div>");
       carcerariosApp.t.innerHTML = o;
-      console.log(z.offsetLeft, e.offsetY);
       carcerariosApp.t.style.left = z.offsetLeft + 'px';
       carcerariosApp.t.style.top = e.offsetY - 10 + 'px';
     }
