@@ -858,21 +858,22 @@
                 float: none !important;
             }
         }
+
         .infografico7{
             display: flex;
-
+            flex-direction: row;
+            @media only screen and (max-width: 768px) {  flex-direction: column; }
             gap: 2rem;
             position: relative;
             .legenda{ 
                 width: 30%;
-                padding: 2rem;
                 min-height: 370px;
+                @media only screen and (max-width: 768px) { width: 100%; min-height: fit-content;  }
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-            
             }
-            .grafico{ width: 70%;}
+            .grafico{ flex: 1; }
         }
 
         // tabs
@@ -1081,6 +1082,7 @@
             padding-top: 48.5%;
             background: url(../assets/img/g7.png) center no-repeat;
             background-size: cover;
+          /*   background-size: auto; */
             --l:10.4%;
             --r:4.7%;
             @media(max-width: 768px){

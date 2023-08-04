@@ -39,7 +39,9 @@
         </div>
     </div>
 
-    <div class="grafico" id="graficocarcerarios"></div>
+    <div class="grafico">
+        <div  id="graficocarcerarios"></div>
+    </div>
 
 </div>
 <!-- wp:code -->
