@@ -5,16 +5,7 @@
 <div class="amz">
 <!-- /wp:code -->
 
-<!-- wp:cover {"url":"https://infoamazonia.org/wp-content/uploads/2023/07/story0-header.jpg","id":160183,"dimRatio":0,"align":"full","className":"header-story"} -->
-<div class="wp-block-cover alignfull header-story"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-160183" alt="" src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-header.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Escreva o título...","fontSize":"large"} -->
-<p class="has-text-align-center has-large-font-size"></p>
-<!-- /wp:paragraph --></div></div>
-<!-- /wp:cover -->
-
-<!-- wp:image {"align":"center","id":160180,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://infoamazonia.org/wp-content/uploads/2023/07/story0-title.jpg" alt="" class="wp-image-160180"/></figure>
-<!-- /wp:image -->
-
+<!-- wp:code -->
 <script type="text/javascript">
     const carcerarios = [
         {ano:2013, rr:338.63,br:300.96, rrdif:"", brdif:""},        
@@ -29,9 +20,38 @@
         {ano:2022, rr:702.76,br:390.17, rrdif:"-17,75%", brdif:"-0,10%"} 
     ];
 </script>
-<div id="graficocarcerarios"></div>
-
 <!-- wp:code -->
+
+
+
+<!-- wp:cover {"customOverlayColor":"#8D8D7E","isDark":false,"align":"full","className":"tripa"} -->
+<div class="wp-block-cover alignfull is-light tripa"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#8D8D7E"></span><div class="wp-block-cover__inner-container">
+<!-- wp:code -->
+<div class="infografico7">
+    <div class="legenda">
+        <div>
+            <h2>População carcerária por 100 mil habitantes</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+        <div>
+            <div><img src="https://infoamazonia.org/wp-content/uploads/2023/08/graf1-icon.png"> Roraima</div>
+            <div><img src="https://infoamazonia.org/wp-content/uploads/2023/08/graf2-icon.png"> Brazil</div>
+        </div>
+    </div>
+
+    <div class="grafico" id="graficocarcerarios"></div>
+
+</div>
+<!-- wp:code -->
+
+
+
+<!-- wp:spacer {"height":"16px"} -->
+<div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div></div>
+<!-- /wp:cover -->
+<!-- /wp:code -->
+
 </div>
 <!-- /wp:code -->
 

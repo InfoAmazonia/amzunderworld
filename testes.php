@@ -3,52 +3,67 @@
 <link rel="stylesheet" type="text/css" href="./build/style.css" />
 
 <!-- wp:code -->
-<div class="amz" id="story1">
-<!-- /wp:code -->
-
-
-<!-- wp:cover {"customOverlayColor":"#8D8D7E","minHeight":50,"minHeightUnit":"px","isDark":false,"align":"full","className":"tripa"} -->
-<div class="wp-block-cover alignfull is-light tripa" style="min-height:50px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#8D8D7E"></span><div class="wp-block-cover__inner-container"><!-- wp:cover {"minHeight":50,"customGradient":"linear-gradient(135deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 100%)","isDark":false,"className":"main-content"} -->
-<div class="wp-block-cover is-light main-content" style="min-height:50px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient" style="background:linear-gradient(135deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 100%)"></span><div class="wp-block-cover__inner-container"><!-- wp:heading -->
-<h2 class="wp-block-heading" id="h-area-planted-in-coca-province-of-mariscal-ramon-castilla-amp-peru">Area planted in coca: Province of Mariscal Ramon Castilla &amp; Peru</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:code -->
-<picture>
-  <source srcset="https://infoamazonia.org/wp-content/uploads/2023/08/story3-mobile.png" media="(max-width: 599px)" width="600" height="279">
-  <source srcset="https://infoamazonia.org/wp-content/uploads/2023/08/story3-big.png" media="(max-width: 991px)" width="1500" height="300">
-  <img src="https://infoamazonia.org/wp-content/uploads/2023/08/story3-big.png" class="wp-block-image aligncenter size-full">
-</picture>
+<div class="amz" id="story4">
 <!-- /wp:code -->
 
 <!-- wp:code -->
-<div style="display:flex; flex-wrap: wrap;">
-
-    <div style="display: flex; align-items: center;margin-right: 30px;">
-        <img src="https://infoamazonia.org/wp-content/uploads/2023/08/story3-graf1.png" style="width: 46px; height: 6px;margin-right: 10px;">
-        <p class="caption">Province of Mariscal Ramón Castilla</p>
+<div class="scrollytelling">
+    <div class="stks">
+        <img class="bg" data-scrl='1' src="https://infoamazonia.org/wp-content/uploads/2023/08/story6-scrollytelling-2.jpeg"></img>
+        <video class="bg" data-scrl='2' src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4"  playsinline muted></video>
+        <img class="bg" data-scrl='3' src="https://infoamazonia.org/wp-content/uploads/2023/08/story6_grafico_desktop.jpg"></img>
+        <img class="bg" data-scrl='4' src="https://infoamazonia.org/wp-content/uploads/2023/08/story6-scrollytelling-1.jpeg"></img>
+        <img class="bg" data-scrl='5' src="https://infoamazonia.org/wp-content/uploads/2023/08/story6-scrollytelling-4.jpg"></img>
+        <img class="bg" data-scrl='6' src="https://infoamazonia.org/wp-content/uploads/2023/08/story6-scrollytelling-3.jpeg"></img>
+        
     </div>
-
-    <div style="display: flex; align-items: center;margin-right: 10px;">
-        <img src="https://infoamazonia.org/wp-content/uploads/2023/08/story3-graf2.png" style="width: 46px; height: 6px;margin-right: 10px;">
-        <p class="caption">Peru</p>
+    <div class="scrllr">
+        <div data-scrl='1' class="scrollytelling-inner">
+            <div class="box">
+                <img src="https://infoamazonia.org/wp-content/uploads/2023/08/story6_icones_scrollytelling-e1691160128475.jpg" alt="" >
+                <p class="big">Sparsely populated and heavily forested, Venezuela's remote southwestern state of Amazonas borders Colombia along the voluminous Orinoco River.</p>
+                <p class="caption">Photo: Bram Ebus</p>
+            </div>
+        </div>
+        <div data-scrl='2' class="scrollytelling-inner">
+            <div class="box">
+                <p class="big">The Revolutionary Armed Forces of Colombia (FARC) and National Liberation Army (ELN)</p>
+                <p>have long used the area to rest, move troops, hide kidnapping victims and receive medical care. After the signing of a peace deal with the Colombian government in 2016, dissident guerrilla groups began to increase their presence in the Venezuelan Amazon.</p>
+                <p class="caption">Video</p>
+            </div>
+        </div>
+        <div data-scrl='3' class="scrollytelling-inner">
+            <div class="box">
+                <p>That movement coincided with rising insecurity and shortages of medicine and food that have led more than</p>
+                <p class="big">7 million Venezuelans, about 20% of the population, to leave the country. Colombia hosts more than any other nation.</p>
+                <p>have long used the area to rest, move troops, hide kidnapping victims and receive medical care. After the signing of a peace deal with the Colombian government in 2016, dissident guerrilla groups began to increase their presence in the Venezuelan Amazon.</p>
+                <p class="caption">Refugees & migrants from Venezuela: Host countries Source: Regional Inter-agency Coordination Platform, January 2023</p>
+            </div>
+        </div>
+        <div data-scrl='4' class="scrollytelling-inner">
+            <div class="box">
+                <p>On the Venezuelan side of the border,</p>
+                <p class="big">Colombian guerrillas lure recruits with offers of food, jobs and goods like cell phones.</p>
+                <p>They take advantage of the poverty and hunger that are driving many Venezuelan families to despair.</p>
+                <p class="caption">Photo: Andrés Cardona</p>
+            </div>
+        </div>
+        <div data-scrl='5' class="scrollytelling-inner">
+            <div class="box">
+                <p class="big">With their multimillion-dollar trade in illicit drugs and illegal gold, the armed groups are changing the economy of the Venezuelan state of Amazonas.</p>
+                <p class="caption">Photo: Bram Ebus</p>
+            </div>
+        </div>
+        <div data-scrl='6' class="scrollytelling-inner">
+            <div class="box">
+                <p class="big">Indigenous communities are often caught in the middle.</p>
+                <p class="caption">Photo: Bram Ebus</p>
+            </div>
+        </div>
     </div>
+</div>
+<!-- /wp:code -->
 
 </div>
-
-<!-- /wp:code -->
-</div></div>
-<!-- /wp:cover --></div></div>
-<!-- /wp:cover -->
-
-
-<!-- wp:code -->
-</div>
-<!-- /wp:code -->
-
 <!-- Footer -->
 <?php include './blocks/footer.php'; ?>
