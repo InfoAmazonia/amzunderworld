@@ -20,38 +20,37 @@
         {ano:2022, rr:702.76,br:390.17, rrdif:"-17,75%", brdif:"-0,10%"} 
     ];
 </script>
-<!-- wp:code -->
-
-
+<!-- /wp:code -->
 
 <!-- wp:cover {"customOverlayColor":"#8D8D7E","isDark":false,"align":"full","className":"tripa"} -->
 <div class="wp-block-cover alignfull is-light tripa"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#8D8D7E"></span><div class="wp-block-cover__inner-container">
-<!-- wp:code -->
-<div class="infografico7">
-    <div class="legenda">
-        <div>
-            <h2>População carcerária por 100 mil habitantes</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    
+    <!-- wp:code -->
+    <div class="infografico7  main-content">
+        <div class="legenda">
+            <div>
+                <h2>População carcerária por 100 mil habitantes</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+            <div style="display: flex;flex-wrap: wrap;gap: 1rem;">
+                <div><img src="https://infoamazonia.org/wp-content/uploads/2023/08/graf1-icon.png"> Roraima</div>
+                <div><img src="https://infoamazonia.org/wp-content/uploads/2023/08/graf2-icon.png"> Brazil</div>
+            </div>
         </div>
-        <div>
-            <div><img src="https://infoamazonia.org/wp-content/uploads/2023/08/graf1-icon.png"> Roraima</div>
-            <div><img src="https://infoamazonia.org/wp-content/uploads/2023/08/graf2-icon.png"> Brazil</div>
+
+        <div class="grafico">
+            <div  id="graficocarcerarios"></div>
         </div>
+
     </div>
+    <!-- /wp:code -->
 
-    <div class="grafico">
-        <div  id="graficocarcerarios"></div>
-    </div>
-
-</div>
-<!-- wp:code -->
-
-
-
-<!-- wp:spacer {"height":"16px"} -->
-<div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer --></div></div>
+</div></div>
 <!-- /wp:cover -->
+
+
+
+
 <!-- /wp:code -->
 
 </div>
