@@ -139,7 +139,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:code -->
-<section class="full info-draga" id="dragasinfo">
+<section class="full info-draga" id="dragasinfo"><div>
     <div class="fundo" >
         <div class="title">Mining dredges leaves big environmental footprint</div>
         <div>
@@ -169,7 +169,7 @@
             </div>     
         </div>
     </div>
-</section>
+</div></section>
 <div class="modal" id="draga1"><div class="modal-content"><button class="modalclose"></button>
     
 </div></div>
