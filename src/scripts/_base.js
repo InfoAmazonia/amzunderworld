@@ -329,13 +329,14 @@
           bgs: x.querySelectorAll('.bg'),
           stks: x.querySelector('.stks'),
           ch: x.querySelectorAll('.scrollytelling-inner'),
-          cur: '1',
+          cur: '0',
         };
         addScroll((e)=>{
           scrollytellingApp.itens.forEach(d=>{
             if((currentST+wh > d.y) && (currentST<(d.y+d.h))){
               var yy = currentST-d.y+(wh/2);
-              var hh = Math.min(d.ch.length, Math.ceil(yy/d.h*d.ch.length)) - 1;
+              var hh = Math.max(0,Math.min(d.ch.length, Math.ceil(yy/d.h*d.ch.length)) - 1);
+              console.log(d.ch[hh].dataset.scrl);
               if(d.ch[hh] && d.ch[hh].dataset.scrl && d.ch[hh].dataset.scrl!=d.cur){
                 d.cur = d.ch[hh].dataset.scrl;
                 scrollytellingApp.changeBg(d);

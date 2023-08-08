@@ -48,7 +48,6 @@
 <div class="scrollytelling">
     <div class="stks">
         <video class="bg" data-scrl='1' src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4"  playsinline muted></video>
-        <video class="bg" data-scrl='2' src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4"  playsinline muted></video>
     </div>
     <div class="scrllr">
         <div data-scrl='1' class="scrollytelling-inner">
@@ -59,7 +58,7 @@
                 <p class="caption">Video</p>
             </div>
         </div>
-        <div data-scrl='2' class="scrollytelling-inner">
+        <div data-scrl='1' class="scrollytelling-inner">
             <div class="box">
                 <p>As an extra precaution, she would hide the drug money under her clothes on the way home.</p>
                 <p class="big">If police got suspicious and searched him, they’d find nothing.</p>
@@ -351,7 +350,6 @@
 <div class="scrollytelling">
     <div class="stks">
         <video class="bg" data-scrl='1' src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4"  playsinline muted></video>
-        <video class="bg" data-scrl='2' src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4"  playsinline muted></video>
     </div>
     <div class="scrllr">
         <div data-scrl='1' class="scrollytelling-inner">
@@ -361,7 +359,7 @@
                 <p class="caption">Video</p>
             </div>
         </div>
-        <div data-scrl='2' class="scrollytelling-inner">
+        <div data-scrl='1' class="scrollytelling-inner">
             <div class="box">
                 <p>They don’t get rich running drugs, but that line of work gives them a certain economic stability.</p>
                 <p class="big">Boat drivers, known locally as merqueros, are the logistical link in the drug-trafficking chain and have one of the riskiest jobs.</p>
