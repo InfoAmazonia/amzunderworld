@@ -128,7 +128,17 @@
 <p>Some time back, the Brazilian Army faced off with guerrillas on the Puruê River, recalls Getúlio,* a miner from São Paulo who operates an industrial-scale dredge — called a <em>draga</em> in Portuguese and Spanish — about six times the size of Cabeludo’s.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:html -->
+<!-- wp:paragraph -->
+<p>Some time back, the Brazilian Army faced off with guerrillas on the Puruê River, recalls Getúlio,* a miner from São Paulo who operates an industrial-scale dredge — called a draga in Portuguese and Spanish — about six times the size of Cabeludo’s.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Some time back, the Brazilian Army faced off with guerrillas on the Puruê River, recalls Getúlio,* a miner from São Paulo who operates an industrial-scale dredge — called a draga in Portuguese and Spanish — about six times the size of Cabeludo’s.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Some time back, the Brazilian Army faced off with guerrillas on the Puruê River, recalls Getúlio,* a miner from São Paulo who operates an industrial-scale dredge — called a draga in Portuguese and Spanish — about six times the size of Cabeludo’s.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:code -->
 <section class="full info-draga" id="dragasinfo">
     <div class="fundo" >
         <div class="title">Mining dredges leave big environmental footprint</div>
@@ -159,9 +169,6 @@
         </div>
     </div>
 </section>
-<!-- /wp:html -->
-
-<!-- wp:html -->
 <div class="modal" id="draga1"><div class="modal-content"><button class="modalclose"></button>
 <!-- /wp:html -->
 
