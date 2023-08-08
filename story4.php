@@ -1,6 +1,5 @@
-<?php $title = 'Story 1'; ?>
+<?php $title = 'Story 4'; ?>
 <?php include './blocks/header.php'; ?>
-
 
 <!-- wp:code -->
 <link rel="stylesheet" type="text/css" href="https://taprontodev.github.io/amzunderworld/build/style.css" />
@@ -501,7 +500,7 @@
 <!-- /wp:cover -->
 
 <!-- wp:paragraph -->
-<p>To avoid not just pirates, but also law enforcement, groups of as many as 20 men prepare for a journey that can take up to three weeks. </p>
+<p>To avoid not just pirates, but also law enforcement, groups of as many as 20 men prepare for a journey that can take up to three weeks.&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -521,7 +520,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Despite his years of experience, Wilton also seeks out a shaman before each departure. </p>
+<p>Despite his years of experience, Wilton also seeks out a shaman before each departure.&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

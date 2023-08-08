@@ -1,4 +1,7 @@
-    <!-- wp:code -->
+<?php $title = 'Story 6'; ?>
+<?php include './blocks/header.php'; ?>
+
+   <!-- wp:code -->
 <link rel="stylesheet" type="text/css" href="https://taprontodev.github.io/amzunderworld/build/style.css" />
 <div class="amz" id="story5">
 <!-- /wp:code -->
@@ -38,7 +41,7 @@
     <div class="stks">
         <img class="bg" data-scrl='1' src="https://infoamazonia.org/wp-content/uploads/2023/08/story6-scrollytelling-2.jpeg"></img>
         <video class="bg" data-scrl='2' src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4"  playsinline muted></video>
-        <img class="bg" data-scrl='3' src="https://infoamazonia.org/wp-content/uploads/2023/08/story6_grafico_desktop.jpg"></img>
+        <img class="bg" data-scrl='3' src="https://infoamazonia.org/wp-content/uploads/2023/08/story6_grafico_desktop_margem.jpg"></img>
         <img class="bg" data-scrl='4' src="https://infoamazonia.org/wp-content/uploads/2023/08/story6-scrollytelling-1.jpeg"></img>
         <img class="bg" data-scrl='5' src="https://infoamazonia.org/wp-content/uploads/2023/08/story6-scrollytelling-4.jpg"></img>
         <img class="bg" data-scrl='6' src="https://infoamazonia.org/wp-content/uploads/2023/08/story6-scrollytelling-3.jpeg"></img>
@@ -428,3 +431,7 @@
 <!-- /wp:code -->
 
 <p><!-- /wp:cover --></p>
+
+
+<!-- Footer -->
+<?php include './blocks/footer.php'; ?>

@@ -1,4 +1,4 @@
-<?php $title = 'Story 1'; ?>
+<?php $title = 'Story 3'; ?>
 <?php include './blocks/header.php'; ?>
 
 <!-- wp:code -->

@@ -1,3 +1,6 @@
+<?php $title = 'Story 5'; ?>
+<?php include './blocks/header.php'; ?>
+
 <!-- wp:code -->
 <link rel="stylesheet" type="text/css" href="https://taprontodev.github.io/amzunderworld/build/style.css" />
 <div class="amz" id="story5">
@@ -367,4 +370,7 @@
 <script src="https://taprontodev.github.io/amzunderworld/build/script.js" type="text/javascript"></script>
 <!-- /wp:code -->
 
-<p><!-- /wp:cover --></p>
+
+
+<!-- Footer -->
+<?php include './blocks/footer.php'; ?>
