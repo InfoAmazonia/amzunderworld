@@ -569,10 +569,11 @@
         .header-story{
             min-height: 487px;
             margin-top: 0px !important;
-            @media (min-width:992px){
-                margin-bottom: 1rem !important;
+                /* aqui */
+            @media only screen and (max-width: 768px) {     
+                margin-bottom: 2rem !important;
             }
-           
+   
             &::before{ 
                 position: absolute;
                 z-index: 9999 !important;
