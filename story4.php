@@ -2,7 +2,7 @@
 <?php include './blocks/header.php'; ?>
 
 <!-- wp:code -->
-<link rel="stylesheet" type="text/css" href="./build/style.css" />
+<link rel="stylesheet" type="text/css" href="https://taprontodev.github.io/amzunderworld/build/style.css" />
 <div class="amz" id="story4">
 <!-- /wp:code -->
 
