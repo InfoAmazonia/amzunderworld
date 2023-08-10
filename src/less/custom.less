@@ -17,7 +17,12 @@ h1.post-excerpt{display: none!important;}
 }
 
 #page{overflow: initial!important;}
-.alignfull{margin: 2rem calc(50% - 50vw)!important;width: 100vw !important;}
+.alignfull{
+    margin: 2rem calc(50% - 50vw)!important;
+    @media (min-width:992px){
+        margin-bottom: 1rem !important;
+    }
+    width: 100vw !important;}
 
 
 .wp-block-cover{
