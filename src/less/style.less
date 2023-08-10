@@ -569,7 +569,10 @@
         .header-story{
             min-height: 487px;
             margin-top: 0px !important;
-            margin-bottom: 1rem;
+            @media (min-width:992px){
+                margin-bottom: 1rem;
+            }
+           
             &::before{ 
                 position: absolute;
                 z-index: 9999 !important;
