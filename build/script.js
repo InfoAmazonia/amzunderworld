@@ -74,7 +74,7 @@
     local_en: 'colombia',
     name_en: 'Colombian drug runners turn to shamans for protection',
     local_es: 'colombia',
-    name_es: 'Narcotraficantes colombianos recurren a chamanes en busca de protección',
+    name_es: 'Cargadores de marihuana en la Amazonía recurren a chamanes en busca de protección',
     local_pt: 'colombia',
     name_pt: 'Traficantes colombianos recorrem a xamãs em busca de proteção'
   }, {

@@ -57,7 +57,7 @@
       link_pt:'https://infoamazonia.org/en/2023/08/15/colombian-drug-runners-turn-to-shamans-for-protection',
       link_es:'https://infoamazonia.org/en/2023/08/15/colombian-drug-runners-turn-to-shamans-for-protection',
       local_en:'colombia',name_en:'Colombian drug runners turn to shamans for protection',
-      local_es:'colombia',name_es:'Narcotraficantes colombianos recurren a chamanes en busca de protección',
+      local_es:'colombia',name_es:'Cargadores de marihuana en la Amazonía recurren a chamanes en busca de protección',
       local_pt:'colombia',name_pt:'Traficantes colombianos recorrem a xamãs em busca de proteção',
     },
     {
