@@ -76,7 +76,7 @@
     local_es: 'colombia',
     name_es: 'Cargadores de marihuana en la Amazonía recurren a chamanes en busca de protección',
     local_pt: 'colombia',
-    name_pt: 'Traficantes colombianos recorrem a xamãs em busca de proteção'
+    name_pt: 'Carregadores de maconha na Amazônia recorrem a xamãs para proteção'
   }, {
     n: 6,
     id: 'n6',
