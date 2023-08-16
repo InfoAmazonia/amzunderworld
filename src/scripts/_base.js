@@ -63,11 +63,11 @@
     {
       n:6,id:'n6',data:'2023-08-17T11:00:00.00Z',
       link_en:'https://infoamazonia.org/en/2023/08/17/brazilian-drug-gang-takes-root-in-peruvian-amazon',
-      link_pt:'https://infoamazonia.org/2023/08/17/quadrilha-brasileira-de-narcotraficantes-cria-raizes-na-amazonia-peruana',
+      link_pt:'https://infoamazonia.org/2023/08/17/comando-vermelho-cria-raizes-na-amazonia-peruana',
       link_es:'https://infoamazonia.org/es/2023/08/17/banda-de-narcotraficantes-brasilena-se-arraiga-en-la-amazonia-peruana',
       local_en:'Brazil + Peru',name_en:'Brazilian drug gang takes root in Peruvian Amazon',
       local_es:'Brasil + Peru',name_es:'Banda de narcotraficantes brasileña se arraiga en la Amazonía peruana',
-      local_pt:'Brasil + Peru',name_pt:'Quadrilha brasileira de narcotraficantes cria raízes na Amazônia peruana',
+      local_pt:'Brasil + Peru',name_pt:'Comando Vermelho cria raízes na Amazônia peruana',
     },
     {
       n:7,id:'n7',data:'2023-08-20T11:00:00.00Z',
