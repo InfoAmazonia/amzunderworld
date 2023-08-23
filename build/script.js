@@ -108,29 +108,28 @@
     id: 'n8',
     data: '2023-08-22T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/22/for-young-venezuelan-migrants-in-brazil-drugs-gold-and-early-death',
-    link_pt: 'https://infoamazonia.org/2023/08/22/para-os-jovens-migrantes-venezuelanos-no-brasil-drogas-ouro-e-morte-prematura',
+    link_pt: 'https://infoamazonia.org/2023/08/22/para-os-jovens-migrantes-venezuelanos-em-roraima-drogas-ouro-e-morte-prematura',
     link_es: 'https://infoamazonia.org/es/2023/08/22/drogas-oro-y-muerte-temprana-para-jovenes-migrantes-venezolanos-en-brasil',
     local_en: 'Brazil + venezuela',
     name_en: 'For young Venezuelan migrants in Brazil, drugs, gold and early death',
     local_es: 'Brasil + venezuela',
     name_es: 'Drogas, oro y muerte temprana para jóvenes migrantes venezolanos en Brasil',
     local_pt: 'Brasil + venezuela',
-    name_pt: 'Para os jovens migrantes venezuelanos no Brasil, drogas, ouro e morte prematura'
+    name_pt: 'Para os jovens migrantes venezuelanos em Roraima, drogas, ouro e morte prematura'
   }, {
     n: 9,
     id: 'n9',
     data: '2023-08-24T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/24/drug-gangs-threaten-communities-in-amazon-cocaine-corridor',
-    link_pt: 'https://infoamazonia.org/2023/08/24/gangues-de-narcotraficantes-ameacam-comunidades-quilombolas-no-corredor-da-cocaina-da-amazonia',
+    link_pt: 'https://infoamazonia.org/2023/08/24/faccoes-ameacam-comunidades-quilombolas-no-corredor-da-cocaina-da-amazonia',
     link_es: 'https://infoamazonia.org/es/2023/08/24/bandas-de-narcotraficantes-amenazan-a-las-comunidades-en-el-corredor-de-cocaina-de-la-amazonia',
     local_en: 'Brazil + colombia',
     name_en: 'Drug gangs threaten communities in Amazon ‘cocaine corridor’',
     local_es: 'Brasil + colombia',
     name_es: 'Bandas de narcotraficantes amenazan a las comunidades en el ‘corredor de cocaína’ de la Amazonía',
     local_pt: 'Brasil + colombia',
-    name_pt: 'Gangues de narcotraficantes ameaçam comunidades quilombolas no ‘corredor da cocaína’ da Amazônia'
+    name_pt: 'Facções ameaçam comunidades quilombolas no ‘corredor da cocaína’ da Amazônia'
   }];
-
   // FUnctions
   var addScroll = function addScroll(func) {
     _scrollEvents.push({
