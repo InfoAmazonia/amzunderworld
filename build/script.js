@@ -41,6 +41,19 @@
   }, {
     n: 3,
     id: 'n3',
+    data: '2024-06-12T14:00:00.00Z',
+    link_en: 'https://infoamazonia.org/en/2024/06/12/colombian-and-ecuadorian-criminal-groups-expand-their-violent-influence-throughout-the-amazon/',
+    link_pt: 'https://infoamazonia.org/2024/06/12/criminosos-colombianos-e-equatorianos-estendem-sua-influencia-pela-amazonia/',
+    link_es: 'https://infoamazonia.org/es/2024/06/12/criminales-colombianos-y-ecuatorianos-extienden-su-violenta-influencia-por-la-amazonia/',
+    local_en: 'Equador + Colombia',
+    name_en: 'Colombian and Ecuadorian criminal groups expand their violent influence throughout the Amazon',
+    local_es: 'Equador + Colombia',
+    name_es: 'Criminales colombianos y ecuatorianos extienden su violenta influencia por la Amazonía',
+    local_pt: 'Equador + Colombia',
+    name_pt: 'Criminosos colombianos e equatorianos estendem sua influência pela Amazônia'
+  }, {
+    n: 4,
+    id: 'n4',
     data: '2023-08-06T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/06/armed-groups-threaten-indigenous-lands-in-southern-venezuela/',
     link_pt: 'https://infoamazonia.org/2023/08/06/grupos-armados-ameacam-terras-indigenas-no-sul-da-venezuela/',
@@ -52,8 +65,8 @@
     local_pt: 'Brasil + venezuela',
     name_pt: 'Grupos armados ameaçam terras indígenas no sul da Venezuela'
   }, {
-    n: 4,
-    id: 'n4',
+    n: 5,
+    id: 'n5',
     data: '2023-08-10T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/10/the-poorest-narcos-in-the-drug-trafficking-chain',
     link_pt: 'https://infoamazonia.org/2023/08/10/os-narcotraficantes-mais-pobres-da-cadeia-do-trafico-de-drogas',
@@ -65,8 +78,8 @@
     local_pt: 'Peru',
     name_pt: 'Os narcotraficantes mais pobres da cadeia do tráfico de drogas'
   }, {
-    n: 5,
-    id: 'n5',
+    n: 6,
+    id: 'n6',
     data: '2023-08-15T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/15/colombian-drug-runners-turn-to-shamans-for-protection',
     link_pt: 'https://infoamazonia.org/2023/08/15/carregadores-de-maconha-na-amazonia-recorrem-a-xamas-para-protecao',
@@ -78,8 +91,8 @@
     local_pt: 'colombia',
     name_pt: 'Carregadores de maconha na Amazônia recorrem a xamãs para proteção'
   }, {
-    n: 6,
-    id: 'n6',
+    n: 7,
+    id: 'n7',
     data: '2023-08-17T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/17/brazilian-drug-gang-takes-root-in-peruvian-amazon',
     link_pt: 'https://infoamazonia.org/2023/08/17/comando-vermelho-cria-raizes-na-amazonia-peruana',
@@ -91,8 +104,21 @@
     local_pt: 'Brasil + Peru',
     name_pt: 'Comando Vermelho cria raízes na Amazônia peruana'
   }, {
-    n: 7,
-    id: 'n7',
+    n: 8,
+    id: 'n8',
+    data: '2024-06-17T14:00:00.00Z',
+    link_en: 'https://infoamazonia.org/en/2024/06/17/in-the-footsteps-of-turtle-and-egg-smugglers-in-bolivias-amazon-forest/(abrir',
+    link_pt: 'https://infoamazonia.org/2024/06/17/seguindo-as-pegadas-do-contrabando-de-tartarugas-e-seus-ovos-na-amazonia-boliviana/',
+    link_es: 'https://infoamazonia.org/es/2024/06/17/tras-las-huellas-del-contrabando-de-tortugas-y-sus-huevos-en-la-selva-amazonica-de-bolivia/',
+    local_en: 'Bolivia',
+    name_en: 'In the footsteps of turtle and egg smugglers in Bolivia’s Amazon Forest',
+    local_es: 'Bolivia',
+    name_es: 'Tras las huellas del contrabando de tortugas y sus huevos en la selva amazónica de Bolivia',
+    local_pt: 'Bolivia',
+    name_pt: 'Seguindo as pegadas do contrabando de tartarugas e seus ovos na Amazônia boliviana'
+  }, {
+    n: 9,
+    id: 'n9',
     data: '2023-08-20T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/20/in-venezuela-colombian-guerrillas-recruit-indigenous-youth',
     link_pt: 'https://infoamazonia.org/2023/08/20/na-venezuela-guerrilheiros-colombianos-recrutam-jovens-indigenas',
@@ -104,8 +130,8 @@
     local_pt: 'colombia + venezuela',
     name_pt: 'Na Venezuela, guerrilheiros colombianos recrutam jovens indígenas'
   }, {
-    n: 8,
-    id: 'n8',
+    n: 10,
+    id: 'n10',
     data: '2023-08-22T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/22/for-young-venezuelan-migrants-in-brazil-drugs-gold-and-early-death',
     link_pt: 'https://infoamazonia.org/2023/08/22/para-os-jovens-migrantes-venezuelanos-em-roraima-drogas-ouro-e-morte-prematura',
@@ -117,8 +143,8 @@
     local_pt: 'Brasil + venezuela',
     name_pt: 'Para os jovens migrantes venezuelanos em Roraima, drogas, ouro e morte prematura'
   }, {
-    n: 9,
-    id: 'n9',
+    n: 11,
+    id: 'n11',
     data: '2023-08-24T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2023/08/24/drug-gangs-threaten-communities-in-amazon-cocaine-corridor',
     link_pt: 'https://infoamazonia.org/2023/08/24/faccoes-ameacam-comunidades-quilombolas-no-corredor-da-cocaina-da-amazonia',

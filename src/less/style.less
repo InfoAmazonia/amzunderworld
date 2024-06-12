@@ -1713,41 +1713,40 @@
             overflow: hidden;
             background: @preto;
 
+            @proporcao: calc(4000/2632 * 100vw);
             .mapa-img{
                 position: relative; display: block; width: 100%; max-width: 1280px; margin: 0 auto;
                 padding-top: 40% !important; 
                 z-index: 1!important;
                 &:before{
                     content: "";
-                    background: url(../assets/img/mapa.jpg) center center no-repeat;
-                    background-size: auto 100%;
+                    background: url(../assets/img/mapa.jpg) center center repeat-x;
+                    background-size: 100% auto;
                     position: absolute;
-                    top: 50%;left: 50%;
+                    top: calc(50% - 3vw);left: 50%;
                     transform: translate(-50%,-50%);
                     width: 100vw;
-                    height: 379%;
+                    height: @proporcao;
                 }
                 &:after{
                     content: "";
                     background: url(../assets/img/mapa-trilha.png) center center no-repeat;
-                    background-size: auto 100%;
+                    background-size: 100% auto;
                     position: absolute;
                     z-index: 1!important;
-                    top: 50%;left: 50%;
+                    top: calc(50% - 3vw);left: 50%;
                     transform: translate(-50%,-50%);
                     width: 100vw;
-                    height: 68.9%;
-                    opacity: .5;
+                    height: @proporcao;
                 }
             }
             .centro{
                 position: absolute;
                 left: 0;
-                top: 0;
-                top: 50%;left: 50%;
+                top: calc(50% - 3vw);left: 50%;
                 transform: translate(-50%,-50%);
                 width: 100vw;
-                height: 68.9%;
+                height: calc(@proporcao*.2);
                 z-index: 2;
             }
             .explorer{
@@ -1771,8 +1770,8 @@
                 font-weight: 400;
                 line-height: 120%;
                 position: absolute;
-                left: calc(56.5% + min(24px,2vw));
-                top: calc(21% - 48px);
+                left: calc(56% + min(24px,2vw));
+                top: calc(23% - 48px);
                 transform: translate(-50%,-100%);
                 &:after{
                     content: "";
@@ -1882,6 +1881,14 @@
                     &:before{background-image: url(../assets/img/mapa-icon9.png);}
                     &:hover ~ .n9{display: block;z-index:998!important;}
                 }
+                &.n10{
+                    &:before{background-image: url(../assets/img/mapa-icon10.png);}
+                    &:hover ~ .n10{display: block;z-index:998!important;}
+                }
+                &.n11{
+                    &:before{background-image: url(../assets/img/mapa-icon11.png);}
+                    &:hover ~ .n11{display: block;z-index:998!important;}
+                }
 
                 &:not(.disabled):hover{
                     z-index:999!important;
@@ -1917,28 +1924,31 @@
                 }
             }
 
-            .n1{left: 56.5%;top: 21%;}
-            .n2{left: 30%;top: 52%;}
-            .n3{left: 36.5%;top: 3%;}
-            .n4{left: 21.5%;top: 66%;}
-            .n5{left: 26.5%;top: 64%;}
-            .n6{left: 20%;top: 88%;}
-            .n7{left: 32.8%;top: 19%;}
-            .n8{left: 44.5%;top: 29%;}
-            .n9{left: 66%;top: 54%;}
+            .n1{left: 56%;top: 23%;}
+            .n2{left: 32%;top: 54%;}
+            .n3{left: 16.5%;top: 51%;}
+            .n4{left: 37%;top: 8%;}
+            .n5{left: 21.5%;top: 67%;}
+            .n6{left: 27%;top: 61%;}
+            .n7{left: 21%;top: 86%;}
+            .n8{left: 33%;top: 108%;}
+            .n9{left: 33%;top: 24%;}
+            .n10{left: 45%;top: 31%;}
+            .n11{left: 65%;top: 54%;}
             @media(max-aspect-ratio: 6/5){
                 .mapa-img{
                     padding-top:100% !important;
-                    &:before{height: 151.9%; top: 30%;}
-                    &:after{height: 27.58%; top: 30%;}
+                    &:before{width:120vw; height: calc(@proporcao * 1.2);top:30%;}
+                    &:after{width:120vw; height: calc(@proporcao * 1.2);top:30%;}
                 }   
                 .centro{
-                    height: 27.58%; top: 30%;
+                    width: 120vw;
+                    height: calc(@proporcao*.2*1.2);top:30%;
                 }
                 .conteudo,.explorer{
                     left: 10% !important;
                     top: auto !important;
-                    bottom: -150%;
+                    bottom: -100%;
                     padding-left: 0;
                 }
                 .conteudo{
@@ -1950,7 +1960,7 @@
                 }
                 .route{
                     left: 10%;
-                    bottom: -180%;
+                    bottom: -130%;
                 }
             }
         }

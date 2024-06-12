@@ -33,7 +33,7 @@ gulp.task("uglifyJS", function () {
 });
 gulp.task("concatJS", function () {
   return gulp
-    .src([themePath + "/src/scripts/plugins/*.js", themePath + "/build/*.js"])
+    .src([themePath + "/build/*.js"])
     .pipe(concat("script.js"))
     .pipe(gulp.dest(themePath + "/build"))
     .on("end", function () {
