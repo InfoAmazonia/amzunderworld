@@ -41,7 +41,7 @@
   }, {
     n: 3,
     id: 'n3',
-    data: '2024-06-12T14:00:00.00Z',
+    data: '2024-06-12T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2024/06/12/colombian-and-ecuadorian-criminal-groups-expand-their-violent-influence-throughout-the-amazon/',
     link_pt: 'https://infoamazonia.org/2024/06/12/criminosos-colombianos-e-equatorianos-estendem-sua-influencia-pela-amazonia/',
     link_es: 'https://infoamazonia.org/es/2024/06/12/criminales-colombianos-y-ecuatorianos-extienden-su-violenta-influencia-por-la-amazonia/',
@@ -106,7 +106,7 @@
   }, {
     n: 8,
     id: 'n8',
-    data: '2024-06-17T14:00:00.00Z',
+    data: '2024-06-17T11:00:00.00Z',
     link_en: 'https://infoamazonia.org/en/2024/06/17/in-the-footsteps-of-turtle-and-egg-smugglers-in-bolivias-amazon-forest/(abrir',
     link_pt: 'https://infoamazonia.org/2024/06/17/seguindo-as-pegadas-do-contrabando-de-tartarugas-e-seus-ovos-na-amazonia-boliviana/',
     link_es: 'https://infoamazonia.org/es/2024/06/17/tras-las-huellas-del-contrabando-de-tortugas-y-sus-huevos-en-la-selva-amazonica-de-bolivia/',
